@@ -1,0 +1,93 @@
+<h2 id="简单粗暴的一句话解释"><a href="#简单粗暴的一句话解释" class="headerlink" title="简单粗暴的一句话解释"></a>简单粗暴的一句话解释</h2><p>网站通过域名来识别和定位，而域名通过DNS解析得到对应的IP地址，最终通过IP地址实现连接和访问。</p>
+<p>比如我们使用ping命令ping百度：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/30/658fc010ec47e.png" style="width:600px;"/></div></div>
+
+<p>可以看到baidu.com解析为ip：110.242.68.66</p>
+<h2 id="域名与-IP-地址"><a href="#域名与-IP-地址" class="headerlink" title="域名与 IP 地址"></a>域名与 IP 地址</h2><ol>
+<li>IP地址与域名是一对多的关系。一个ip地址可以对应多个域名，但是一个域名只有一个IP地址。</li>
+<li>域名的出现就是为了方便管理和记忆ip。</li>
+<li>IP 地址和域名之间的映射是通过域名系统（DNS）来实现的。</li>
+</ol>
+<h2 id="域名结构树"><a href="#域名结构树" class="headerlink" title="域名结构树"></a>域名结构树</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/30/658fb35a4d048.png" style="width:600px;"/></div></div>
+
+<p>根据上图可以直观地看出域名结构：</p>
+<ol>
+<li><p>根域</p>
+<p>位于域名空间最顶层，一般用一个 “.” 表示</p>
+</li>
+<li><p>顶级域</p>
+<p>一般代表一种类型的组织机构或国家地区，如 net、com、org、edu、gov、mil、cn、jp、hk</p>
+</li>
+<li><p>二级域</p>
+<p>用来标明顶级域内的一个特定的组织，国家顶级域下面的二级域名由国家网络部门统一管理，如 .cn 顶级域名下面设置的二级域名：.com.cn、.net.cn、.edu.cn …</p>
+</li>
+<li><p>子域</p>
+<p>二级域下所创建的各级域统称为子域，各个组织或用户可以自由申请注册自己的域名</p>
+</li>
+<li><p>主机</p>
+<p>主机位于域名空间最下层，就是一台具体的计算机，如 www、mail 等都是具体的计算机名字</p>
+</li>
+</ol>
+<h2 id="域名服务器-DNS系统"><a href="#域名服务器-DNS系统" class="headerlink" title="域名服务器&#x2F;DNS系统"></a>域名服务器&#x2F;DNS系统</h2><p>域名系统(Domain Name System, DNS)：因特网使用的命名系统，用来把便于人们记忆的具有特定含义的主机名转换为便于机器处理的IP地址。</p>
+<p>域名服务器：因特网的域名系统被设计成一个联机分布式的数据库系统，并采用客户&#x2F;服务器模型。</p>
+<p>主要有4种类型的域名服务器：</p>
+<ul>
+<li><p>根域名服务器</p>
+<p>根域名服务器是最高层次的域名服务器，所有的根域名服务器都知道所有的顶级域名服务器的IP地址。<br>根域名服务器也是最重要的域名服务器，不管是哪个本地域名服务器，若要对因特网上任何一个域名进行解析，只要自己无法解析，就要先求助于根域名服务器。<br>因特网上有13个根域名服务器，尽管我们将这13个根域名服务器中的每个都视为单个服务器，但每个“服务器”实际上是冗余服务器的集群，以提供安全性和可靠性。<br>需要注意的是，根域名服务器用来管辖顶级域(如.com)， 通常它并不直接把待查询的域名直接转换成IP地址，而是告诉本地域名服务器下一步应当找哪个顶级域名服务器进行查询。</p>
+</li>
+<li><p>顶级域名服务器</p>
+<p>这些域名服务器负责管理在该顶级域名服务器注册的所有二级域名。<br>当收到DNS查询请求时,就给出相应的回答(可能是最后的结果，也可能是下一步应当查找的域名服务器的IP地址)。</p>
+</li>
+<li><p>授权域名服务器(权限域名服务器)</p>
+<p>每台主机都必须在授权域名服务器处登记。为了更加可靠地工作，一台主机最好至少有两个授权域名服务器。<br>实际上，许多域名服务器都同时充当本地域名服务器和授权域名服务器。<br>授权域名服务器总能将其管辖的主机名转换为该主机的IP地址。</p>
+</li>
+<li><p>本地域名服务器</p>
+<p>本地域名服务器对域名系统非常重要。<br>每个因特网服务提供者(ISP)， 或一所大学，甚至一所大学中的各个系，都可以拥有一个本地域名服务器。<br>当一台主机发出DNS查询请求时，这个查询请求报文就发送给该主机的本地域名服务器。<br>事实上，我们在Windows系统中配置“本地连接”时，就需要填写DNS地址，这个地址就是本地DNS (域名服务器)的地址。</p>
+</li>
+</ul>
+<h2 id="域名解析过程"><a href="#域名解析过程" class="headerlink" title="域名解析过程"></a>域名解析过程</h2><ul>
+<li>域名解析是指把域名映射成为IP地址或把IP地址映射成域名的过程。前者称为正向解析，后者称为反向解析。</li>
+<li>当客户端需要域名解析时，通过本机的DNS客户端构造一个DNS请求报文，以<code>UDP数据报</code>方式发往本地域名服务器。</li>
+<li>域名解析有两种方式:<code>递归查询</code>和<code>递归与迭代</code>相结合的查询。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/30/658fbd346c84d.png" style="width:800px;"/></div></div>
+
+<div class="note success simple"><p>1.为了提高DNS的查询效率，并减少因特网上的DNS查询报文数量，在域名服务器中广泛地使用了高速缓存。<br>2.当一个DNS服务器接收到DNS查询结果时，它能将该DNS信息缓存在高速缓存中。这样，当另一个相同的域名查询到达该DNS服务器时，该服务器就能够直接提供所要求的IP地址，而不需要再去向其他DNS服务器询问。<br>3.因为主机名和IP地址之间的映射不是永久的，所以DNS服务器将在一段时间后丢弃高速缓存中的信息。</p>
+</div>
+
+<h2 id="域名解析记录类型"><a href="#域名解析记录类型" class="headerlink" title="域名解析记录类型"></a>域名解析记录类型</h2><p>相信买过域名的同学都使用过域名解析，还会发现有很多不同的类型和记录值，第一次用的时候还是有些懵的，所以去学习了一下，回来记录。</p>
+<h4 id="A"><a href="#A" class="headerlink" title="A"></a>A</h4><p>用来指定主机名（或域名）对应IP地址的记录。<br>用户可以将该域名下的网站服务器指向到自己的web server上，同时也可以设置域名的子域名。<br>比如我们添加一条A记录将www的主机指向IP为192.168.1.1，那么当你访问www主机时就会解析到192.168.1.1这个IP上。</p>
+<h4 id="CNAME"><a href="#CNAME" class="headerlink" title="CNAME"></a>CNAME</h4><p>常被称为别名解析，是主机名到主机名的映射。<br>当需要将域名指向另一个域名，再由另一个域名提供 IP 地址，就需要添加 CNAME 记录。与A记录不同，CNAME的记录值不是一个固定的IP，而是主机的别名地址。<br>别名解析可以提供更大的灵活性，便于统一管理。比如，当主机因某种因素的影响需要更换IP时，如果域名做了CNAME记录，就可以同时更新别名的解析指向，不需要进行新的解析操作。<br>应用场景包括CDN、企业邮箱、全局流量管理等。</p>
+<h4 id="TXT"><a href="#TXT" class="headerlink" title="TXT"></a>TXT</h4><p>一般指为某个主机名或域名设置的说明，或者联系方式，或者标注提醒等等，相对简单。<br>TXT 记录常用的方式还有做 SPF 记录（反垃圾邮件）和SSL证书的DNS验证等。</p>
+<h4 id="NS"><a href="#NS" class="headerlink" title="NS"></a>NS</h4><p>如果需要把子域名交给其他DNS服务商解析，就需要添加NS记录（Name Server）。<br>NS记录是域名服务器记录，用来指定该域名由哪个DNS服务器来进行解析。NS记录中的IP即为该DNS服务器的IP地址。大多数域名注册商默认用自己的NS服务器来解析用户的DNS记录。<br>比如我的一级域名为xxfer.cn，而博客使用的是blog.xxfer.cn这个二级域名，在将这个二级域名指向GitHub源服务器IP时，如果不做二级域名（子域名）的NS解析，会发现二级域名无法正确解析。一般想要使用个人域名的一个子域名时，需要在一级域名做两条NS解析记录，记录值一般为ns1.domain.com、ns2.domain.com。</p>
+<div class="note default modern"><p>上面应该是比较常见的几种解析记录类型</p>
+</div>
+
+<h4 id="SOA"><a href="#SOA" class="headerlink" title="SOA"></a>SOA</h4><p>SOA，是起始授权机构记录，说明了在众多 NS 记录里哪一台才是主要的服务器。在任何DNS记录文件中，都是以SOA ( Startof Authority )记录开始。SOA资源记录表明此DNS名称服务器是该DNS域中数据信息的最佳来源。<br>SOA记录与NS记录的区别：NS记录表示域名服务器记录，用来指定该域名由哪个DNS服务器来进行解析；SOA记录设置一些数据版本和更新以及过期时间等信息。</p>
+<h4 id="SPF"><a href="#SPF" class="headerlink" title="SPF"></a>SPF</h4><p>用于识别哪些服务器被允许代表你的域名发送电子邮件。<br>它通过列出已被授权为你的域名发送电子邮件的服务器来做到这一点。如果任何其他服务器试图代表你的域名发送电子邮件，它将被拒绝为未经授权的发件人。</p>
+<h4 id="AAAA"><a href="#AAAA" class="headerlink" title="AAAA"></a>AAAA</h4><p>用来将域名解析到IPv6地址的DNS记录。<br>用户可以将一个域名解析到IPv6地址上，也可以将子域名解析到IPv6地址上。国内大多数IDC不支持AAAA记录的解析，因此如果想进行AAAA记录解析，则需对域名NS记录设置一些专业的域名解析服务商，由他们提供AAAA记录的设置。<br>国科云云解析支持IPv6环境下的AAAA记录解析。<br>AAAA记录与A记录的区别就在于解析到的IP地址为IPv4还是IPv6。</p>
+<h4 id="MX"><a href="#MX" class="headerlink" title="MX"></a>MX</h4><p>邮件交换记录。<br>用于将以该域名为结尾的电子邮件指向对应的邮件服务器以进行处理。如：用户所用的邮件是以域名mydomain.com为结尾的，则需要在管理界面中添加该域名的MX记录来处理所有以@mydomain.com结尾的邮件。<br>主要用于邮箱解析，在邮件系统发送邮件时根据收信人的地址后缀进行邮件服务器的定位。另外，MX记录允许设置一个优先级，当多个邮件服务器可用时，会根据该值决定投递邮件的服务器。</p>
+<h4 id="PTR"><a href="#PTR" class="headerlink" title="PTR"></a>PTR</h4><p>“反向DNS”，可以粗略理解为是一个指针记录，用于将一个IP地址映射到对应的主机名，也可以看成是A记录的反向，即通过IP访问域名。</p>
+<h4 id="SRV"><a href="#SRV" class="headerlink" title="SRV"></a>SRV</h4><p>服务定位资源记录，用于定义提供特定服务的服务器的位置，如主机（hostname），端口（port number）等。</p>
+<h4 id="URL转发"><a href="#URL转发" class="headerlink" title="URL转发"></a>URL转发</h4><p>通过服务器的特殊设置，将当前访问的域名指向另一个指定的网络地址。<br>根据目标地址的隐藏与否，URL转发可以分为显性URL和隐性URL两种。</p>
+<p>显性URL：将域名指向一个http(s)协议地址，访问域名时，自动跳转至目标地址，地址栏显示为目标网站地址。</p>
+<p>隐性URL：与显性URL类似，但隐性转发会隐藏真实的目标地址，地址栏中显示为仍为此前输入的地址。</p>
+<p><strong>有点类似重定向</strong></p>
+<div class="note simple"><p>记录类型当然也会有共存冲突：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/30/658fe68cdb22f.jpg" style="width:600px;"/></div></div></div>
+
+<h2 id="推荐视频"><a href="#推荐视频" class="headerlink" title="推荐视频"></a>推荐视频</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1uL4y1B7aE/?spm_id_from=333.788&vd_source=91a233ea2e45cea087336c119461d12b">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/30/658fb2cbc152c.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">DNS域名解析过程</div>
+            <div class="tag-link-sitename">技术蛋老师</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>不管在DNS还是CDN的应用中，Web通信中还有一项非常重要的技术，感兴趣的同学可以观看这篇<a href="https://blog.xxfer.cn/posts/3f3de275.html">CDN服务商是如何解决安全问题的？</a></p>

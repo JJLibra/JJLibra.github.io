@@ -1,0 +1,35 @@
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结束。</p>
+<p>话不多说，上链接：</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://xxfer.cn">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">小李同学|WebSite</div>
+            <div class="tag-link-sitename">xxfer.cn</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="主页描述"><a href="#主页描述" class="headerlink" title="主页描述"></a>主页描述</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>本来想用这张背景的，最后还是换了，两个都挺好看的！</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659952e76898f.png" style="width:800px;"/></div></div>
+
+<h3 id="时间胶囊和工具"><a href="#时间胶囊和工具" class="headerlink" title="时间胶囊和工具"></a>时间胶囊和工具</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953858934b.png" style="width:800px;"/></div></div>
+
+<p>可以看时间这种，还有一些自己平时觉得还用的工具页，其实这个完全能作为浏览器的标签页了。</p>
+<h3 id="音乐界面"><a href="#音乐界面" class="headerlink" title="音乐界面"></a>音乐界面</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953aa87400.png" style="width:800px;"/></div></div>
+
+<p><strong>整体就是这样，主页本来就是做个导航页，所以不想搞得很复杂。</strong></p>
+<h3 id="最终版本（换了一张背景）"><a href="#最终版本（换了一张背景）" class="headerlink" title="最终版本（换了一张背景）"></a>最终版本（换了一张背景）</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659954c49e2a8.png" style="width:800px;"/></div></div>
+
+<h2 id="部署考量"><a href="#部署考量" class="headerlink" title="部署考量"></a>部署考量</h2><p>刚开始，想着用自己的服务器，用宝塔去搭，主要这个完全是个静态网页（动态资源很少），所以一开始就是打算用自己的服务器的。<br>结果最后还是选择用GitHub，有以下几点考虑：</p>
+<ul>
+<li>个人主页和博客，包括之后要建的“秘密空间”（记录自己的CTF学习总结），都是相对公开的，所以访问量会比较高。虽然服务器设置了一些安全措施，但是我自知才疏学浅，很多的潜在隐患可能还是会被别有用心的人利用。为了避免这些不必要的麻烦，最终选择部署在GitHub上。</li>
+<li>另外GitHub也方便更新管理，部署方便，也不用担心GitHub被攻击，即使攻击了对我也没有太大损失。</li>
+<li>服务器主要用于搭建自己的开发环境，放一些实用的小应用，不打算过于公开。</li>
+</ul>
+<p>所以，我最后还是选择了部署在GitHub上，可能唯一的缺陷就是访问慢，不过这个套一层CDN基本就能解决，而且现在访问量也不大，完全承受的了。虽然用自己的服务器还是得套CDN，肯定是不能让源IP直接裸露在外的，对于一些师傅的话有没有都一样(doge)。绕过CDN获取源服务器IP的方法也有很多，大家其实在搭建网站的时候需要注意像评论呀、邮箱等第三方验证的防护，总之这些不是一两句就能解释清的，我也不想在各位师傅面前班门弄斧。</p>
+<p>既然决定搭建在GitHub上，其实也就不需要多说了，和博客搭建的方式一样。最后做好域名解析，CDN流量控制，一些必要的安全措施就行。</p>

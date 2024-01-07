@@ -1,0 +1,69 @@
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间考试比较多，今天终于有空可以整理有关Git分支的管理使用技巧，相信大家对Git应该都不陌生，所以直接进入正题。</p>
+<p>如果大家觉得看书面材料太无聊，推荐大家视频学习：</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1r3411F7kn/?spm_id_from=333.999.0.0&vd_source=91a233ea2e45cea087336c119461d12b">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/30/658fb2cbc152c.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Git核心原理</div>
+            <div class="tag-link-sitename">技术蛋老师</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<p>蛋蛋老师的视频真心不错，大家可以学习了这个视频以后再看下面的内容，别忘了关注 + 一键三连。<br>其实我觉得蛋老师的视频已经足够大家学习一阵子了。</p>
+<p>这篇<a href="https://zhuanlan.zhihu.com/p/263050507">图解Git操作，一篇就够</a>写得很不错，还有图例。</p>
+<h2 id="什么是分支？"><a href="#什么是分支？" class="headerlink" title="什么是分支？"></a>什么是分支？</h2><p>在任何代码管理工具中, 分支都是一个非常重要的概念。<br>分支是主线某个状态的一个复制, 在不影响主线情况下, 可以有新的变化。</p>
+<p>实际生活中，我们的工作一般都是在一条主线(master&#x2F;main)上进行，每一次提交会形成一个commit对象。客户提出了一个新的需求，而这个需求的开发需要一段时间才能完成。为了不影响主线的稳定性和持续进行。 我们会怎么做？我们可以把整个项目复制一份，在复制的项目上开发新功能，开发完成通过测试后，再将改动的代码整合回主线。那么，这个复制出来的项目就是一个分支。</p>
+<h2 id="重要的分支操作"><a href="#重要的分支操作" class="headerlink" title="重要的分支操作"></a>重要的分支操作</h2><p>相信大家看了蛋老师的视频以后，至少对Git已经有了入门级的了解。那么现在，让我们整理一下Git的常用命令。</p>
+<p>Git工作流基本可以参考下面这张图：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/03/659562c9a239a.png" style="width:800px;"/></div></div>
+
+<p><strong>一定要搞清楚远程仓库、本地仓库、暂存区和工作区的概念</strong></p>
+<h3 id="克隆项目"><a href="#克隆项目" class="headerlink" title="克隆项目"></a>克隆项目</h3><p>从服务器上进行克隆项目到本地</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:LJJbyZJU/A-star.git</span><br></pre></td></tr></table></figure>
+
+<p>执行<code>git clone</code>就会生成一份副本，在本地仓库和工作区都会同步副本</p>
+<h3 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h3><ul>
+<li>git status：查看文件状态。</li>
+<li>git add .：文件添加进暂存区。</li>
+<li>git commit -m “提交信息”：文件添加进本地仓库，-m参数改为-am可以直接推向本地仓库。</li>
+<li>git push：文件推向远程仓库。</li>
+<li>git log：查看文件提交日志，每一个commit都会有自己的commit的ID。</li>
+</ul>
+<p>运行<code>git commit -a</code>相当于运行<code>git add</code>把所有文件加入暂存区，然后再运行<code>git commit</code>把文件提交本地仓库。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/03/659569653eb91.jpg" style="width:800px;"/></div></div>
+
+<h3 id="代码回退"><a href="#代码回退" class="headerlink" title="代码回退"></a>代码回退</h3><ul>
+<li>git fetch：从远程仓库拉取代码到本地仓库。</li>
+<li>git reset –files：用本地仓库覆盖暂存区中修改，也就是覆盖最后一次git add的内容，即撤销提交到暂存区的内容。</li>
+<li>git checkout –files：把文件从暂存区复制到工作区，用于放弃本地的修改。</li>
+<li>git checkout HEAD –files：回退最后一次的提交内容。</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/03/659569933738f.jpg" style="width:800px;"/></div></div>
+
+<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><ul>
+<li>git reset –hard HEAD^：回退上一个版本。在Git中HEAD表示当前版本，HEAD^表示上一个版本。</li>
+</ul>
+<h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><ul>
+<li>git rm filename：在工作区删除，如果需要从版本库中删除文件可以使用git rm命令进行删除，然后提交。</li>
+</ul>
+<p>如果删除错了，可以使用<code>git checkout -- filename</code>进行恢复，其原理就是使用版本库的文件替换工作区的文件。</p>
+<h3 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h3><ul>
+<li>git branch &lt;分支名字&gt;：新建一个分支。</li>
+<li>git checkout &lt;分支名字&gt;：新建立后分之后，切换分支。</li>
+<li>git branch：查看本地的分支情况，分支前面带有*号的表示当前的分支。</li>
+<li>git merge &lt;分支名字&gt;：<strong>合并指定的分支到当前分支</strong>。</li>
+<li>git branch -d &lt;分支名字&gt;：删除分支，假如分支删除不了，可以通过：git branch -D &lt;分支名字&gt;，强制删除分支。</li>
+<li>git remote：查看远程仓库的情况，加上-v参数可以查看详细情况。</li>
+<li>git push origin master：将本地master分支推送到远程库。</li>
+<li>git pull：拉取远程仓库的分支到本地仓库。相当于执行git fetch和git merge命令。</li>
+</ul>
+<div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>需要注意git fetch和git pull之间的区别！可以参考这篇<a href="https://zhuanlan.zhihu.com/p/123370920">详解git pull和git fetch的区别</a></p>
+</div>
+
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>可以在VScode中安装Git插件，方便使用。</p>
+<p>分支的操作其实还有很多，常用的都已经罗列在上面了，使用时结合图例和git结构，熟能生巧，慢慢就能掌握。</p>

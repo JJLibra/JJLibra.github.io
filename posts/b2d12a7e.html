@@ -1,0 +1,149 @@
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>服务器中快速部署项目环境避免不了docker的使用，所以专门在这里整理一下常用的docker命令。</p>
+<h2 id="优质视频链接"><a href="#优质视频链接" class="headerlink" title="优质视频链接"></a>优质视频链接</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1s54y1n7Ev/?spm_id_from=333.337.search-card.all.click">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/04/6596af37ca26c.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Docker 10分钟快速入门</div>
+            <div class="tag-link-sitename">奇乐编程学院</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1Aj411r71b/?spm_id_from=333.337.search-card.all.click&vd_source=91a233ea2e45cea087336c119461d12b">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/30/658fb2cbc152c.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Docker网络模式</div>
+            <div class="tag-link-sitename">技术蛋老师</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1og4y1q7M4/?vd_source=91a233ea2e45cea087336c119461d12b">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/04/6596b92803503.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Docker详细版教程</div>
+            <div class="tag-link-sitename">遇见狂神说</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="关于docker"><a href="#关于docker" class="headerlink" title="关于docker"></a>关于docker</h2><p>Docker 就像一个盒子，里面可以装很多物件，如果需要某些物件，可以直接将该盒子拿走，而不需要从该盒子中一件一件的取。<br>可以简单地把docker理解为轻量级的VM虚拟机，但它和虚拟机是有区别的，具体区别请大家自行学习。</p>
+<h2 id="三个基本概念"><a href="#三个基本概念" class="headerlink" title="三个基本概念"></a>三个基本概念</h2><ul>
+<li><p>镜像（Image）</p>
+<p>Docker的镜像概念类似于虚拟机里的镜像（比如.ISO文件），是一个只读的模板，一个独立的文件系统，包括运行容器所需的数据，可以用来创建新的容器。</p>
+<p>例如：一个镜像可以包含一个完整的 ubuntu 操作系统环境，里面仅安装了MySQL或用户需要的其它应用程序。</p>
+<p>这里的镜像就如下方虚拟机创建时候使用的镜像类似。这个镜像便于移动，并且这个镜像我们可以交给任何人使用，其他人使用的时候也很方便，只需要将其实例化即可，这也是docker迁移项目的便捷之处。</p>
+<p>关于创建镜像，就要讲到Dockerfile文件，镜像就是靠Dockerfile文件这个自动化脚本创建出来的。</p>
+</li>
+<li><p>容器（Container）</p>
+<p>Docker容器是由Docker镜像创建的运行实例，类似VM虚拟机，支持启动，停止，删除等。</p>
+<p>每个容器间是相互隔离的，容器中会运行特定的应用，包含特定应用的代码及所需的依赖文件。</p>
+<p>容器就类似与虚拟机中我们创建好的虚拟机系统，之后我们所有的操作都是在容器中进行的，我们的程序也是运行在容器中。</p>
+</li>
+<li><p>仓库（Repository&#x2F;Hub）</p>
+<p>镜像便于传播，而仓库就是专门用来传播这些镜像的地方，他有点类似与Github，或者你可以把他看成一个存放各种镜像的镜像商店</p>
+<p><a href="https://hub.docker.com/">Docker官方的仓库</a>：他的服务器处于国外，所以下载速度较慢，不过我们可以通过换源解决。</p>
+<p><a href="https://hub.daocloud.io/">daocloud国内仓库</a>：国内也有一些优秀的商店，他和Docker官方的仓库的区别类似与Github和Gitee的区别。</p>
+<p><a href="https://c.163yun.com/hub#/home">网易云镜像中心</a></p>
+</li>
+</ul>
+<h2 id="安装和基础配置"><a href="#安装和基础配置" class="headerlink" title="安装和基础配置"></a>安装和基础配置</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>因为之后要在服务器上使用，所以这篇文章使用Linux的Ubuntu20.04发行版为例进行演示。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/143156163">参考教程</a></p>
+<p>Ubuntu一般自带docker，只是docker的旧版本不一定被称为docker，docker.io 或 docker-engine也有可能，所以需要先卸载：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get remove docker docker-engine docker.io containerd runc</span><br></pre></td></tr></table></figure>
+
+<p>如果不能正常卸载也没事，可以跳过上面的步骤，直接启用 Docker 软件源，更新软件包即可。具体操作如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//更新软件包索引，并且安装必要的依赖软件，来添加一个新的 HTTPS 软件源</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common</span><br><span class="line">//导入源仓库的 GPG key</span><br><span class="line">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</span><br><span class="line">//将 Docker APT 软件源添加到你的系统</span><br><span class="line">sudo add-apt-repository <span class="string">&quot;deb [arch=amd64] https://download.docker.com/linux/ubuntu <span class="subst">$(lsb_release -cs)</span> stable&quot;</span></span><br><span class="line">//Docker 软件源被启用了，你可以安装软件源中任何可用的 Docker 版本</span><br></pre></td></tr></table></figure>
+
+<p>安装 Docker 最新版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install docker-ce docker-ce-cli containerd.io</span><br></pre></td></tr></table></figure>
+
+<p>安装完成，Docker 服务将会自动启动。输入下面的命令进行验证：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl status docker</span><br></pre></td></tr></table></figure>
+
+<p>出现类似下面内容说明安装成功：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">docker.service - Docker Application Container Engine</span><br><span class="line"><span class="code">     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)</span></span><br><span class="line"><span class="code">     Active: active (running) since Thu 2020-05-21 14:47:34 UTC; 42s ago</span></span><br><span class="line"><span class="code">     ......</span></span><br></pre></td></tr></table></figure>
+
+<p>当一个新的 Docker 发布时，你可以使用标准的<code>sudo apt update &amp;&amp; sudo apt upgrade</code>流程来升级 Docker 软件包。</p>
+<p>如果你想阻止 Docker 自动更新，锁住它的版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-mark hold docker-ce</span><br></pre></td></tr></table></figure>
+
+<h3 id="以非-Root-用户身份执行-Docker"><a href="#以非-Root-用户身份执行-Docker" class="headerlink" title="以非 Root 用户身份执行 Docker"></a>以非 Root 用户身份执行 Docker</h3><p>默认情况下，只有 root 或者 有 sudo 权限的用户可以执行 Docker 命令。</p>
+<p>想要以非 root 用户执行 Docker 命令，你需要将你的用户添加到 Docker 用户组，该用户组在 Docker CE 软件包安装过程中被创建。想要这么做，输入：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo usermod -aG docker <span class="variable">$USER</span></span><br></pre></td></tr></table></figure>
+
+<p>$USER是一个环境变量，代表当前用户名。登出，并且重新登录，以便用户组会员信息刷新。</p>
+<h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><p>在卸载 Docker 之前，你最好移除所有的容器，镜像，卷和网络。</p>
+<p>运行下面的命令停止所有正在运行的容器，并且移除所有的 docker 对象：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker container stop $(docker container <span class="built_in">ls</span> -aq)</span><br><span class="line">docker system prune -a --volumes</span><br></pre></td></tr></table></figure>
+
+<p>可以使用<code>apt</code>像卸载其他软件包一样来卸载 Docker：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt purge docker-ce</span><br><span class="line">sudo apt autoremove</span><br></pre></td></tr></table></figure>
+
+<h2 id="docker命令使用"><a href="#docker命令使用" class="headerlink" title="docker命令使用"></a>docker命令使用</h2><h3 id="镜像（Image）"><a href="#镜像（Image）" class="headerlink" title="镜像（Image）"></a>镜像（Image）</h3><p>创建镜像需要自行编写Dockerfile文件，然后使用命令<code>docker build</code>即可。目前现有的镜像够我用了，Dockerfile以后再学。</p>
+<ul>
+<li>docker images：查看已有镜像</li>
+<li>docker images -q：查看已有镜像id</li>
+</ul>
+<p>去dockerhub网站搜索镜像，然后拉取镜像</p>
+<ul>
+<li>docker search xxx                      #xxx指你要搜索的镜像，例如mysql</li>
+<li>docker search xxx –filter&#x3D;STARS&#x3D;3000  #搜索收藏量大于3000的xxx镜像</li>
+<li>docker pull xxx                        #下载xxx镜像<strong>最新版</strong>，这里搜索比较慢的话需要换加速镜像</li>
+<li>docker pull xxx:5.7                    #下载xxx镜像<strong>5.7版本</strong></li>
+</ul>
+<p>删除镜像</p>
+<ul>
+<li>docker rmi -f ID：根据id删除指定镜像</li>
+</ul>
+<h3 id="容器（Container）"><a href="#容器（Container）" class="headerlink" title="容器（Container）"></a>容器（Container）</h3><p>创建容器</p>
+<ul>
+<li>docker run [参数] 镜像名<br>#参数说明<br>–name&#x3D;”name”        #容器名字<br>-d                   #后台方式运行<br>-it                  #交互方式运行(进入容器)<br>-p ip:主机端口:容器端口<br>-p 主机端口:容器端口<br>-p 容器端口<br>-p 随机指定端口</li>
+</ul>
+<p>查看容器</p>
+<ul>
+<li>docker ps     #列出正在运行的容器</li>
+<li>docker ps -a  #列出所有容器（常用查看id）</li>
+</ul>
+<p>删除容器</p>
+<ul>
+<li>docker rm 容器id   <strong>不能删除正在运行的容器</strong></li>
+</ul>
+<p>启动&#x2F;停止容器</p>
+<ul>
+<li>docker start 容器id    #启动容器</li>
+<li>docker restart 容器id  #重启容器</li>
+<li>docker stop 容器id	   #停止当前正在运行的容器</li>
+<li>docker kill 容器id	   #强制停止容器</li>
+</ul>
+<p>日志&#x2F;进程&#x2F;元数据信息</p>
+<ul>
+<li>docker logs -tf –tail 10 容器id   #–tail 10表示显示10条日志</li>
+<li>docker top 容器id                  #查看容器中进程信息</li>
+<li>docker inspect 容器id              #显示容器的所有信息</li>
+</ul>
+<p>当容器正在运行时</p>
+<ul>
+<li>docker exec -it 容器id &#x2F;bin&#x2F;bash   #进入正在运行的容器,并开启一个新的终端</li>
+<li>docker attach 容器id               #进入正在运行的终端</li>
+<li>dockr cp 容器id:&#x2F;xxx&#x2F;aaa.txt &#x2F;xxx  #将容器中&#x2F;xxx文件夹下的aaa.txt文件拷贝到主机的&#x2F;xxx文件夹下</li>
+</ul>
+<p>数据挂载——数据卷技术</p>
+<ul>
+<li>docker run -d -p 3310:3306 -v &#x2F;home&#x2F;mysql&#x2F;conf:&#x2F;etc&#x2F;mysql&#x2F;conf.d -v &#x2F;home&#x2F;mysql&#x2F;data:&#x2F;var&#x2F;lib&#x2F;mysql -e MYSQL_ROOT_PASSWORD&#x3D;123456 –name mysql01 mysql:5.7<br>#参数说明<br>-d 后台运行<br>-p 主机端口:容器端口             #端口映射<br>-v 主机地址:容器地址             #卷挂载<br>-e MYSQL_ROOT_PASSWORD&#x3D;123456   #配置密码为123456<br>–name 容器名字</li>
+</ul>
+<h3 id="Docker-compose"><a href="#Docker-compose" class="headerlink" title="Docker compose"></a>Docker compose</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>

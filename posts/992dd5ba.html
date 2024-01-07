@@ -1,0 +1,75 @@
+<h2 id="什么是-CDN？"><a href="#什么是-CDN？" class="headerlink" title="什么是 CDN？"></a>什么是 CDN？</h2><p>自CDN出现以来，它每天都在为我们提供便利。刷短视频、上网课、浏览网页等其实都用到了CDN。那么，到底什么是CDN？</p>
+<p>CDN全称为Content Delivery Network，是一种由分布在不同区域的边缘节点服务器群组成的分布式网络。我们来看一个例子帮助理解吧。</p>
+<p>就拿使用某APP追剧为例，同一时间有近一千万的用户使用一个APP追同一部剧，而且如果大家观看的是1080p 清晰度的视频（理论上需要4Mbps带宽），那么，累计需要的流量带宽是10,000,000×4Mbps&#x3D;40,000,000Mbps&#x3D;40Tbps。</p>
+<p>我想这对于任何一家视频内容提供商来说都是巨大的流量吧。而且我们使用的计算机网卡，一般是1Gbps的带宽。根据上面的带宽可以得出，这家APP的供应商需要一台“超级服务器”才能满足这么大的流量需求。大厂也许真的能够提供，可是对于一些实力不太行的供应商该怎么办？使用“超级服务器”显然不现实。如果不能解决这样大的流量压力，势必会引起网络拥塞和访问时延，这对于运营商来说就意味着用户的流失，也就意味金钱的流失。</p>
+<p>基于上面这样的需求，CDN技术的出现，解决了时延等问题。</p>
+<h2 id="CDN-工作原理"><a href="#CDN-工作原理" class="headerlink" title="CDN 工作原理"></a>CDN 工作原理</h2><p>其实也并不复杂，CDN最初的核心理念就是将内容缓存在终端用户附近，实现资源的快速访问。</p>
+<p>具体来说，CDN就是采用更多的缓存服务器（CDN边缘节点），布放在用户访问相对集中的地区或网络中。当用户访问网站时，利用全局负载技术，将用户的访问指向距离最近的缓存服务器上，由缓存服务器响应用户请求。</p>
+<p>读到这里，大家也许会联想到镜像服务器。只能说两者有类似之处，但又并不完全相同。镜像服务器是源内容服务器的完整复制。而CDN，是部分内容的缓存，智能程度更高。<br>确切地说，CDN&#x3D;更智能的镜像+缓存+流量导流。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/27/658c1eb0650b8.png" alt="与传统结构的区别" style="width:750px;"/></div><span class="image-caption">与传统结构的区别</span></div>
+
+<p>与传统访问方式不同，CDN网络则是在用户和服务器之间增加缓存层，将用户的访问请求引导到最优的缓存节点而不是服务器源站点，从而加速访问速度。<br>将源站的资源缓存到位于全国各地的CDN节点上，用户请求资源时，就近返回节点上缓存的资源，而不需要每个用户的请求都回您的源站获取，避免网络拥塞、分担源站压力，保证用户访问资源的速度和体验。</p>
+<h2 id="为什么要使用-CDN？"><a href="#为什么要使用-CDN？" class="headerlink" title="为什么要使用 CDN？"></a>为什么要使用 CDN？</h2><ol>
+<li><p>为了加速网站的访问（这是最主要的目的）</p>
+</li>
+<li><p>为了实现跨运营商、跨地域的全网覆盖</p>
+<p>互联不互通、区域ISP地域局限、出口带宽受限制等种种因素都造成了网站的区域性无法访问。CDN加速可以覆盖全球的线路，通过和运营商合作，部署IDC资源，在全国骨干节点商，合理部署CDN边缘分发存储节点，充分利用带宽资源，平衡源站流量。</p>
+</li>
+<li><p>为了保障你的网站安全</p>
+<p>CDN的负载均衡和分布式存储技术，可以加强网站的可靠性，相当无无形中给你的网站添加了一把保护伞，应对绝大部分的互联网攻击事件。防攻击系统也能避免网站遭到恶意攻击。除此之外，使用CDN能够相对隐藏源服务器的地址。<br>那源服务器安全了，那么CDN服务器咋办呢？CDN服务商肯定考虑到了，最简单的处理方式就是负载均衡，如果在CDN网络中监测到有一台CDN服务器超载了，就会切断这台服务器的服务，转到另一台没有超载的CDN服务器上。那如何把流量进行转移？这里就涉及任播的知识，不再展开，感兴趣的同学自行学习。</p>
+</li>
+<li><p>为了异地备援</p>
+<p>当某个服务器发生意外故障时，系统将会调用其他临近的健康服务器节点进行服务，进而提供接近100%的可靠性，这就让你的网站可以做到永不宕机。</p>
+</li>
+</ol>
+<h2 id="CDN-相关概念"><a href="#CDN-相关概念" class="headerlink" title="CDN 相关概念"></a>CDN 相关概念</h2><ul>
+<li><p>DNS域名解析，可以参考<a href="https://blog.xxfer.cn/posts/105a31a4.html">DNS域名解析的底层逻辑描述</a></p>
+</li>
+<li><p>CDN 回源 host</p>
+</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>
+
+<ul>
+<li>SCDN</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>
+
+<ul>
+<li>DCDN</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>
+
+<ul>
+<li>PCDN</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>
+
+<h2 id="安全性和可靠性"><a href="#安全性和可靠性" class="headerlink" title="安全性和可靠性"></a>安全性和可靠性</h2><p>上文也讲到了虽然通过CDN能够在一定程度上隐藏源服务器地址，避免受到攻击，但是CDN服务器该怎么办？要知道如果想要开发者通过代码给资源指定多个地址是件很麻烦的事情。其实CDN服务商采用的方法和DNS域名解析里根服务器的做法有异曲同工之妙，那就是任播技术。具体请看<a href="https://blog.xxfer.cn/posts/105a31a4.html">DNS域名解析的底层逻辑描述</a>和<a href="https://blog.xxfer.cn/posts/3f3de275.html">CDN服务商是如何解决安全问题的？</a>。总之使用了任播技术，服务器对外都拥有同一个IP地址，当这个IP接收到请求时，请求就会由距离用户最近的服务器来响应。因此，普通的DDOS攻击就能通过这种方式得到缓解，当然还是会有一定影响。</p>
+<h2 id="国内CDN-npm镜像推荐"><a href="#国内CDN-npm镜像推荐" class="headerlink" title="国内CDN&#x2F;npm镜像推荐"></a>国内CDN&#x2F;npm镜像推荐</h2><p><strong>使用前提：域名备案</strong>，这是因为使用国内主机或服务器建站，根据相关政策要求，域名必须有对应的备案号。如果使用香港主机或海外主机，可以免备案。这是政策规定，那就必须执行。</p>
+<p>关于域名备案的流程大家可以参考各自域名注册商的官方文档，或者参考各自服务器提供商的官方文档。下面是国内两大云服务商的官方文档入口，仅供参考，因为国内国外有很多途径能注册到域名。<br><a href="https://help.aliyun.com/zh/icp-filing/">阿里云ICP备案</a>、<a href="https://cloud.tencent.com/document/product/243/18914">腾讯云</a></p>
+<ul>
+<li><p>jsDelivr<br><a href="https://cdn.jsdelivr.net/">https://cdn.jsdelivr.net/</a></p>
+</li>
+<li><p>unpkg<br><a href="https://unpkg.com/">https://unpkg.com/</a></p>
+</li>
+<li><p>npm element<br><a href="http://npm.elemecdn.com/">http://npm.elemecdn.com/</a></p>
+</li>
+<li><p>初七云<br><a href="https://cdn.chuqis.com/npm">https://cdn.chuqis.com/npm</a><br><a href="https://cdn.chuqis.com/gh">https://cdn.chuqis.com/gh</a></p>
+</li>
+<li><p>bootcdn<br><a href="https://www.bootcdn.cn/">https://www.bootcdn.cn/</a></p>
+</li>
+<li><p>loli （cdnjs）<br><a href="https://cdnjs.loli.net/">https://cdnjs.loli.net/</a></p>
+</li>
+<li><p>Staticfile<br><a href="https://staticfile.org/">https://staticfile.org/</a></p>
+</li>
+<li><p>75CDN<br><a href="https://cdn.baomitu.com/">https://cdn.baomitu.com/</a></p>
+</li>
+<li><p>今日头条 CDN<br><a href="https://cdn.bytedance.com/">https://cdn.bytedance.com/</a></p>
+</li>
+<li><p>cdnjs<br><a href="https://cdnjs.com/">https://cdnjs.com/</a></p>
+</li>
+</ul>
+<h2 id="我的CDN方案"><a href="#我的CDN方案" class="headerlink" title="我的CDN方案"></a>我的CDN方案</h2><p>建议大家使用CDN之前，一定要学习研究一下CDN。<strong>千万不要轻易使用CDN，以免带来不必要的损失</strong></p>
+<p>CDN虽然能够给网站加速，但是有一些事项是需要我们注意的。相信大家都听过一些博主的网站被恶意刷流量，导致损失几百甚至上万。所以尽管我的网站访问量不多，也应该做好应对恶意刷流量的措施。</p>
+<p>关于我的CDN方案，请继续观看这篇<a href="https://blog.xxfer.cn/posts/7c372084.html">小李的CDN使用与防护方案</a></p>
