@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>自建免费图床：访问速度很可以！更新我的图床方案</title>
+      <link href="/posts/92211228.html"/>
+      <url>/posts/92211228.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>相信刚开始建站的同学都想要一个方便管理的图床，今天发现一个免费的图床搭建方案，访问挺快的，也方便管理。</p><h2 id="jsDelivr-GitHub-PicGo"><a href="#jsDelivr-GitHub-PicGo" class="headerlink" title="jsDelivr+GitHub+PicGo"></a>jsDelivr+GitHub+PicGo</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><h2 id="目前我的图床方案"><a href="#目前我的图床方案" class="headerlink" title="目前我的图床方案"></a>目前我的图床方案</h2><p>一些封面，头像这样的图片使用<a href="">Freeimg图床</a>，文章中用到的截图使用自建图床。之后可能会慢慢搬到自己的服务器上，相对安全，但是Freeimg图床还是值得信任的，群主大大他真的，我哭死(doge)。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图床 </tag>
+            
+            <tag> 自建应用项目 </tag>
+            
+            <tag> jsDelivr </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>拥有自己的信息流，拒绝推荐算法：自建 RSS 订阅服务——一项不应该过时的技术</title>
       <link href="/posts/7f4bd536.html"/>
       <url>/posts/7f4bd536.html</url>

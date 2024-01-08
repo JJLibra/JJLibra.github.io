@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/92211228.html</loc>
+    
+    <lastmod>2024-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-01-08</lastmod>
@@ -57,6 +66,15 @@
   
   <url>
     <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/posts/8c84e76e.html</loc>
     
     <lastmod>2024-01-08</lastmod>
     
@@ -156,15 +174,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
-    
-    <lastmod>2024-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/posts/8c84e76e.html</loc>
     
     <lastmod>2024-01-08</lastmod>
     
@@ -784,6 +793,13 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/jsDelivr/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
