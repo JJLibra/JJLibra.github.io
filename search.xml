@@ -445,7 +445,7 @@
       <link href="/posts/3c96c005.html"/>
       <url>/posts/3c96c005.html</url>
       
-        <content type="html"><![CDATA[<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为程序员，大家可能都知道GitHub，也都知道它能方便我们管理项目源码。可是大家知道GitHub Actions并且都会使用吗？我一开始也不知道，也是摸鱼的时候无意间刷到的，所以去学习了一下。使用GitHub Actions其实就是在白嫖GitHub服务器帮我们做事，是一种工作流<a href="https://blog.xxfer.cn/posts/35e49d5e.html">CI&#x2F;CD</a>。</p><p>话不多说，我在下面简单介绍一下GitHub Actions，然后总结了一些使用技巧。</p><h2 id="什么是GitHub-Actions"><a href="#什么是GitHub-Actions" class="headerlink" title="什么是GitHub Actions"></a>什么是GitHub Actions</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><h2 id="简单使用"><a href="#简单使用" class="headerlink" title="简单使用"></a>简单使用</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
       
       
       <categories>
