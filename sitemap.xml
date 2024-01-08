@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/6a3f672a.html</loc>
+    
+    <lastmod>2024-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/posts/92211228.html</loc>
     
     <lastmod>2024-01-09</lastmod>
@@ -589,13 +598,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-01-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -736,13 +738,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%8A%A0%E9%80%9F%E5%99%A8/</loc>
-    <lastmod>2024-01-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -778,6 +773,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/tags/RSS/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -786,13 +788,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2024-01-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

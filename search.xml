@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>我的图床方案 持续更新......</title>
+      <link href="/posts/6a3f672a.html"/>
+      <url>/posts/6a3f672a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我会在这里记录我的图床方案，发现好用的也会及时推送给大家，尽可能推荐免费的。</p><h2 id="本人使用并已推荐"><a href="#本人使用并已推荐" class="headerlink" title="本人使用并已推荐"></a>本人使用并已推荐</h2><p><a href="https://www.freeimg.cn/">Freeimg图床</a><br><a href="https://blog.xxfer.cn/posts/92211228.html">jsDelivr+github图床</a></p><h2 id="图床使用历程"><a href="#图床使用历程" class="headerlink" title="图床使用历程"></a>图床使用历程</h2><p>因为我目前用量不大，而且需求只有国内访问，所以Freeimg已经足够了。今后如果有需要，我觉得会逐渐迁移至云存储的方式。</p><p>如果我发现了更好的图床方案我会第一时间告诉大家，当然如果有一天我自己搭建了一个图床平台，也希望大家能够来捧场哈哈哈。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图床 </tag>
+            
+            <tag> 自建应用项目 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自建免费图床：访问速度很可以！更新我的图床方案</title>
       <link href="/posts/92211228.html"/>
       <url>/posts/92211228.html</url>
       
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>相信刚开始建站的同学都想要一个方便管理的图床，今天发现一个免费的图床搭建方案，访问挺快的，也方便管理。</p><h2 id="jsDelivr-GitHub-PicGo"><a href="#jsDelivr-GitHub-PicGo" class="headerlink" title="jsDelivr+GitHub+PicGo"></a>jsDelivr+GitHub+PicGo</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><h2 id="目前我的图床方案"><a href="#目前我的图床方案" class="headerlink" title="目前我的图床方案"></a>目前我的图床方案</h2><p>一些封面，头像这样的图片使用<a href="">Freeimg图床</a>，文章中用到的截图使用自建图床。之后可能会慢慢搬到自己的服务器上，相对安全，但是Freeimg图床还是值得信任的，群主大大他真的，我哭死(doge)。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>相信刚开始建站的同学都想要一个方便管理的图床，今天发现一个免费的图床搭建方案，访问挺快的，也方便管理。</p><h2 id="jsDelivr-GitHub-PicGo"><a href="#jsDelivr-GitHub-PicGo" class="headerlink" title="jsDelivr+GitHub+PicGo"></a>jsDelivr+GitHub+PicGo</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><h2 id="目前我的图床方案"><a href="#目前我的图床方案" class="headerlink" title="目前我的图床方案"></a>目前我的图床方案</h2><p>一些封面，头像这样的图片使用<a href="https://blog.xxfer.cn/posts/518ec1ac.html">Freeimg图床</a>，文章中用到的截图使用自建图床。之后可能会慢慢搬到自己的服务器上，相对安全，但是Freeimg图床还是值得信任的，群主大大他真的，我哭死(doge)。</p>]]></content>
       
       
       <categories>
@@ -49,11 +76,11 @@
       
         <tags>
             
+            <tag> 自建应用项目 </tag>
+            
             <tag> RSS </tag>
             
             <tag> 大数据 </tag>
-            
-            <tag> 自建应用项目 </tag>
             
         </tags>
       
@@ -252,8 +279,6 @@
             
             <tag> 玩梗 </tag>
             
-            <tag> 知识点总结 </tag>
-            
         </tags>
       
     </entry>
@@ -325,11 +350,11 @@
     
     
     <entry>
-      <title>我的图床方案：Freeimg 图床！又是白嫖的一天^_^</title>
+      <title>Freeimg 图床！又是白嫖的一天^_^</title>
       <link href="/posts/518ec1ac.html"/>
       <url>/posts/518ec1ac.html</url>
       
-        <content type="html"><![CDATA[<h2 id="初识图床"><a href="#初识图床" class="headerlink" title="初识图床"></a>初识图床</h2><p>图床图床，就是用来存放图片的温床，博客内有大量的图片，大量的地方需要使用到图片，优化博客加载方便管理的除了压缩图片的大小之外，首选就是多处使用图片链接，到不同的资源地址去进行加载来完成图片的加载。</p><h2 id="安利一个免费图床——-Freeimg-图床"><a href="#安利一个免费图床——-Freeimg-图床" class="headerlink" title="安利一个免费图床—— Freeimg 图床"></a>安利一个免费图床—— Freeimg 图床</h2><p>这是我接触的第一个免费图床，只需要注册就会有100MB的容量，容量确实比较少，可人家毕竟是免费的。Freeimg图床在国内的访问速度挺快的，至少比GitHub上的访问迅速。</p><p>该图床已经出来100天了，仍处于推广期，元旦有福利发放，加入用户群就送 1GB 的容量，确实挺良心的了。大家如果用量不大，可以考虑一下，是个不错的选择。至于跑路，群主也说了，在停止服务之前会有通知，方便大家备份数据，所以在近半年时间我认为都能放心使用吧。下面就是Freeimg图床链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.freeimg.cn/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/26/6589a9fe738b8.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Freeimg.cn</div>            <div class="tag-link-sitename">owen0o0</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="网络免费图床"><a href="#网络免费图床" class="headerlink" title="网络免费图床"></a>网络免费图床</h2><p>上网搜索就能搜索到不少免费的图床供应商，Freeimg就是我搜到的，一直用到现在。其他还有 SMMS 等不多介绍。</p><p>网上的免费图床一般只需要注册，就能快速使用，也方便管理，关键是免费无需配置。但是它们的缺点也很明显：容易跑路、不稳定、容量小、不能支持图片处理等。因此，大家还是会不停地寻找其他更合适的图床方案，我也是如此。</p><h2 id="Github-图床"><a href="#Github-图床" class="headerlink" title="Github 图床"></a>Github 图床</h2><p>大部分同学都是没有公网服务器的，所以就想到了这一类开源仓库。这种方案有很多优点，这里不再赘述。但是它存在比较致命的缺点：访问速度太慢了，而且还有被封号仓库的风险。有同学可能会说使用 CDN 加速，关于 CDN，不了解的同学可以来看看我写的这篇<a href="https://blog.xxfer.cn/posts/992dd5ba.html">使用CDN给博客空间加加速！</a><br>使用 CDN 确实能够提高访问速度，但是 CDN 服务器的流量费用也不便宜鸭~</p><p>一个比较成熟的方案是使用 github + jsd + PicGo<br>感兴趣的同学可以去学习一下，之后我可能也会去尝试一下，如果有好的方案，我会第一时间告诉大家哦。</p><h2 id="npm-图床"><a href="#npm-图床" class="headerlink" title="npm 图床"></a>npm 图床</h2><p>具体配置方法可以去参考下面这篇安知鱼的博客</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/72ea.html">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="">          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">npm 图床</div>            <div class="tag-link-sitename">npm 图床配置教程</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>配置也比较简单，关键这是免费的，而且选择对的镜像访问速度也很可观，不足之处就是非常依赖镜像，镜像炸了图床也就一起没了，而且容量一般一个版本就100-200MB。</p><h2 id="腾讯云或阿里云等各大平台的云存储-CDN-方案"><a href="#腾讯云或阿里云等各大平台的云存储-CDN-方案" class="headerlink" title="腾讯云或阿里云等各大平台的云存储+CDN 方案"></a>腾讯云或阿里云等各大平台的云存储+CDN 方案</h2><p>这个方案比较好，缺点是需要付费，大概为每年 20 元的存储费用 ➕ CDN 费用，CDN 为流量加速费用，具体得看站点流量大小。又拍云与七牛云都有免费的存储与 CDN 额度可以自行申请。<br>毕竟是大厂，稳定性肯定是能够保证的，就是配置麻烦点。</p><h2 id="自建图床"><a href="#自建图床" class="headerlink" title="自建图床"></a>自建图床</h2><p>当然喽，如果你有一台服务器，那么你就可以自建自己的图床，以达到稳定性与速度兼备，可以自建兰空图床，缺点大概就是需要一台服务器的费用。关于自建图床的项目，其实在GitHub上就有不少的开源项目，大家可以自己去发现，然后在评论区分享给大家。</p><h2 id="付费图床"><a href="#付费图床" class="headerlink" title="付费图床"></a>付费图床</h2><p>Freeimg就可以通过付费获取更大的容量。其他的还有<a href="https://image.anheyu.com/">鱼佬的图床</a>和杜老师的<a href="https://7bu.top/">去不图床</a>，它们都是值得信赖的。一般 10 元 1G, 容量收费。记得给我打广告费~~~</p><h2 id="我的图床方案"><a href="#我的图床方案" class="headerlink" title="我的图床方案"></a>我的图床方案</h2><p>因为我目前用量不大，而且需求只有国内访问，所以Freeimg已经足够了。今后如果有需要，我觉得会逐渐迁移至云存储的方式。</p><p>如果我发现了更好的图床方案我会第一时间告诉大家，当然如果有一天我自己搭建了一个图床平台，也希望大家能够来捧场哈哈哈。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="初识图床"><a href="#初识图床" class="headerlink" title="初识图床"></a>初识图床</h2><p>图床图床，就是用来存放图片的温床，博客内有大量的图片，大量的地方需要使用到图片，优化博客加载方便管理的除了压缩图片的大小之外，首选就是多处使用图片链接，到不同的资源地址去进行加载来完成图片的加载。</p><h2 id="安利一个免费图床——-Freeimg-图床"><a href="#安利一个免费图床——-Freeimg-图床" class="headerlink" title="安利一个免费图床—— Freeimg 图床"></a>安利一个免费图床—— Freeimg 图床</h2><p>这是我接触的第一个免费图床，只需要注册就会有100MB的容量，容量确实比较少，可人家毕竟是免费的。Freeimg图床在国内的访问速度挺快的，至少比GitHub上的访问迅速。</p><p>该图床已经出来100天了，仍处于推广期，元旦有福利发放，加入用户群就送 1GB 的容量，确实挺良心的了。大家如果用量不大，可以考虑一下，是个不错的选择。至于跑路，群主也说了，在停止服务之前会有通知，方便大家备份数据，所以在近半年时间我认为都能放心使用吧。下面就是Freeimg图床链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.freeimg.cn/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/26/6589a9fe738b8.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Freeimg.cn</div>            <div class="tag-link-sitename">owen0o0</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="网络免费图床"><a href="#网络免费图床" class="headerlink" title="网络免费图床"></a>网络免费图床</h2><p>上网搜索就能搜索到不少免费的图床供应商，Freeimg就是我搜到的，一直用到现在。其他还有 SMMS 等不多介绍。</p><p>网上的免费图床一般只需要注册，就能快速使用，也方便管理，关键是免费无需配置。但是它们的缺点也很明显：容易跑路、不稳定、容量小、不能支持图片处理等。因此，大家还是会不停地寻找其他更合适的图床方案，我也是如此。</p><h2 id="Github-图床"><a href="#Github-图床" class="headerlink" title="Github 图床"></a>Github 图床</h2><p>大部分同学都是没有公网服务器的，所以就想到了这一类开源仓库。这种方案有很多优点，这里不再赘述。但是它存在比较致命的缺点：访问速度太慢了，而且还有被封号仓库的风险。有同学可能会说使用 CDN 加速，关于 CDN，不了解的同学可以来看看我写的这篇<a href="https://blog.xxfer.cn/posts/992dd5ba.html">使用CDN给博客空间加加速！</a><br>使用 CDN 确实能够提高访问速度，但是 CDN 服务器的流量费用也不便宜鸭~</p><p>一个比较成熟的方案是使用 github + jsd + PicGo<br>感兴趣的同学可以去学习一下，之后我可能也会去尝试一下，如果有好的方案，我会第一时间告诉大家哦。</p><h2 id="npm-图床"><a href="#npm-图床" class="headerlink" title="npm 图床"></a>npm 图床</h2><p>具体配置方法可以去参考下面这篇安知鱼的博客</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/72ea.html">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="">          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">npm 图床</div>            <div class="tag-link-sitename">npm 图床配置教程</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>配置也比较简单，关键这是免费的，而且选择对的镜像访问速度也很可观，不足之处就是非常依赖镜像，镜像炸了图床也就一起没了，而且容量一般一个版本就100-200MB。</p><h2 id="腾讯云或阿里云等各大平台的云存储-CDN-方案"><a href="#腾讯云或阿里云等各大平台的云存储-CDN-方案" class="headerlink" title="腾讯云或阿里云等各大平台的云存储+CDN 方案"></a>腾讯云或阿里云等各大平台的云存储+CDN 方案</h2><p>这个方案比较好，缺点是需要付费，大概为每年 20 元的存储费用 ➕ CDN 费用，CDN 为流量加速费用，具体得看站点流量大小。又拍云与七牛云都有免费的存储与 CDN 额度可以自行申请。<br>毕竟是大厂，稳定性肯定是能够保证的，就是配置麻烦点。</p><h2 id="自建图床"><a href="#自建图床" class="headerlink" title="自建图床"></a>自建图床</h2><p>当然喽，如果你有一台服务器，那么你就可以自建自己的图床，以达到稳定性与速度兼备，可以自建兰空图床，缺点大概就是需要一台服务器的费用。关于自建图床的项目，其实在GitHub上就有不少的开源项目，大家可以自己去发现，然后在评论区分享给大家。</p><h2 id="付费图床"><a href="#付费图床" class="headerlink" title="付费图床"></a>付费图床</h2><p>Freeimg就可以通过付费获取更大的容量。其他的还有<a href="https://image.anheyu.com/">鱼佬的图床</a>和杜老师的<a href="https://7bu.top/">去不图床</a>，它们都是值得信赖的。一般 10 元 1G, 容量收费。记得给我打广告费~~~</p><h2 id="我的图床方案"><a href="#我的图床方案" class="headerlink" title="我的图床方案"></a>我的图床方案</h2><p>请参考<a href="https://blog.xxfer.cn/posts/6a3f672a.html">小李的图床方案</a></p>]]></content>
       
       
       <categories>
@@ -841,8 +866,6 @@
             <tag> VPS </tag>
             
             <tag> 代理 </tag>
-            
-            <tag> 网络加速器 </tag>
             
         </tags>
       
