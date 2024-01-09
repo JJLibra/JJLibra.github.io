@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/a008ab16.html</loc>
+    
+    <lastmod>2024-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/posts/92211228.html</loc>
     
     <lastmod>2024-01-09</lastmod>
@@ -209,6 +218,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/518ec1ac.html</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/posts/7c372084.html</loc>
     
     <lastmod>2024-01-07</lastmod>
@@ -329,15 +347,6 @@
     <loc>https://blog.xxfer.cn/posts/9a5ae3b8.html</loc>
     
     <lastmod>2023-12-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/posts/518ec1ac.html</loc>
-    
-    <lastmod>2023-12-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -668,13 +677,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/DIY/</loc>
-    <lastmod>2024-01-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/tags/Github-Actions/</loc>
     <lastmod>2024-01-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -683,6 +685,13 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/GitHub/</loc>
+    <lastmod>2024-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/DIY/</loc>
     <lastmod>2024-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -795,6 +804,13 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/jsDelivr/</loc>
+    <lastmod>2024-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/npm/</loc>
     <lastmod>2024-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
