@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>我的图床方案 持续更新......</title>
-      <link href="/posts/6a3f672a.html"/>
-      <url>/posts/6a3f672a.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我会在这里记录我的图床方案，发现好用的也会及时推送给大家，尽可能推荐免费的。</p><h2 id="本人使用并已推荐"><a href="#本人使用并已推荐" class="headerlink" title="本人使用并已推荐"></a>本人使用并已推荐</h2><p><a href="https://blog.xxfer.cn/posts/518ec1ac.html">Freeimg免费图床</a><br><a href="https://blog.xxfer.cn/posts/92211228.html">jsDelivr免费图床</a></p><h2 id="图床使用历程"><a href="#图床使用历程" class="headerlink" title="图床使用历程"></a>图床使用历程</h2><p>因为我目前用量不大，而且需求只有国内访问，所以Freeimg已经足够了。今后如果有需要，我觉得会逐渐迁移至云存储的方式。</p><p>如果我发现了更好的图床方案我会第一时间告诉大家，当然如果有一天我自己搭建了一个图床平台，也希望大家能够来捧场哈哈哈。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 图床 </tag>
-            
-            <tag> 自建应用项目 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>jsDelivr自建免费图床：访问速度很可以！</title>
       <link href="/posts/92211228.html"/>
       <url>/posts/92211228.html</url>
@@ -400,6 +373,33 @@
             <tag> DIY </tag>
             
             <tag> 个人主页 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的图床方案 持续更新......</title>
+      <link href="/posts/6a3f672a.html"/>
+      <url>/posts/6a3f672a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我会在这里记录我的图床方案，发现好用的也会及时推送给大家，尽可能推荐免费的。其实最好的应该还是云存储的方式，安全方便但是付费。</p><h2 id="本人使用并已推荐"><a href="#本人使用并已推荐" class="headerlink" title="本人使用并已推荐"></a>本人使用并已推荐</h2><p><a href="https://blog.xxfer.cn/posts/518ec1ac.html">Freeimg免费图床</a><br><a href="https://blog.xxfer.cn/posts/92211228.html">jsDelivr免费图床</a></p><h2 id="图床使用历程"><a href="#图床使用历程" class="headerlink" title="图床使用历程"></a>图床使用历程</h2><h3 id="2023-10-11"><a href="#2023-10-11" class="headerlink" title="2023.10.11"></a>2023.10.11</h3><p><strong>Freeimg图床</strong></p><p>因为用量不大，所以直接使用网上的免费图床<a href="https://www.freeimg.cn/">Freeimg图床</a></p><h3 id="2024-01-08"><a href="#2024-01-08" class="headerlink" title="2024.01.08"></a>2024.01.08</h3><p><strong>Freeimg图床+jsDelivr图床</strong></p><p>图片有点多了，而且考虑到Freeimg图床迁移不太方便，所以创建了jsDelivr图床分担一些图片到GitHub里面，方便管理。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图床 </tag>
+            
+            <tag> 自建应用项目 </tag>
             
         </tags>
       
