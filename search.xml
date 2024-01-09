@@ -8,7 +8,7 @@
       <link href="/posts/a008ab16.html"/>
       <url>/posts/a008ab16.html</url>
       
-        <content type="html"><![CDATA[<div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今天摸鱼的时候搭了一个npm图床，也是免费的，访问速度至少目前挺快的，推荐给大家，顺便做个记录。</p><p>npm有大量的镜像站，且npm可以使用版本号增量更新。但是搭建起来还是有些麻烦的，而且和GitHub图床一样有可能被查，可以作为一种<code>备用方案吧</code>，大家自己考虑是否使用。</p><h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><ul><li>需要一个 Github 账号，以及一个已经创建好的仓库，名称随意，权限私有或者公开都可以。参考<a href="https://blog.xxfer.cn/posts/92211228.html">jsDelivr自建免费图床方案</a></li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
       
       
       <categories>
@@ -33,7 +33,7 @@
     
     
     <entry>
-      <title>jsDelivr自建免费图床：访问速度很可以！</title>
+      <title>jsDelivr自建免费图床方案</title>
       <link href="/posts/92211228.html"/>
       <url>/posts/92211228.html</url>
       
