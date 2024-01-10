@@ -1,3 +1,4 @@
+https://blog.xxfer.cn/posts/e26dd8b5.html
 https://blog.xxfer.cn/posts/a008ab16.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
@@ -29,7 +30,6 @@ https://blog.xxfer.cn/posts/7f4bd536.html
 https://blog.xxfer.cn/posts/b3d4d39f.html
 https://blog.xxfer.cn/posts/b2d12a7e.html
 https://blog.xxfer.cn/posts/49fa10ba.html
-https://blog.xxfer.cn/posts/e26dd8b5.html
 https://blog.xxfer.cn/posts/8127414b.html
 https://blog.xxfer.cn/posts/3f3de275.html
 https://blog.xxfer.cn/posts/105a31a4.html
