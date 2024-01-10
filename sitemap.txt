@@ -7,13 +7,6 @@ https://blog.xxfer.cn/music/index.html
 https://blog.xxfer.cn/privacy/index.html
 https://blog.xxfer.cn/tags/index.html
 https://blog.xxfer.cn/wordScenery/index.html
-https://blog.xxfer.cn/posts/8c84e76e.html
-https://blog.xxfer.cn/NWPUscenery/index.html
-https://blog.xxfer.cn/SchooLife/index.html
-https://blog.xxfer.cn/about/index.html
-https://blog.xxfer.cn/air-conditioner/index.html
-https://blog.xxfer.cn/album/index.html
-https://blog.xxfer.cn/categories/index.html
 https://blog.xxfer.cn/comments/index.html
 https://blog.xxfer.cn/cookies/index.html
 https://blog.xxfer.cn/copyright/index.html
@@ -21,6 +14,13 @@ https://blog.xxfer.cn/dailyPhoto/index.html
 https://blog.xxfer.cn/equipment/index.html
 https://blog.xxfer.cn/essay/index.html
 https://blog.xxfer.cn/fcircle/index.html
+https://blog.xxfer.cn/posts/8c84e76e.html
+https://blog.xxfer.cn/about/index.html
+https://blog.xxfer.cn/air-conditioner/index.html
+https://blog.xxfer.cn/album/index.html
+https://blog.xxfer.cn/categories/index.html
+https://blog.xxfer.cn/NWPUscenery/index.html
+https://blog.xxfer.cn/SchooLife/index.html
 https://blog.xxfer.cn/posts/92211228.html
 https://blog.xxfer.cn/posts/6a3f672a.html
 https://blog.xxfer.cn/posts/518ec1ac.html
@@ -79,7 +79,7 @@ https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
 https://blog.xxfer.cn/tags/DNS/
 https://blog.xxfer.cn/tags/%E5%9B%BE%E5%BA%8A/
 https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/
-https://blog.xxfer.cn/tags/Github-Actions/
+https://blog.xxfer.cn/tags/Github/
 https://blog.xxfer.cn/tags/GitHub/
 https://blog.xxfer.cn/tags/DIY/
 https://blog.xxfer.cn/tags/Git/
