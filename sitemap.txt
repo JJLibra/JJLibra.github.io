@@ -1,3 +1,4 @@
+https://blog.xxfer.cn/posts/4c41eeca.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
