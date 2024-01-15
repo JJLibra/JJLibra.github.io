@@ -435,33 +435,6 @@
     
     
     <entry>
-      <title>我的图床方案 持续更新......</title>
-      <link href="/posts/6a3f672a.html"/>
-      <url>/posts/6a3f672a.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我会在这里记录我的图床方案，发现好用的也会及时推送给大家，尽可能推荐免费的。<br>稳定的方案肯定是要结合云存储的，当然也可以是免费图床也可以是值得信赖的低价图床。对于没有服务器的同学，我目前比较推荐使用的是：</p><ul><li>免费图床：<a href="https://www.freeimg.cn/">Freeimg图床</a></li><li>付费图床：<a href="https://image.anheyu.com/">安知鱼图床</a>和杜老师的<a href="https://7bu.top/">去不图床</a></li></ul><p>这些图床其实都是基于国人开发的<a href="https://www.lsky.pro/">兰空图床</a>项目搭建的，有服务器的同学可以试试。</p><h2 id="使用并已推荐"><a href="#使用并已推荐" class="headerlink" title="使用并已推荐"></a>使用并已推荐</h2><p><a href="https://blog.xxfer.cn/posts/518ec1ac.html">Freeimg免费图床</a><br><a href="https://blog.xxfer.cn/posts/92211228.html">jsDelivr免费图床</a><br><a href="https://blog.xxfer.cn/posts/4c41eeca.html">自建Picsur图床</a></p><h2 id="图床使用历程"><a href="#图床使用历程" class="headerlink" title="图床使用历程"></a>图床使用历程</h2><div class="timeline purple"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>10-11</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床</strong><br>因为用量不大，所以直接使用网上的免费图床<a href="https://www.freeimg.cn/">Freeimg图床</a></p></div></div></div><div class="timeline purple"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-08</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床+jsDelivr图床</strong><br>图片有点多了，而且考虑到Freeimg图床迁移不太方便，所以创建了jsDelivr图床分担一些图片到GitHub里面，方便管理。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-10</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床+jsDelivr图床+npm图床</strong><br>Freeimg图床存放封面等网站图片，jsDelivr和npm图床存放文章所需图片。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-13</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床</strong><br>Freeimg图床作为主要图床，jsDelivr和npm图床由于访问不稳定，作为备用方案。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-16</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床+Picsur图床</strong><br>Freeimg图床存放封面等网站图片，自建的Picsur图床存放文章所需图片，jsDelivr和npm图床由于访问不稳定，作为备用方案。</p></div></div></div><p>感觉图床暂时告一段落，博客封面啥的就放在Freeimg图床上，毕竟有2个GB，够我造好长时间了，文章所需图片放在Picsur图床就行。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 图床 </tag>
-            
-            <tag> 自建应用项目 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Git：独立开发者应该如何管理仓库分支？</title>
       <link href="/posts/f73e6dd5.html"/>
       <url>/posts/f73e6dd5.html</url>
@@ -829,6 +802,33 @@
             <tag> CTF </tag>
             
             <tag> Misc </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的图床方案 持续更新......</title>
+      <link href="/posts/6a3f672a.html"/>
+      <url>/posts/6a3f672a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我会在这里记录我的图床方案，发现好用的也会及时推送给大家，尽可能推荐免费的。<br>稳定的方案肯定是要结合云存储的，当然也可以是免费图床也可以是值得信赖的低价图床。对于没有服务器的同学，我目前比较推荐使用的是：</p><ul><li>免费图床：<a href="https://www.freeimg.cn/">Freeimg图床</a></li><li>付费图床：<a href="https://image.anheyu.com/">安知鱼图床</a>和杜老师的<a href="https://7bu.top/">去不图床</a></li></ul><p>这些图床其实都是基于国人开发的<a href="https://www.lsky.pro/">兰空图床</a>项目搭建的，有服务器的同学可以试试。</p><h2 id="使用并已推荐"><a href="#使用并已推荐" class="headerlink" title="使用并已推荐"></a>使用并已推荐</h2><p><a href="https://blog.xxfer.cn/posts/518ec1ac.html">Freeimg免费图床</a><br><a href="https://blog.xxfer.cn/posts/92211228.html">jsDelivr免费图床</a><br><a href="https://blog.xxfer.cn/posts/4c41eeca.html">自建Picsur图床</a></p><h2 id="图床使用历程"><a href="#图床使用历程" class="headerlink" title="图床使用历程"></a>图床使用历程</h2><div class="timeline purple"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>10-11</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床</strong><br>因为用量不大，所以直接使用网上的免费图床<a href="https://www.freeimg.cn/">Freeimg图床</a></p></div></div></div><div class="timeline purple"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-08</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床+jsDelivr图床</strong><br>图片有点多了，而且考虑到Freeimg图床迁移不太方便，所以创建了jsDelivr图床分担一些图片到GitHub里面，方便管理。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-10</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床+jsDelivr图床+npm图床</strong><br>Freeimg图床存放封面等网站图片，jsDelivr和npm图床存放文章所需图片。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-13</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床</strong><br>Freeimg图床作为主要图床，jsDelivr和npm图床由于访问不稳定，作为备用方案。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-16</p></div></div><div class='timeline-item-content'><p><strong>Freeimg图床+Picsur图床</strong><br>Freeimg图床存放封面等网站图片，自建的Picsur图床存放文章所需图片，jsDelivr和npm图床由于访问不稳定，作为备用方案。</p></div></div></div><p>感觉图床暂时告一段落，博客封面啥的就放在Freeimg图床上，毕竟有2个GB，够我造好长时间了，文章所需图片放在Picsur图床就行。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图床 </tag>
+            
+            <tag> 自建应用项目 </tag>
             
         </tags>
       
