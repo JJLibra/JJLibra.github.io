@@ -281,24 +281,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/posts/7f4bd536.html</loc>
-    
-    <lastmod>2024-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/posts/b3d4d39f.html</loc>
-    
-    <lastmod>2024-01-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/posts/b2d12a7e.html</loc>
     
     <lastmod>2024-01-04</lastmod>
@@ -730,20 +712,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/kubernetes/</loc>
-    <lastmod>2024-01-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/docker/</loc>
-    <lastmod>2024-01-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/tags/VPN/</loc>
     <lastmod>2024-01-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -807,7 +775,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/RSS/</loc>
+    <loc>https://blog.xxfer.cn/tags/docker/</loc>
     <lastmod>2024-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

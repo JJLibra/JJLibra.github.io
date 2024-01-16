@@ -91,33 +91,6 @@
     
     
     <entry>
-      <title>拥有自己的信息流，拒绝推荐算法：自建 RSS 订阅服务——一项不应该过时的技术</title>
-      <link href="/posts/7f4bd536.html"/>
-      <url>/posts/7f4bd536.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="RSS是什么？有什么用？"><a href="#RSS是什么？有什么用？" class="headerlink" title="RSS是什么？有什么用？"></a>RSS是什么？有什么用？</h2><p>市面上有非常多的 RSS 聚合服务，可以帮助我们统一管理、订阅、更新、筛选 RSS 源推送的更新信息，避免我们被海量的文章淹没，也能保证我们多个设备上 RSS 的阅读进度一致。</p><p>Feedly、Inoreader 等等都是非常不错的 RSS 服务，但是它们的免费版本都有着一定的限制，有时候无法满足我们的全部功能需求，而且动辄一个月数十刀的订阅费用又让人望而却步。</p><p>前段时间冲浪的时候看到GitHub上有一个开源的 RSS 服务：Tiny Tiny RSS。可以满足我们 RSS 订阅的全部需求！</p><h2 id="部署效果"><a href="#部署效果" class="headerlink" title="部署效果"></a>部署效果</h2><h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><ul><li>一台服务器（我使用的是阿里云服务器）<br>操作系统：Debian 11</li><li></li></ul><h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><h2 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h2><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 自建应用项目 </tag>
-            
-            <tag> RSS </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>我的CDN使用与防护方案：如何减少流量损失，应对恶意刷流量？</title>
       <link href="/posts/7c372084.html"/>
       <url>/posts/7c372084.html</url>
@@ -141,35 +114,6 @@
             <tag> CDN </tag>
             
             <tag> 博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>容器编排平台：Kubernetes使用小记</title>
-      <link href="/posts/b3d4d39f.html"/>
-      <url>/posts/b3d4d39f.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前段时间摸鱼冲浪的时候无意间看到了kubernetes，感觉挺实用的，所以去学习了一下，然后在这里做个记录总结。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 自主开发 </tag>
-            
-            <tag> kubernetes </tag>
-            
-            <tag> docker </tag>
             
         </tags>
       
