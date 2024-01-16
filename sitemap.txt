@@ -18,8 +18,8 @@ https://blog.xxfer.cn/equipment/index.html
 https://blog.xxfer.cn/essay/index.html
 https://blog.xxfer.cn/fcircle/index.html
 https://blog.xxfer.cn/posts/8c84e76e.html
-https://blog.xxfer.cn/SchooLife/index.html
 https://blog.xxfer.cn/NWPUscenery/index.html
+https://blog.xxfer.cn/SchooLife/index.html
 https://blog.xxfer.cn/posts/4c41eeca.html
 https://blog.xxfer.cn/posts/6a3f672a.html
 https://blog.xxfer.cn/posts/8127414b.html
@@ -98,7 +98,6 @@ https://blog.xxfer.cn/tags/Cookie/
 https://blog.xxfer.cn/tags/Session/
 https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%AE/
 https://blog.xxfer.cn/tags/RSS/
-https://blog.xxfer.cn/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/
 https://blog.xxfer.cn/tags/jsDelivr/
 https://blog.xxfer.cn/tags/npm/
 https://blog.xxfer.cn/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/
