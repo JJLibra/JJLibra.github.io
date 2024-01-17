@@ -1,10 +1,9 @@
 /* 鼠标样式 */
-#cursor {
+/* #cursor {
     position: fixed;
     width: 16px;
     height: 16px;
-    /* 这里改变跟随的底色 */
-    background: rgb(57, 197, 187); /*var(--theme-color)*/
+    background: rgb(57, 197, 187);
     border-radius: 8px;
     opacity: 0.25;
     z-index: 10086;
@@ -33,4 +32,29 @@
     -moz-transform: scale(0.5);
     -ms-transform: scale(0.5);
     -o-transform: scale(0.5);
-  }
+  } */
+
+  /* 定位卡片 */
+  #aside-content .card-welcome{
+    padding: .4rem .6rem;
+}
+
+#aside-content .card-welcome #welcome-info{
+    padding: 0 .4rem;
+    font-size: .8rem;
+}
+
+#aside-content .card-welcome #welcome-info .ip{
+    user-select: all;
+    border-radius: 10px;
+    background-color: var(--sco-main);
+    word-wrap: break-word;
+    color: var(--sco-main);
+    box-shadow: 0 0 3px var(--sco-main-op);
+    padding: 2px 4px;
+    transition: all .3s ease-in-out;
+}
+
+#aside-content .card-welcome #welcome-info .ip:hover{
+    color: var(--sco-card-bg);
+}
