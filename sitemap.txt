@@ -1,13 +1,13 @@
 https://blog.xxfer.cn/posts/79f9b780.html
 https://blog.xxfer.cn/posts/8127414b.html
 https://blog.xxfer.cn/manifest.json
-https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
 https://blog.xxfer.cn/music/index.html
 https://blog.xxfer.cn/privacy/index.html
 https://blog.xxfer.cn/tags/index.html
 https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/wordScenery/index.html
+https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/about/index.html
 https://blog.xxfer.cn/air-conditioner/index.html
 https://blog.xxfer.cn/album/index.html
