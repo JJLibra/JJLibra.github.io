@@ -13644,6 +13644,148 @@ h1.page-title + .tag-cloud-list {
   background: #000;
   border-radius: 10px;
 }
+@media screen and (min-width: 1200px) {
+  #pagination.pagination-post {
+    position: fixed;
+    width: 300px;
+    bottom: -100px;
+    right: 60px;
+    z-index: 1000;
+    height: fit-content;
+    -webkit-transition: cubic-bezier(0.42, 0, 0.3, 1.11) 0.3s;
+    -moz-transition: cubic-bezier(0.42, 0, 0.3, 1.11) 0.3s;
+    -o-transition: cubic-bezier(0.42, 0, 0.3, 1.11) 0.3s;
+    -ms-transition: cubic-bezier(0.42, 0, 0.3, 1.11) 0.3s;
+    transition: cubic-bezier(0.42, 0, 0.3, 1.11) 0.3s;
+    border: var(--style-border);
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    z-index: 1002;
+    background: 0 0;
+    border-radius: 10px;
+  }
+  #pagination.pagination-post .prev-post.pull-left {
+    display: none;
+  }
+  #pagination.pagination-post:hover {
+    border: var(--style-border-hover);
+  }
+  #pagination.pagination-post:hover .next-post > a,
+  #pagination.pagination-post:hover .prev-post > a {
+    background: var(--anzhiyu-main);
+  }
+  #pagination.pagination-post:hover .next-post > a .pagination-info .label,
+  #pagination.pagination-post:hover .prev-post > a .pagination-info .label,
+  #pagination.pagination-post:hover .next-post > a .pagination-info .next_info,
+  #pagination.pagination-post:hover .prev-post > a .pagination-info .next_info,
+  #pagination.pagination-post:hover .next-post > a .pagination-info .prev_info,
+  #pagination.pagination-post:hover .prev-post > a .pagination-info .prev_info {
+    color: var(--anzhiyu-white);
+  }
+  #pagination.pagination-post.show-window {
+    bottom: 20px;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+  #pagination.pagination-post .prev-post.pull-left,
+  #pagination.pagination-post .prev-post.pull-full,
+  #pagination.pagination-post .next-post.pull-right,
+  #pagination.pagination-post .next-post.pull-full {
+    background: var(--anzhiyu-maskbgdeep);
+    backdrop-filter: blur(5px);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    width: 100%;
+  }
+  #pagination.pagination-post .prev-post.pull-left > a,
+  #pagination.pagination-post .prev-post.pull-full > a,
+  #pagination.pagination-post .next-post.pull-right > a,
+  #pagination.pagination-post .next-post.pull-full > a {
+    border: none;
+    height: fit-content;
+    padding: 0.5rem 0;
+  }
+  #pagination.pagination-post .prev-post.pull-left img,
+  #pagination.pagination-post .prev-post.pull-full img,
+  #pagination.pagination-post .next-post.pull-right img,
+  #pagination.pagination-post .next-post.pull-full img {
+    display: none;
+    top: 0;
+  }
+  #pagination.pagination-post .prev-post.pull-left .pagination-info,
+  #pagination.pagination-post .prev-post.pull-full .pagination-info,
+  #pagination.pagination-post .next-post.pull-right .pagination-info,
+  #pagination.pagination-post .next-post.pull-full .pagination-info {
+    text-align: left;
+    position: relative;
+    padding: 0.5rem 1rem;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    top: 0;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+  }
+  #pagination.pagination-post .prev-post.pull-left .pagination-info .label,
+  #pagination.pagination-post .prev-post.pull-full .pagination-info .label,
+  #pagination.pagination-post .next-post.pull-right .pagination-info .label,
+  #pagination.pagination-post .next-post.pull-full .pagination-info .label {
+    color: var(--anzhiyu-fontcolor);
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+    border-bottom: var(--style-border);
+    line-height: 1;
+    padding-bottom: 0.5rem;
+  }
+  #pagination.pagination-post .prev-post.pull-left .pagination-info .next_info,
+  #pagination.pagination-post .prev-post.pull-full .pagination-info .next_info,
+  #pagination.pagination-post .next-post.pull-right .pagination-info .next_info,
+  #pagination.pagination-post .next-post.pull-full .pagination-info .next_info,
+  #pagination.pagination-post .prev-post.pull-left .pagination-info .prev_info,
+  #pagination.pagination-post .prev-post.pull-full .pagination-info .prev_info,
+  #pagination.pagination-post .next-post.pull-right .pagination-info .prev_info,
+  #pagination.pagination-post .next-post.pull-full .pagination-info .prev_info {
+    color: var(--anzhiyu-fontcolor);
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   #pagination .toPageGroup {
     display: none;
