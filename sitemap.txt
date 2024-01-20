@@ -6,7 +6,6 @@ https://blog.xxfer.cn/privacy/index.html
 https://blog.xxfer.cn/tags/index.html
 https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/wordScenery/index.html
-https://blog.xxfer.cn/posts/8c84e76e.html
 https://blog.xxfer.cn/about/index.html
 https://blog.xxfer.cn/air-conditioner/index.html
 https://blog.xxfer.cn/album/index.html
@@ -18,8 +17,10 @@ https://blog.xxfer.cn/dailyPhoto/index.html
 https://blog.xxfer.cn/equipment/index.html
 https://blog.xxfer.cn/essay/index.html
 https://blog.xxfer.cn/fcircle/index.html
+https://blog.xxfer.cn/posts/8c84e76e.html
 https://blog.xxfer.cn/NWPUscenery/index.html
 https://blog.xxfer.cn/SchooLife/index.html
+https://blog.xxfer.cn/posts/86bbdefa.html
 https://blog.xxfer.cn/posts/79f9b780.html
 https://blog.xxfer.cn/posts/8127414b.html
 https://blog.xxfer.cn/posts/61ac759f.html
@@ -40,7 +41,6 @@ https://blog.xxfer.cn/posts/35e49d5e.html
 https://blog.xxfer.cn/posts/3c96c005.html
 https://blog.xxfer.cn/posts/9a5ae3b8.html
 https://blog.xxfer.cn/posts/f73e6dd5.html
-https://blog.xxfer.cn/posts/86bbdefa.html
 https://blog.xxfer.cn/posts/c98645fd.html
 https://blog.xxfer.cn/posts/992dd5ba.html
 https://blog.xxfer.cn/posts/9a2a157c.html
