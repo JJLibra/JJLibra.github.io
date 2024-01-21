@@ -1,4 +1,4 @@
-/* 欢迎信息栏样式
+/* 欢迎信息栏样式 */
 #welcome-info {
     overflow: hidden;
     --icat-card-welcome: #49b1f5;
@@ -23,11 +23,11 @@
     padding: 6px 10px;
     margin: 6px 0;
   }
-   */
-#welcome-info {
+  
+/* #welcome-info {
   overflow: hidden;
   border-radius: 14px;
   --kouseki-welcome-color: #49B1F5;
   --kouseki-ip-color: #49B1F5;
   --kouseki-gl-size: 16px!important;
-}
+} */
