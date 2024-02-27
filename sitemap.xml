@@ -83,6 +83,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/about/index.html</loc>
+    
+    <lastmod>2024-02-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
     
     <lastmod>2024-02-27</lastmod>
@@ -192,15 +201,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/SchooLife/index.html</loc>
-    
-    <lastmod>2024-02-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/about/index.html</loc>
     
     <lastmod>2024-02-27</lastmod>
     
@@ -748,6 +748,13 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/tags/Git/</loc>
+    <lastmod>2024-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2024-02-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -770,13 +777,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2024-02-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Git/</loc>
     <lastmod>2024-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
