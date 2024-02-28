@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/json/music.json</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/link/index.html</loc>
     
     <lastmod>2024-02-28</lastmod>
@@ -75,60 +84,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/json/music.json</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/copyright/index.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/equipment/index.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/essay/index.html</loc>
-    
-    <lastmod>2024-02-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
     
     <lastmod>2024-02-28</lastmod>
     
@@ -192,6 +147,51 @@
   
   <url>
     <loc>https://blog.xxfer.cn/cookies/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/copyright/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/equipment/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/essay/index.html</loc>
+    
+    <lastmod>2024-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
     
     <lastmod>2024-02-28</lastmod>
     
