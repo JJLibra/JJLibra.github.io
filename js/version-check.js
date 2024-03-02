@@ -13,9 +13,6 @@ window.onload = function () {
             (isFirefox && /Firefox\/(\d+)/.exec(ua)[1] < 90) ||
             (isOpera && /OPR\/(\d+)/.exec(ua)[1] < 80))
     ) {
-        // 跳转到另一个网址
-        window.location.href = "https://blog.xxfer.cn/updatebrowser/";
-
         var browserInfo = "";
         if (isIE) {
             browserInfo = "Internet Explorer";
