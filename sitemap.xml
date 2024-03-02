@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/updatebrowser.html</loc>
+    
+    <lastmod>2024-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/json/music.json</loc>
     
     <lastmod>2024-03-02</lastmod>
