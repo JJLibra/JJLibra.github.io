@@ -13775,7 +13775,6 @@ h1.page-title + .tag-cloud-list {
   #pagination.pagination-post .prev-post.pull-full img,
   #pagination.pagination-post .next-post.pull-right img,
   #pagination.pagination-post .next-post.pull-full img {
-    display: none;
     top: 0;
   }
   #pagination.pagination-post .prev-post.pull-left .pagination-info,
@@ -14545,13 +14544,6 @@ blockquote {
   -o-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
-}
-#post .post-copyright__author_box .post-copyright__author_img:hover img.post-copyright__author_img_front {
-  -webkit-transform: translateY(3px);
-  -moz-transform: translateY(3px);
-  -o-transform: translateY(3px);
-  -ms-transform: translateY(3px);
-  transform: translateY(3px);
 }
 #post .post-copyright__author_box .post-copyright__author_img img.post-copyright__author_img_front {
   z-index: 20;
