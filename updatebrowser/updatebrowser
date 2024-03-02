@@ -1,0 +1,205 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浏览器下载建议</title>
+    <link rel="stylesheet" type="text/css" href="/UpdateBrowser/main.css">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Helvetica Neue, Microsoft YaHei, sans-serif;
+      }
+  
+      body {
+        background-color: #fafafa;
+      }
+  
+      ul,
+      li {
+        list-style: none;
+      }
+  
+      a:hover {
+        text-decoration: none;
+      }
+  
+      a {
+        text-decoration: none;
+      }
+  
+      a:focus,
+      *:focus {
+        outline: none;
+      }
+  
+      .Mo-content {
+        width: 650px;
+        margin: 50px auto;
+        font-size: 14px;
+        color: #999;
+      }
+  
+      .pic-box {
+        padding-bottom: 10px;
+      }
+  
+      /* .text-box { padding-bottom: 20px; border-bottom: 1px solid #eee; } */
+      .text-box .title {
+        text-align: center;
+        margin: 40px 0 25px 0;
+        position: relative;
+      }
+  
+      .text-box .title span {
+        background-color: #fafafa;
+        padding: 0 8px;
+        color: #9499A0;
+      }
+  
+      .text-box .title-line {
+        width: 100%;
+        display: block;
+        height: 1px;
+        background-color: #F1F2F3;
+        margin-top: -10px;
+      }
+  
+      .text-box .list {
+        height: 90px;
+      }
+  
+      .text-box .list li a {
+        float: left;
+        width: 100px;
+        text-align: center;
+        line-height: 24px;
+        color: #666;
+      }
+  
+      .text-box .list li .iconfont {
+        font-size: 30px;
+      }
+  
+      .text-box .list li a span {
+        font-size: 12px;
+        color: #999;
+      }
+  
+      .copyright {
+        margin-top: 60px;
+        text-align: center;
+      }
+  
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .pic-box {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .pic-box p {
+        font-size: 14px;
+        line-height: 25px;
+        color: #61666D;
+      }
+  
+      .center-title {
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+        margin: 50px 0 12px 0;
+      }
+  
+      .highline {
+        color: #FF6699;
+      }
+  
+      .browser-item {
+        height: 114px;
+        background: #F1F2F3;
+        border-radius: 8px;
+        width: 88px;
+        margin-right: 8px;
+        padding: 20px 0;
+        display: flex;
+        transition: 0.3s;
+      }
+  
+      .browser-item:hover {
+        background: #E3E5E7;
+      }
+  
+      .browser-item .iconfont {
+        margin-bottom: 8px;
+        display: inline-block;
+      }
+  
+      .browser-name {
+        color: #61666D !important;
+        font-weight: bold;
+      }
+  
+      .pic-box-logo {
+        width: 280px;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="Mo-content">
+      <div class="pic-box">
+        <img class="pic-box-logo" src="/img/biji-round.png">
+        <h1 class="center-title">您的浏览器版本过低哦</h1>
+        <p>亲爱的小伙伴，您当前使用的浏览器版本过低，已无法正常访问此页面。您可以通过 <span class="highline">升级浏览器</span> 继续访问，感谢您的支持与陪伴～</p>
+      </div>
+      <div class="text-box">
+        <div class="title"><span>升级您的浏览器</span>
+          <div class="title-line"></div>
+        </div>
+        <div class="list">
+          <ul>
+            <li class="browser-item">
+              <a href="https://www.google.cn/intl/zh-CN/chrome" target="_blank">
+                <i class="iconfont icon-chrome"></i><br>
+                <span class="browser-name">Chrome</span><br>
+                <span>谷歌浏览器</span>
+              </a>
+            </li>
+            <li class="browser-item">
+              <a href="https://www.mozilla.org/zh-CN/firefox/new" target="_blank">
+                <i class="iconfont icon-firefox"></i><br>
+                <span class="browser-name">Firefox</span><br>
+                <span>火狐浏览器</span>
+              </a>
+            </li>
+            <li class="browser-item">
+              <a href="https://www.microsoftedgeinsider.com" target="_blank">
+                <i class="iconfont icon-edge"></i><br>
+                <span class="browser-name">Edge</span><br>
+                <span>微软浏览器</span>
+              </a>
+            </li>
+            <li class="browser-item">
+              <a href="https://www.opera.com/zh-cn" target="_blank">
+                <i class="iconfont icon-opera"></i><br>
+                <span class="browser-name">Opera</span><br>
+                <span>欧朋浏览器</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        ©2024 MortalCat
+      </div>
+    </div>
+  
+  
+  </body></html>
