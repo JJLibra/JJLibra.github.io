@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/json/music.json</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/link/index.html</loc>
     
     <lastmod>2024-03-03</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-03-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/json/music.json</loc>
     
     <lastmod>2024-03-03</lastmod>
     
