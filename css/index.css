@@ -8104,18 +8104,40 @@ body:has(#console.show) #nav-music {
   mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, rgba(0,0,0,0), rgba(0,0,0,0));
 }
 #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px !important;
-  height: 20px !important;
+  height: 20px;
   margin: 20px 0 !important;
   color: #fff;
 }
 #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
   min-height: 20px;
+  height: auto;
 }
 #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc::after,
 #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc::before {
   display: none;
+}
+#anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc:not(.aplayer-lrc-current) p {
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  cursor: pointer;
+  filter: blur(0.8px);
+}
+#anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc .aplayer-lrc-contents p.aplayer-lrc-current {
+  filter: none;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+#anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc:hover .aplayer-lrc-contents:not(.aplayer-lrc-current) p {
+  filter: none;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
 }
 #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller {
   position: fixed;
@@ -8327,8 +8349,11 @@ body:has(#console.show) #nav-music {
     min-height: 100%;
     mask-image: linear-gradient(to bottom, #000, #000, #000, #000, rgba(0,0,0,0), rgba(0,0,0,0));
   }
+  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc p {
+    font-size: 12px;
+  }
   #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
-    color: #33a673;
+    font-size: 16px !important;
   }
   #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller {
     width: 100%;
@@ -29576,6 +29601,293 @@ div#runtime {
   transform: translateY(-100%);
 }
 
+.naokuo-song-wrap {
+  padding-top: 63px;
+}
+.naokuo-song-wrap.naokuo-ab-song {
+  display: none;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc {
+  position: relative;
+  width: 207px;
+  height: 207px;
+  margin: 0 auto;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc:after {
+  content: " ";
+  position: absolute;
+  width: 66px;
+  height: 106px;
+  top: -45px;
+  left: 90px;
+  z-index: 5;
+  -webkit-transform: rotate(-37deg);
+  -ms-transform: rotate(-37deg);
+  -webkit-transform: rotate(-37deg);
+  -moz-transform: rotate(-37deg);
+  -o-transform: rotate(-37deg);
+  -ms-transform: rotate(-37deg);
+  transform: rotate(-37deg);
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -o-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  background: url("https://s11.ax1x.com/2023/12/30/piOdl28.png") no-repeat;
+  background-size: contain;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc.naokuo-play:after {
+  -webkit-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc.naokuo-play .naokuo-song-turn .naokuo-song-rollwrap .naokuo-song-img.a-circling {
+  -webkit-animation: circling 20s linear infinite;
+  -webkit-animation: circling 20s linear infinite;
+  -moz-animation: circling 20s linear infinite;
+  -o-animation: circling 20s linear infinite;
+  -ms-animation: circling 20s linear infinite;
+  animation: circling 20s linear infinite;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn {
+  width: 100%;
+  height: 100%;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background: url("https://s11.ax1x.com/2023/12/30/piOJfGF.png") no-repeat;
+  background-size: contain;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-rollwrap {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-rollwrap .naokuo-song-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url("https://s11.ax1x.com/2023/12/30/piOJWPU.png") no-repeat;
+  background-size: cover;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-rollwrap .naokuo-song-img.a-circling {
+  -webkit-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  animation-play-state: paused;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-lgour,
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-light {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-light {
+  background: url("https://s11.ax1x.com/2023/12/30/piOJybq.png") no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 360px) {
+  .naokuo-song-wrap {
+    padding-top: 70px;
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc {
+    width: 247px;
+    height: 247px;
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc:after {
+    width: 73px;
+    height: 118px;
+    top: -50px;
+    left: 112px;
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn:before {
+    background-image: url("https://s11.ax1x.com/2023/12/30/piOJgaV.png");
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-light {
+    background-image: url("https://s11.ax1x.com/2023/12/30/piOJcV0.png");
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-rollwrap {
+    width: 184px;
+    height: 184px;
+    margin: -92px 0 0 -92px;
+  }
+}
+@media screen and (min-width: 414px) {
+  .naokuo-song-wrap {
+    padding-top: 80px;
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc {
+    width: 285px;
+    height: 285px;
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc:after {
+    width: 84px;
+    height: 136px;
+    top: -60px;
+    left: 130px;
+    background-image: url("https://s11.ax1x.com/2023/12/30/piOdl28.png");
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn:before {
+    background-image: url("https://s11.ax1x.com/2023/12/30/piOJ4xJ.png");
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-light {
+    background-image: url("https://s11.ax1x.com/2023/12/30/piOJ25T.png");
+  }
+  .naokuo-song-wrap.naokuo-ab-song .naokuo-song-disc .naokuo-song-turn .naokuo-song-rollwrap {
+    width: 212px;
+    height: 212px;
+    margin: -106px 0 0 -106px;
+  }
+}
+@media screen and (max-height: 553px) {
+  .naokuo-song-wrap.naokuo-ab-song {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 414px) and (min-height: 800px) {
+  .naokuo-song-wrap.naokuo-ab-song {
+    padding-top: 90px;
+  }
+}
+@media screen and (min-width: 360px) and (max-height: 700px) {
+  .naokuo-song-wrap.naokuo-ab-song {
+    padding-top: 0px;
+  }
+}
+@-webkit-keyframes circling {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+#anMusic-page .aplayer.aplayer-withlrc .aplayer-pic {
+  display: none !important;
+}
+#anMusic-page .aplayer.aplayer-withlrc .naokuo-song-wrap.naokuo-ab-song {
+  display: block !important;
+}
+@media screen and (min-width: 768px) {
+  #anMusic-page .aplayer.aplayer-withlrc .aplayer-lrc .aplayer-lrc-contents {
+    position: absolute;
+    top: 36%;
+  }
+}
+@-moz-keyframes circling {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@-webkit-keyframes circling {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@-o-keyframes circling {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes circling {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
 .search-dialog {
   position: fixed;
   top: 5rem;

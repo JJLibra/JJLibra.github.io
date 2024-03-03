@@ -912,6 +912,8 @@ const anzhiyu = {
       } else {
         anzhiyu.cacheAndPlayMusic();
       }
+      // 黑胶唱片状态
+      document.querySelector(".aplayer-button").classList.contains("aplayer-pause") ? document.querySelector(".naokuo-song-disc").classList.add("naokuo-play") : document.querySelector(".naokuo-song-disc").classList.remove("naokuo-play");
     });
     anMusicRefreshBtn.addEventListener("click", () => {
       localStorage.removeItem("musicData");
