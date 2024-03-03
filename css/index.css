@@ -26081,7 +26081,7 @@ div#swiper_container:hover {
   color: var(--anzhiyu-white);
 }
 
-#local-search .search-dialog .local-search__hit-item:before {
+/* #local-search .search-dialog .local-search__hit-item:before {
   content: none !important;
 }
 #local-search .search-dialog .local-search__hit-item {
@@ -26122,6 +26122,82 @@ div#swiper_container:hover {
 #local-search .search-dialog .local-search__hit-item .tag-list:hover {
   background: var(--anzhiyu-main);
   color: var(--anzhiyu-white);
+} */
+
+#local-search .search-dialog .local-search__hit-item:before {
+  content: none !important;
+}
+
+#local-search .search-dialog .local-search__hit-item {
+  padding: 10px !important;
+  border-radius: 8px;
+  border: var(--style-border);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#local-search .search-dialog .local-search__hit-item .search-left {
+  width: 35%;
+  padding: 1rem;
+}
+
+#local-search .search-dialog .local-search__hit-item .search-right {
+  width: 60%;
+}
+
+#local-search .search-dialog .local-search__hit-item .search-left img {
+  object-fit: cover;
+  width: 100%;
+  background: var(--anzhiyu-secondbg);
+  border-radius: 8px;
+  transition: all 0.6s ease 0s;
+}
+
+#local-search .search-dialog .local-search__hit-item .search-left:hover img {
+  filter: brightness(0.82) !important;
+  transform: scale(1.06) !important;
+  transition: 0.3s ease-in-out;
+}
+
+#local-search .search-dialog .local-search__hit-item .search-result {
+  cursor: pointer;
+}
+
+#local-search .tag-list {
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  border: var(--style-border);
+  cursor: pointer;
+}
+
+#local-search .search-dialog .local-search__hit-item .tag-list {
+  display: inline;
+}
+
+#local-search .search-dialog .local-search__hit-item .tag-list:hover {
+  background: var(--anzhiyu-main);
+  color: var(--anzhiyu-white);
+}
+
+#local-search .search-dialog .search-right .search-result-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  #local-search .search-dialog .local-search__hit-item .search-right {
+    width: 100%;
+    padding: 0.8rem;
+  }
+
+  #local-search .search-dialog .local-search__hit-item .search-left {
+    display: none;
+  }
 }
 
 b, strong {
@@ -29372,12 +29448,14 @@ div#runtime {
 .search-dialog {
   position: fixed;
   top: 5rem;
-  left: 50%;
+  left: 0;
+  right: 0;
   z-index: 1001;
   display: none;
-  margin-left: -18.75rem;
+  margin: auto;
   padding: 1.25rem;
-  width: 37.5rem;
+  max-width: 70rem;
+  width: 100%;
   border-radius: 8px;
   background: var(--search-bg);
   border-radius: 12px;
