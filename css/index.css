@@ -10741,7 +10741,7 @@ h1.page-title + .tag-cloud-list {
   transition-timing-function: cubic-bezier(0.56, 1.35, 0.52, 1);
 }
 .container .big {
-  --size: 7.5em;
+  --size: 7em;
 }
 .container .medium {
   --size: 5em;
@@ -10879,7 +10879,8 @@ h1.page-title + .tag-cloud-list {
   bottom: -55em;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son,
-[data-theme="light"] #nav-naoDark .container .cloud-son {
+[data-theme="light"] #nav-naoDark .container .cloud-son,
+[button-theme="light"]#author-naoDark .container .cloud-son {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -o-transform: scale(1);
@@ -10912,7 +10913,8 @@ h1.page-title + .tag-cloud-list {
   animation-timing-function: ease-in-out;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son:nth-child(6n + 1),
-[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 1) {
+[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 1),
+[button-theme="light"]#author-naoDark .container .cloud-son:nth-child(6n + 1) {
   -webkit-animation-name: naoCloud;
   -moz-animation-name: naoCloud;
   -o-animation-name: naoCloud;
@@ -10925,7 +10927,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 4.5s;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son:nth-child(6n + 2),
-[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 2) {
+[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 2),
+[button-theme="light"]#author-naoDark .container .cloud-son:nth-child(6n + 2) {
   -webkit-animation-name: naoCloud;
   -moz-animation-name: naoCloud;
   -o-animation-name: naoCloud;
@@ -10938,7 +10941,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 5.1s;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son:nth-child(6n + 3),
-[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 3) {
+[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 3),
+[button-theme="light"]#author-naoDark .container .cloud-son:nth-child(6n + 3) {
   -webkit-animation-name: naoCloud;
   -moz-animation-name: naoCloud;
   -o-animation-name: naoCloud;
@@ -10951,7 +10955,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 5.9s;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son:nth-child(6n + 4),
-[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 4) {
+[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 4),
+[button-theme="light"]#author-naoDark .container .cloud-son:nth-child(6n + 4) {
   -webkit-animation-name: naoCloud;
   -moz-animation-name: naoCloud;
   -o-animation-name: naoCloud;
@@ -10964,7 +10969,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 6.3s;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son:nth-child(6n + 5),
-[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 5) {
+[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 5),
+[button-theme="light"]#author-naoDark .container .cloud-son:nth-child(6n + 5) {
   -webkit-animation-name: naoCloud;
   -moz-animation-name: naoCloud;
   -o-animation-name: naoCloud;
@@ -10977,7 +10983,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 4.7s;
 }
 [data-theme="light"] #console-naoDark .container .cloud-son:nth-child(6n + 6),
-[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 6) {
+[data-theme="light"] #nav-naoDark .container .cloud-son:nth-child(6n + 6),
+[button-theme="light"]#author-naoDark .container .cloud-son:nth-child(6n + 6) {
   -webkit-animation-name: naoCloud;
   -moz-animation-name: naoCloud;
   -o-animation-name: naoCloud;
@@ -10990,11 +10997,13 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 5s;
 }
 [data-theme="dark"] #console-naoDark .container .components,
-[data-theme="dark"] #nav-naoDark .container .components {
+[data-theme="dark"] #nav-naoDark .container .components,
+[button-theme="dark"]#author-naoDark .container .components {
   background-color: #191e32;
 }
 [data-theme="dark"] #console-naoDark .container .main-button,
-[data-theme="dark"] #nav-naoDark .container .main-button {
+[data-theme="dark"] #nav-naoDark .container .main-button,
+[button-theme="dark"]#author-naoDark .container .main-button {
   -webkit-transform: translateX(110em);
   -moz-transform: translateX(110em);
   -o-transform: translateX(110em);
@@ -11005,25 +11014,29 @@ h1.page-title + .tag-cloud-list {
   box-shadow: 3em 3em 5em rgba(0,0,0,0.5), inset -3em -5em 3em -3em rgba(0,0,0,0.5), inset 4em 5em 2em -2em #ffffd2;
 }
 [data-theme="dark"] #console-naoDark .container .moon:nth-child(1),
-[data-theme="dark"] #nav-naoDark .container .moon:nth-child(1) {
+[data-theme="dark"] #nav-naoDark .container .moon:nth-child(1),
+[button-theme="dark"]#author-naoDark .container .moon:nth-child(1) {
   opacity: 1;
   -ms-filter: none;
   filter: none;
 }
 [data-theme="dark"] #console-naoDark .container .moon:nth-child(2),
-[data-theme="dark"] #nav-naoDark .container .moon:nth-child(2) {
+[data-theme="dark"] #nav-naoDark .container .moon:nth-child(2),
+[button-theme="dark"]#author-naoDark .container .moon:nth-child(2) {
   opacity: 1;
   -ms-filter: none;
   filter: none;
 }
 [data-theme="dark"] #console-naoDark .container .moon:nth-child(3),
-[data-theme="dark"] #nav-naoDark .container .moon:nth-child(3) {
+[data-theme="dark"] #nav-naoDark .container .moon:nth-child(3),
+[button-theme="dark"]#author-naoDark .container .moon:nth-child(3) {
   opacity: 1;
   -ms-filter: none;
   filter: none;
 }
 [data-theme="dark"] #console-naoDark .container .daytime-backgrond:nth-child(2),
-[data-theme="dark"] #nav-naoDark .container .daytime-backgrond:nth-child(2) {
+[data-theme="dark"] #nav-naoDark .container .daytime-backgrond:nth-child(2),
+[button-theme="dark"]#author-naoDark .container .daytime-backgrond:nth-child(2) {
   -webkit-transform: translateX(110em);
   -moz-transform: translateX(110em);
   -o-transform: translateX(110em);
@@ -11031,7 +11044,8 @@ h1.page-title + .tag-cloud-list {
   transform: translateX(110em);
 }
 [data-theme="dark"] #console-naoDark .container .daytime-backgrond:nth-child(3),
-[data-theme="dark"] #nav-naoDark .container .daytime-backgrond:nth-child(3) {
+[data-theme="dark"] #nav-naoDark .container .daytime-backgrond:nth-child(3),
+[button-theme="dark"]#author-naoDark .container .daytime-backgrond:nth-child(3) {
   -webkit-transform: translateX(80em);
   -moz-transform: translateX(80em);
   -o-transform: translateX(80em);
@@ -11039,7 +11053,8 @@ h1.page-title + .tag-cloud-list {
   transform: translateX(80em);
 }
 [data-theme="dark"] #console-naoDark .container .daytime-backgrond:nth-child(4),
-[data-theme="dark"] #nav-naoDark .container .daytime-backgrond:nth-child(4) {
+[data-theme="dark"] #nav-naoDark .container .daytime-backgrond:nth-child(4),
+[button-theme="dark"]#author-naoDark .container .daytime-backgrond:nth-child(4) {
   -webkit-transform: translateX(50em);
   -moz-transform: translateX(50em);
   -o-transform: translateX(50em);
@@ -11048,8 +11063,10 @@ h1.page-title + .tag-cloud-list {
 }
 [data-theme="dark"] #console-naoDark .container .cloud,
 [data-theme="dark"] #nav-naoDark .container .cloud,
+[button-theme="dark"]#author-naoDark .container .cloud,
 [data-theme="dark"] #console-naoDark .container .cloud-light,
-[data-theme="dark"] #nav-naoDark .container .cloud-light {
+[data-theme="dark"] #nav-naoDark .container .cloud-light,
+[button-theme="dark"]#author-naoDark .container .cloud-light {
   -webkit-transform: translateY(80em);
   -moz-transform: translateY(80em);
   -o-transform: translateY(80em);
@@ -11057,7 +11074,8 @@ h1.page-title + .tag-cloud-list {
   transform: translateY(80em);
 }
 [data-theme="dark"] #console-naoDark .container .stars,
-[data-theme="dark"] #nav-naoDark .container .stars {
+[data-theme="dark"] #nav-naoDark .container .stars,
+[button-theme="dark"]#author-naoDark .container .stars {
   -webkit-transform: translateY(-62.5em);
   -moz-transform: translateY(-62.5em);
   -o-transform: translateY(-62.5em);
@@ -11068,7 +11086,8 @@ h1.page-title + .tag-cloud-list {
   filter: none;
 }
 [data-theme="dark"] #console-naoDark .container .star,
-[data-theme="dark"] #nav-naoDark .container .star {
+[data-theme="dark"] #nav-naoDark .container .star,
+[button-theme="dark"]#author-naoDark .container .star {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -o-transform: scale(1);
@@ -11101,7 +11120,8 @@ h1.page-title + .tag-cloud-list {
   animation-timing-function: linear;
 }
 [data-theme="dark"] #console-naoDark .container .star:nth-child(1),
-[data-theme="dark"] #nav-naoDark .container .star:nth-child(1) {
+[data-theme="dark"] #nav-naoDark .container .star:nth-child(1),
+[button-theme="dark"]#author-naoDark .container .star:nth-child(1) {
   -webkit-animation-name: naoStar;
   -moz-animation-name: naoStar;
   -o-animation-name: naoStar;
@@ -11114,7 +11134,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 3.5s;
 }
 [data-theme="dark"] #console-naoDark .container .star:nth-child(2),
-[data-theme="dark"] #nav-naoDark .container .star:nth-child(2) {
+[data-theme="dark"] #nav-naoDark .container .star:nth-child(2),
+[button-theme="dark"]#author-naoDark .container .star:nth-child(2) {
   -webkit-animation-name: naoStar;
   -moz-animation-name: naoStar;
   -o-animation-name: naoStar;
@@ -11127,7 +11148,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 4.1s;
 }
 [data-theme="dark"] #console-naoDark .container .star:nth-child(3),
-[data-theme="dark"] #nav-naoDark .container .star:nth-child(3) {
+[data-theme="dark"] #nav-naoDark .container .star:nth-child(3),
+[button-theme="dark"]#author-naoDark .container .star:nth-child(3) {
   -webkit-animation-name: naoStar;
   -moz-animation-name: naoStar;
   -o-animation-name: naoStar;
@@ -11140,7 +11162,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 4.9s;
 }
 [data-theme="dark"] #console-naoDark .container .star:nth-child(4),
-[data-theme="dark"] #nav-naoDark .container .star:nth-child(4) {
+[data-theme="dark"] #nav-naoDark .container .star:nth-child(4),
+[button-theme="dark"]#author-naoDark .container .star:nth-child(4) {
   -webkit-animation-name: naoStar;
   -moz-animation-name: naoStar;
   -o-animation-name: naoStar;
@@ -11153,7 +11176,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 5.3s;
 }
 [data-theme="dark"] #console-naoDark .container .star:nth-child(5),
-[data-theme="dark"] #nav-naoDark .container .star:nth-child(5) {
+[data-theme="dark"] #nav-naoDark .container .star:nth-child(5),
+[button-theme="dark"]#author-naoDark .container .star:nth-child(5) {
   -webkit-animation-name: naoStar;
   -moz-animation-name: naoStar;
   -o-animation-name: naoStar;
@@ -11166,7 +11190,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 3s;
 }
 [data-theme="dark"] #console-naoDark .container .star:nth-child(6),
-[data-theme="dark"] #nav-naoDark .container .star:nth-child(6) {
+[data-theme="dark"] #nav-naoDark .container .star:nth-child(6),
+[button-theme="dark"]#author-naoDark .container .star:nth-child(6) {
   -webkit-animation-name: naoStar;
   -moz-animation-name: naoStar;
   -o-animation-name: naoStar;
@@ -11179,7 +11204,8 @@ h1.page-title + .tag-cloud-list {
   animation-duration: 2.2s;
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover,
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover,
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover {
   -webkit-transform: translateX(100em);
   -moz-transform: translateX(100em);
   -o-transform: translateX(100em);
@@ -11187,7 +11213,8 @@ h1.page-title + .tag-cloud-list {
   transform: translateX(100em);
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(2),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(2) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(2),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(2) {
   -webkit-transform: translateX(100em);
   -moz-transform: translateX(100em);
   -o-transform: translateX(100em);
@@ -11195,7 +11222,8 @@ h1.page-title + .tag-cloud-list {
   transform: translateX(100em);
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(3),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(3) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(3),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(3) {
   -webkit-transform: translateX(73em);
   -moz-transform: translateX(73em);
   -o-transform: translateX(73em);
@@ -11203,7 +11231,8 @@ h1.page-title + .tag-cloud-list {
   transform: translateX(73em);
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(4),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(4) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(4),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .daytime-backgrond:nth-child(4) {
   -webkit-transform: translateX(46em);
   -moz-transform: translateX(46em);
   -o-transform: translateX(46em);
@@ -11211,37 +11240,43 @@ h1.page-title + .tag-cloud-list {
   transform: translateX(46em);
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(1),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(1) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(1),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(1) {
   top: 10em;
   left: 36em;
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(2),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(2) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(2),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(2) {
   top: 40em;
   left: 87em;
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(3),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(3) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(3),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(3) {
   top: 26em;
   left: 16em;
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(4),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(4) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(4),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(4) {
   top: 38em;
   left: 63em;
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(5),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(5) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(5),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(5) {
   top: 20.5em;
   left: 72em;
 }
 [data-theme="dark"] #console-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(6),
-[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(6) {
+[data-theme="dark"] #nav-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(6),
+[button-theme="dark"]#author-naoDark .container .components .main-button:hover ~ .stars .star:nth-child(6) {
   top: 51.5em;
   left: 35em;
 }
-#nav-right #nav-naoDark .container {
-  font-size: 0.5px;
+#nav-right #console-naoDark .container {
+  font-size: 0.85px;
 }
 @-moz-keyframes naoStar {
   0%, 20% {
