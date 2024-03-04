@@ -1,3 +1,4 @@
+// 这是答辩，不要看(。﹏。*)
 window.onload = function () {
     var ua = window.navigator.userAgent;
     var isIE = /MSIE|Trident/.test(ua);
@@ -6,9 +7,13 @@ window.onload = function () {
     var isFirefox = /Firefox/.test(ua);
     var isOpera = /OPR/.test(ua);
 
+    if (isIE) {
+        location.href = "http://blog.xiowo.net/UpdateBrowser";
+    }
+
     if (
         (isIE || isChrome || isEdge || isFirefox || isOpera) &&
-        ((isIE) || (isChrome && /Chrome\/(\d+)/.exec(ua)[1] < 90) ||
+        ((isIE) || (isChrome && /Chrome\/(\d+)/.exec(ua)[1] < 85) ||
             (isEdge && /Edg\/(\d+)/.exec(ua)[1] < 90) ||
             (isFirefox && /Firefox\/(\d+)/.exec(ua)[1] < 90) ||
             (isOpera && /OPR\/(\d+)/.exec(ua)[1] < 80))
