@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-03-04</lastmod>
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/posts/8c84e76e.html</loc>
+    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
     
     <lastmod>2024-03-04</lastmod>
     
@@ -83,34 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/baidu_verify_codeva-RzL329nU12.html</loc>
-    
-    <lastmod>2024-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/about/index.html</loc>
-    
-    <lastmod>2024-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
-    
-    <lastmod>2024-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/album/index.html</loc>
+    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
     
     <lastmod>2024-03-04</lastmod>
     
@@ -227,6 +191,24 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/8c84e76e.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/baidu_verify_codeva-RzL329nU12.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/NWPUscenery/index.html</loc>
     
     <lastmod>2024-03-04</lastmod>
@@ -237,6 +219,33 @@
   
   <url>
     <loc>https://blog.xxfer.cn/SchooLife/index.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/about/index.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/album/index.html</loc>
     
     <lastmod>2024-03-04</lastmod>
     
