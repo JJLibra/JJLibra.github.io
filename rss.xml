@@ -36,11 +36,11 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
+    <category term="waf" scheme="https://blog.xxfer.cn/tags/waf/"/>
+    
     <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
     <category term="docker" scheme="https://blog.xxfer.cn/tags/docker/"/>
-    
-    <category term="waf" scheme="https://blog.xxfer.cn/tags/waf/"/>
     
   </entry>
   
@@ -146,9 +146,9 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="ECS" scheme="https://blog.xxfer.cn/tags/ECS/"/>
-    
     <category term="图床" scheme="https://blog.xxfer.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="ECS" scheme="https://blog.xxfer.cn/tags/ECS/"/>
     
     <category term="docker" scheme="https://blog.xxfer.cn/tags/docker/"/>
     
@@ -176,9 +176,9 @@
     
     <category term="图床" scheme="https://blog.xxfer.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
     
-    <category term="自建应用项目" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%AE/"/>
-    
     <category term="npm" scheme="https://blog.xxfer.cn/tags/npm/"/>
+    
+    <category term="自建应用项目" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%AE/"/>
     
   </entry>
   
@@ -231,13 +231,13 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="Web" scheme="https://blog.xxfer.cn/tags/Web/"/>
-    
-    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
-    
     <category term="博客" scheme="https://blog.xxfer.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="CDN" scheme="https://blog.xxfer.cn/tags/CDN/"/>
+    
+    <category term="Web" scheme="https://blog.xxfer.cn/tags/Web/"/>
+    
+    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
   </entry>
   
@@ -262,9 +262,9 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="Docker" scheme="https://blog.xxfer.cn/tags/Docker/"/>
-    
     <category term="自主开发" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="Docker" scheme="https://blog.xxfer.cn/tags/Docker/"/>
     
   </entry>
   
@@ -273,7 +273,7 @@
     <link href="https://blog.xxfer.cn/posts/8c84e76e.html"/>
     <id>https://blog.xxfer.cn/posts/8c84e76e.html</id>
     <published>2024-01-02T00:33:08.000Z</published>
-    <updated>2024-03-05T11:58:17.700Z</updated>
+    <updated>2024-03-05T12:08:27.925Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是大一学的一门实验课程，那时候学起来感觉有点困难，并没有吃透这些实验。现在感觉自己又可以了，所以想着寒假再完完整整地重新做一遍这些题目，好好做一个总结。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
     
@@ -288,11 +288,11 @@
     <category term="大学生涯" scheme="https://blog.xxfer.cn/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/"/>
     
     
-    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    <category term="栈帧" scheme="https://blog.xxfer.cn/tags/%E6%A0%88%E5%B8%A7/"/>
     
     <category term="CTF" scheme="https://blog.xxfer.cn/tags/CTF/"/>
     
-    <category term="栈帧" scheme="https://blog.xxfer.cn/tags/%E6%A0%88%E5%B8%A7/"/>
+    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
   </entry>
   
@@ -422,13 +422,13 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
+    <category term="后端" scheme="https://blog.xxfer.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
     <category term="ECS" scheme="https://blog.xxfer.cn/tags/ECS/"/>
     
     <category term="Web" scheme="https://blog.xxfer.cn/tags/Web/"/>
     
     <category term="阿里云" scheme="https://blog.xxfer.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
-    
-    <category term="后端" scheme="https://blog.xxfer.cn/tags/%E5%90%8E%E7%AB%AF/"/>
     
   </entry>
   
@@ -453,13 +453,41 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="自主开发" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="A星算法" scheme="https://blog.xxfer.cn/tags/A%E6%98%9F%E7%AE%97%E6%B3%95/"/>
+    <category term="QT" scheme="https://blog.xxfer.cn/tags/QT/"/>
     
     <category term="C++" scheme="https://blog.xxfer.cn/tags/C/"/>
     
-    <category term="QT" scheme="https://blog.xxfer.cn/tags/QT/"/>
+    <category term="A星算法" scheme="https://blog.xxfer.cn/tags/A%E6%98%9F%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="自主开发" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>没有属于自己的主页？我的个人主页搭建日记</title>
+    <link href="https://blog.xxfer.cn/posts/3d879cfb.html"/>
+    <id>https://blog.xxfer.cn/posts/3d879cfb.html</id>
+    <published>2023-12-25T20:27:33.000Z</published>
+    <updated>2024-01-06T21:48:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结束。</p><p>话不多说，上链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://xxfer.cn">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">小李同学|WebSite</div>            <div class="tag-link-sitename">xxfer.cn</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="主页描述"><a href="#主页描述" class="headerlink" title="主页描述"></a>主页描述</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>本来想用这张背景的，最后还是换了，两个都挺好看的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659952e76898f.png" style="width:800px;"/></div></div><h3 id="时间胶囊和工具"><a href="#时间胶囊和工具" class="headerlink" title="时间胶囊和工具"></a>时间胶囊和工具</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953858934b.png" style="width:800px;"/></div></div><p>可以看时间这种，还有一些自己平时觉得还用的工具页，其实这个完全能作为浏览器的标签页了。</p><h3 id="音乐界面"><a href="#音乐界面" class="headerlink" title="音乐界面"></a>音乐界面</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953aa87400.png" style="width:800px;"/></div></div><p><strong>整体就是这样，主页本来就是做个导航页，所以不想搞得很复杂。</strong></p><h3 id="最终版本（换了一张背景）"><a href="#最终版本（换了一张背景）" class="headerlink" title="最终版本（换了一张背景）"></a>最终版本（换了一张背景）</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659954c49e2a8.png" style="width:800px;"/></div></div><h2 id="部署考量"><a href="#部署考量" class="headerlink" title="部署考量"></a>部署考量</h2><p>刚开始，想着用自己的服务器，用宝塔去搭，主要这个完全是个静态网页（动态资源很少）。<br>可最后想想还是用GitHub，主要有以下几点考虑：</p><ul><li>个人主页和博客，包括之后要建的“秘密空间”（记录自己的CTF学习总结），都是相对公开的，所以访问量会比较高。虽然服务器设置了一些安全措施，但是我自知才疏学浅，很多的潜在隐患可能还是会被别有用心的人利用。为了避免这些不必要的麻烦，最终选择部署在GitHub上。</li><li>另外GitHub也方便更新管理，部署方便，也不用担心GitHub被攻击，即使攻击了对我也没有太大损失。</li><li>服务器主要用于搭建自己的开发环境，放一些实用的小应用，不打算过于公开。</li></ul><p>所以，我最后还是选择了部署在GitHub上，可能唯一的缺陷就是访问慢，不过这个套一层CDN基本就能解决，而且现在访问量也不大，完全承受的了。虽然用自己的服务器还是得套CDN，肯定是不能让源IP直接裸露在外的，对于一些师傅的话有没有都一样(doge)。绕过CDN获取源服务器IP的方法也有很多，大家其实在搭建网站的时候需要注意像评论呀、邮箱等第三方验证的防护，总之这些不是一两句就能解释清的，我也不想在各位师傅面前班门弄斧。</p><p>既然决定搭建在GitHub上，其实也就不需要多说了，和博客搭建的方式一样。最后做好域名解析，CDN流量控制，一些必要的安全措施就行。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结</summary>
+      
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="建站" scheme="https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="DIY" scheme="https://blog.xxfer.cn/tags/DIY/"/>
+    
+    <category term="个人主页" scheme="https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
     
   </entry>
   
@@ -490,34 +518,6 @@
   </entry>
   
   <entry>
-    <title>没有属于自己的主页？我的个人主页搭建日记</title>
-    <link href="https://blog.xxfer.cn/posts/3d879cfb.html"/>
-    <id>https://blog.xxfer.cn/posts/3d879cfb.html</id>
-    <published>2023-12-25T20:27:33.000Z</published>
-    <updated>2024-01-06T21:48:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结束。</p><p>话不多说，上链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://xxfer.cn">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">小李同学|WebSite</div>            <div class="tag-link-sitename">xxfer.cn</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="主页描述"><a href="#主页描述" class="headerlink" title="主页描述"></a>主页描述</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>本来想用这张背景的，最后还是换了，两个都挺好看的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659952e76898f.png" style="width:800px;"/></div></div><h3 id="时间胶囊和工具"><a href="#时间胶囊和工具" class="headerlink" title="时间胶囊和工具"></a>时间胶囊和工具</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953858934b.png" style="width:800px;"/></div></div><p>可以看时间这种，还有一些自己平时觉得还用的工具页，其实这个完全能作为浏览器的标签页了。</p><h3 id="音乐界面"><a href="#音乐界面" class="headerlink" title="音乐界面"></a>音乐界面</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953aa87400.png" style="width:800px;"/></div></div><p><strong>整体就是这样，主页本来就是做个导航页，所以不想搞得很复杂。</strong></p><h3 id="最终版本（换了一张背景）"><a href="#最终版本（换了一张背景）" class="headerlink" title="最终版本（换了一张背景）"></a>最终版本（换了一张背景）</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659954c49e2a8.png" style="width:800px;"/></div></div><h2 id="部署考量"><a href="#部署考量" class="headerlink" title="部署考量"></a>部署考量</h2><p>刚开始，想着用自己的服务器，用宝塔去搭，主要这个完全是个静态网页（动态资源很少）。<br>可最后想想还是用GitHub，主要有以下几点考虑：</p><ul><li>个人主页和博客，包括之后要建的“秘密空间”（记录自己的CTF学习总结），都是相对公开的，所以访问量会比较高。虽然服务器设置了一些安全措施，但是我自知才疏学浅，很多的潜在隐患可能还是会被别有用心的人利用。为了避免这些不必要的麻烦，最终选择部署在GitHub上。</li><li>另外GitHub也方便更新管理，部署方便，也不用担心GitHub被攻击，即使攻击了对我也没有太大损失。</li><li>服务器主要用于搭建自己的开发环境，放一些实用的小应用，不打算过于公开。</li></ul><p>所以，我最后还是选择了部署在GitHub上，可能唯一的缺陷就是访问慢，不过这个套一层CDN基本就能解决，而且现在访问量也不大，完全承受的了。虽然用自己的服务器还是得套CDN，肯定是不能让源IP直接裸露在外的，对于一些师傅的话有没有都一样(doge)。绕过CDN获取源服务器IP的方法也有很多，大家其实在搭建网站的时候需要注意像评论呀、邮箱等第三方验证的防护，总之这些不是一两句就能解释清的，我也不想在各位师傅面前班门弄斧。</p><p>既然决定搭建在GitHub上，其实也就不需要多说了，和博客搭建的方式一样。最后做好域名解析，CDN流量控制，一些必要的安全措施就行。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结</summary>
-      
-    
-    
-    
-    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="建站" scheme="https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/"/>
-    
-    <category term="个人主页" scheme="https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
-    
-    <category term="DIY" scheme="https://blog.xxfer.cn/tags/DIY/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Git：独立开发者应该如何管理仓库分支？</title>
     <link href="https://blog.xxfer.cn/posts/f73e6dd5.html"/>
     <id>https://blog.xxfer.cn/posts/f73e6dd5.html</id>
@@ -537,11 +537,11 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
+    <category term="Git" scheme="https://blog.xxfer.cn/tags/Git/"/>
+    
     <category term="自主开发" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
     
     <category term="GitHub" scheme="https://blog.xxfer.cn/tags/GitHub/"/>
-    
-    <category term="Git" scheme="https://blog.xxfer.cn/tags/Git/"/>
     
   </entry>
   
@@ -565,13 +565,13 @@
     <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     
-    <category term="DIY" scheme="https://blog.xxfer.cn/tags/DIY/"/>
+    <category term="API" scheme="https://blog.xxfer.cn/tags/API/"/>
     
-    <category term="GitHub" scheme="https://blog.xxfer.cn/tags/GitHub/"/>
+    <category term="DIY" scheme="https://blog.xxfer.cn/tags/DIY/"/>
     
     <category term="Token" scheme="https://blog.xxfer.cn/tags/Token/"/>
     
-    <category term="API" scheme="https://blog.xxfer.cn/tags/API/"/>
+    <category term="GitHub" scheme="https://blog.xxfer.cn/tags/GitHub/"/>
     
   </entry>
   
