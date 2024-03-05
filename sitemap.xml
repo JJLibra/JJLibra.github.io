@@ -20,16 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/index.html</loc>
+    <loc>https://blog.xxfer.cn/link/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -56,16 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/link/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
+    <loc>https://blog.xxfer.cn/tags/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -92,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
+    <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -101,43 +83,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/envelope/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/essay/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/equipment/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/electronfish/index.html</loc>
+    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -173,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/categories/index.html</loc>
+    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -191,25 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/copyright/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/collections/index.html</loc>
-    
-    <lastmod>2024-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/charts/index.html</loc>
+    <loc>https://blog.xxfer.cn/categories/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -227,6 +155,24 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/charts/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/collections/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/cookies/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
@@ -236,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
+    <loc>https://blog.xxfer.cn/copyright/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -245,7 +191,52 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/SchooLife/index.html</loc>
+    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/electronfish/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/envelope/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/equipment/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/essay/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -255,6 +246,15 @@
   
   <url>
     <loc>https://blog.xxfer.cn/NWPUscenery/index.html</loc>
+    
+    <lastmod>2024-03-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/SchooLife/index.html</loc>
     
     <lastmod>2024-03-05</lastmod>
     
@@ -605,21 +605,28 @@
 
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/QT/</loc>
+    <loc>https://blog.xxfer.cn/tags/ECS/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E4%BB%A3%E7%90%86/</loc>
+    <loc>https://blog.xxfer.cn/tags/Web/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -647,196 +654,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E6%A0%88%E5%B8%A7/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E6%AD%BB%E9%94%81/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E7%8E%A9%E6%A2%97/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E8%AE%A1%E6%93%8D/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/API/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/C/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/CDN/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/CTF/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/DIY/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/DNS/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/ECS/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Git/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/SQL/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/VPN/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/VPS/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Web/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/npm/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/waf/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/2024/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/A%E6%98%9F%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Misc/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://blog.xxfer.cn/tags/Docker/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -850,21 +668,28 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/CI-CD/</loc>
+    <loc>https://blog.xxfer.cn/tags/DIY/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/Token/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/2024/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -878,35 +703,84 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/Cookie/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E7%8E%A9%E6%A2%97/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/Docker/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/GitHub/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E8%AE%A1%E6%93%8D/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/Github/</loc>
+    <loc>https://blog.xxfer.cn/tags/%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E6%AD%BB%E9%94%81/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/CTF/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E6%A0%88%E5%B8%A7/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/A%E6%98%9F%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/C/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/QT/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -927,6 +801,83 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/tags/jsDelivr/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/npm/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/CDN/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/CI-CD/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Github/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/GitHub/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Git/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Token/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/API/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Cookie/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/tags/Session/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -934,7 +885,56 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/jsDelivr/</loc>
+    <loc>https://blog.xxfer.cn/tags/DNS/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/VPN/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/VPS/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/%E4%BB%A3%E7%90%86/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/waf/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/SQL/</loc>
+    <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Misc/</loc>
     <lastmod>2024-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
