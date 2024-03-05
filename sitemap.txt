@@ -1,3 +1,4 @@
+https://blog.xxfer.cn/wordScenery/index.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
@@ -7,7 +8,6 @@ https://blog.xxfer.cn/tags/index.html
 https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/updatebrowser/index.html
 https://blog.xxfer.cn/updatebrowser/updatebrowser.html
-https://blog.xxfer.cn/wordScenery/index.html
 https://blog.xxfer.cn/posts/8c84e76e.html
 https://blog.xxfer.cn/baidu_verify_codeva-RzL329nU12.html
 https://blog.xxfer.cn/about/index.html
