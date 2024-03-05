@@ -22,11 +22,11 @@
       
         <tags>
             
+            <tag> waf </tag>
+            
             <tag> 网络安全 </tag>
             
             <tag> docker </tag>
-            
-            <tag> waf </tag>
             
         </tags>
       
@@ -142,9 +142,9 @@
       
         <tags>
             
-            <tag> ECS </tag>
-            
             <tag> 图床 </tag>
+            
+            <tag> ECS </tag>
             
             <tag> docker </tag>
             
@@ -175,9 +175,9 @@
             
             <tag> 图床 </tag>
             
-            <tag> 自建应用项目 </tag>
-            
             <tag> npm </tag>
+            
+            <tag> 自建应用项目 </tag>
             
         </tags>
       
@@ -235,13 +235,13 @@
       
         <tags>
             
-            <tag> Web </tag>
-            
-            <tag> 网络安全 </tag>
-            
             <tag> 博客 </tag>
             
             <tag> CDN </tag>
+            
+            <tag> Web </tag>
+            
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -268,9 +268,9 @@
       
         <tags>
             
-            <tag> Docker </tag>
-            
             <tag> 自主开发 </tag>
+            
+            <tag> Docker </tag>
             
         </tags>
       
@@ -297,11 +297,11 @@
       
         <tags>
             
-            <tag> 网络安全 </tag>
+            <tag> 栈帧 </tag>
             
             <tag> CTF </tag>
             
-            <tag> 栈帧 </tag>
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -442,13 +442,13 @@
       
         <tags>
             
+            <tag> 后端 </tag>
+            
             <tag> ECS </tag>
             
             <tag> Web </tag>
             
             <tag> 阿里云 </tag>
-            
-            <tag> 后端 </tag>
             
         </tags>
       
@@ -475,13 +475,44 @@
       
         <tags>
             
-            <tag> 自主开发 </tag>
-            
-            <tag> A星算法 </tag>
+            <tag> QT </tag>
             
             <tag> C++ </tag>
             
-            <tag> QT </tag>
+            <tag> A星算法 </tag>
+            
+            <tag> 自主开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>没有属于自己的主页？我的个人主页搭建日记</title>
+      <link href="/posts/3d879cfb.html"/>
+      <url>/posts/3d879cfb.html</url>
+      <cover>https://www.freeimg.cn/i/2023/12/26/658a88f095d3a.png</cover>
+      <date>Mon Dec 25 2023 20:27:33 GMT+0000</date>
+      
+        <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结束。</p><p>话不多说，上链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://xxfer.cn">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">小李同学|WebSite</div>            <div class="tag-link-sitename">xxfer.cn</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="主页描述"><a href="#主页描述" class="headerlink" title="主页描述"></a>主页描述</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>本来想用这张背景的，最后还是换了，两个都挺好看的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659952e76898f.png" style="width:800px;"/></div></div><h3 id="时间胶囊和工具"><a href="#时间胶囊和工具" class="headerlink" title="时间胶囊和工具"></a>时间胶囊和工具</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953858934b.png" style="width:800px;"/></div></div><p>可以看时间这种，还有一些自己平时觉得还用的工具页，其实这个完全能作为浏览器的标签页了。</p><h3 id="音乐界面"><a href="#音乐界面" class="headerlink" title="音乐界面"></a>音乐界面</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953aa87400.png" style="width:800px;"/></div></div><p><strong>整体就是这样，主页本来就是做个导航页，所以不想搞得很复杂。</strong></p><h3 id="最终版本（换了一张背景）"><a href="#最终版本（换了一张背景）" class="headerlink" title="最终版本（换了一张背景）"></a>最终版本（换了一张背景）</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659954c49e2a8.png" style="width:800px;"/></div></div><h2 id="部署考量"><a href="#部署考量" class="headerlink" title="部署考量"></a>部署考量</h2><p>刚开始，想着用自己的服务器，用宝塔去搭，主要这个完全是个静态网页（动态资源很少）。<br>可最后想想还是用GitHub，主要有以下几点考虑：</p><ul><li>个人主页和博客，包括之后要建的“秘密空间”（记录自己的CTF学习总结），都是相对公开的，所以访问量会比较高。虽然服务器设置了一些安全措施，但是我自知才疏学浅，很多的潜在隐患可能还是会被别有用心的人利用。为了避免这些不必要的麻烦，最终选择部署在GitHub上。</li><li>另外GitHub也方便更新管理，部署方便，也不用担心GitHub被攻击，即使攻击了对我也没有太大损失。</li><li>服务器主要用于搭建自己的开发环境，放一些实用的小应用，不打算过于公开。</li></ul><p>所以，我最后还是选择了部署在GitHub上，可能唯一的缺陷就是访问慢，不过这个套一层CDN基本就能解决，而且现在访问量也不大，完全承受的了。虽然用自己的服务器还是得套CDN，肯定是不能让源IP直接裸露在外的，对于一些师傅的话有没有都一样(doge)。绕过CDN获取源服务器IP的方法也有很多，大家其实在搭建网站的时候需要注意像评论呀、邮箱等第三方验证的防护，总之这些不是一两句就能解释清的，我也不想在各位师傅面前班门弄斧。</p><p>既然决定搭建在GitHub上，其实也就不需要多说了，和博客搭建的方式一样。最后做好域名解析，CDN流量控制，一些必要的安全措施就行。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建站 </tag>
+            
+            <tag> DIY </tag>
+            
+            <tag> 个人主页 </tag>
             
         </tags>
       
@@ -519,37 +550,6 @@
     
     
     <entry>
-      <title>没有属于自己的主页？我的个人主页搭建日记</title>
-      <link href="/posts/3d879cfb.html"/>
-      <url>/posts/3d879cfb.html</url>
-      <cover>https://www.freeimg.cn/i/2023/12/26/658a88f095d3a.png</cover>
-      <date>Mon Dec 25 2023 20:27:33 GMT+0000</date>
-      
-        <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结束。</p><p>话不多说，上链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://xxfer.cn">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">小李同学|WebSite</div>            <div class="tag-link-sitename">xxfer.cn</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="主页描述"><a href="#主页描述" class="headerlink" title="主页描述"></a>主页描述</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>本来想用这张背景的，最后还是换了，两个都挺好看的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659952e76898f.png" style="width:800px;"/></div></div><h3 id="时间胶囊和工具"><a href="#时间胶囊和工具" class="headerlink" title="时间胶囊和工具"></a>时间胶囊和工具</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953858934b.png" style="width:800px;"/></div></div><p>可以看时间这种，还有一些自己平时觉得还用的工具页，其实这个完全能作为浏览器的标签页了。</p><h3 id="音乐界面"><a href="#音乐界面" class="headerlink" title="音乐界面"></a>音乐界面</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953aa87400.png" style="width:800px;"/></div></div><p><strong>整体就是这样，主页本来就是做个导航页，所以不想搞得很复杂。</strong></p><h3 id="最终版本（换了一张背景）"><a href="#最终版本（换了一张背景）" class="headerlink" title="最终版本（换了一张背景）"></a>最终版本（换了一张背景）</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659954c49e2a8.png" style="width:800px;"/></div></div><h2 id="部署考量"><a href="#部署考量" class="headerlink" title="部署考量"></a>部署考量</h2><p>刚开始，想着用自己的服务器，用宝塔去搭，主要这个完全是个静态网页（动态资源很少）。<br>可最后想想还是用GitHub，主要有以下几点考虑：</p><ul><li>个人主页和博客，包括之后要建的“秘密空间”（记录自己的CTF学习总结），都是相对公开的，所以访问量会比较高。虽然服务器设置了一些安全措施，但是我自知才疏学浅，很多的潜在隐患可能还是会被别有用心的人利用。为了避免这些不必要的麻烦，最终选择部署在GitHub上。</li><li>另外GitHub也方便更新管理，部署方便，也不用担心GitHub被攻击，即使攻击了对我也没有太大损失。</li><li>服务器主要用于搭建自己的开发环境，放一些实用的小应用，不打算过于公开。</li></ul><p>所以，我最后还是选择了部署在GitHub上，可能唯一的缺陷就是访问慢，不过这个套一层CDN基本就能解决，而且现在访问量也不大，完全承受的了。虽然用自己的服务器还是得套CDN，肯定是不能让源IP直接裸露在外的，对于一些师傅的话有没有都一样(doge)。绕过CDN获取源服务器IP的方法也有很多，大家其实在搭建网站的时候需要注意像评论呀、邮箱等第三方验证的防护，总之这些不是一两句就能解释清的，我也不想在各位师傅面前班门弄斧。</p><p>既然决定搭建在GitHub上，其实也就不需要多说了，和博客搭建的方式一样。最后做好域名解析，CDN流量控制，一些必要的安全措施就行。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 建站 </tag>
-            
-            <tag> 个人主页 </tag>
-            
-            <tag> DIY </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Git：独立开发者应该如何管理仓库分支？</title>
       <link href="/posts/f73e6dd5.html"/>
       <url>/posts/f73e6dd5.html</url>
@@ -568,11 +568,11 @@
       
         <tags>
             
+            <tag> Git </tag>
+            
             <tag> 自主开发 </tag>
             
             <tag> GitHub </tag>
-            
-            <tag> Git </tag>
             
         </tags>
       
@@ -599,13 +599,13 @@
       
         <tags>
             
-            <tag> DIY </tag>
+            <tag> API </tag>
             
-            <tag> GitHub </tag>
+            <tag> DIY </tag>
             
             <tag> Token </tag>
             
-            <tag> API </tag>
+            <tag> GitHub </tag>
             
         </tags>
       
@@ -632,11 +632,11 @@
       
         <tags>
             
+            <tag> 工作流 </tag>
+            
             <tag> 自主开发 </tag>
             
             <tag> CI/CD </tag>
-            
-            <tag> 工作流 </tag>
             
             <tag> Github </tag>
             
@@ -700,11 +700,11 @@
       
         <tags>
             
+            <tag> 工作流 </tag>
+            
             <tag> 自主开发 </tag>
             
             <tag> CI/CD </tag>
-            
-            <tag> 工作流 </tag>
             
         </tags>
       
@@ -731,9 +731,9 @@
       
         <tags>
             
-            <tag> 计操 </tag>
-            
             <tag> 死锁 </tag>
+            
+            <tag> 计操 </tag>
             
         </tags>
       
@@ -818,11 +818,11 @@
       
         <tags>
             
+            <tag> CTF </tag>
+            
             <tag> Web </tag>
             
             <tag> 网络安全 </tag>
-            
-            <tag> CTF </tag>
             
         </tags>
       
@@ -849,11 +849,11 @@
       
         <tags>
             
-            <tag> 网络安全 </tag>
+            <tag> CTF </tag>
             
             <tag> 密码学 </tag>
             
-            <tag> CTF </tag>
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -880,9 +880,9 @@
       
         <tags>
             
-            <tag> 网络安全 </tag>
-            
             <tag> 密码学 </tag>
+            
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -909,11 +909,11 @@
       
         <tags>
             
-            <tag> 网络安全 </tag>
-            
             <tag> CTF </tag>
             
             <tag> Misc </tag>
+            
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -969,13 +969,13 @@
       
         <tags>
             
-            <tag> Web </tag>
-            
-            <tag> 网络安全 </tag>
-            
             <tag> 博客 </tag>
             
             <tag> CDN </tag>
+            
+            <tag> Web </tag>
+            
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -1002,11 +1002,11 @@
       
         <tags>
             
+            <tag> CDN </tag>
+            
             <tag> Web </tag>
             
             <tag> 网络安全 </tag>
-            
-            <tag> CDN </tag>
             
         </tags>
       
@@ -1033,13 +1033,13 @@
       
         <tags>
             
-            <tag> 网络安全 </tag>
+            <tag> 代理 </tag>
             
             <tag> VPN </tag>
             
             <tag> VPS </tag>
             
-            <tag> 代理 </tag>
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -1066,11 +1066,11 @@
       
         <tags>
             
+            <tag> DNS </tag>
+            
             <tag> Web </tag>
             
             <tag> 网络安全 </tag>
-            
-            <tag> DNS </tag>
             
         </tags>
       
@@ -1097,11 +1097,11 @@
       
         <tags>
             
-            <tag> 网络安全 </tag>
-            
             <tag> CTF </tag>
             
             <tag> SQL </tag>
+            
+            <tag> 网络安全 </tag>
             
         </tags>
       
@@ -1128,9 +1128,9 @@
       
         <tags>
             
-            <tag> Web </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> Web </tag>
             
         </tags>
       
