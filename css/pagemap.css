@@ -1,0 +1,14 @@
+#map {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 84px;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity .5s
+}
+
+#map:hover {
+    opacity: 1
+}
