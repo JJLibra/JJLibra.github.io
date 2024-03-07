@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/ce251794.html</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/posts/8127414b.html</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
+    
+    <lastmod>2024-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-03-07</lastmod>
@@ -57,33 +102,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/update/index.html</loc>
-    
-    <lastmod>2024-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
-    
-    <lastmod>2024-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
-    
-    <lastmod>2024-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
     
     <lastmod>2024-03-07</lastmod>
     
@@ -255,15 +273,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/posts/a450d722.html</loc>
-    
-    <lastmod>2024-03-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/posts/8127414b.html</loc>
     
     <lastmod>2024-03-01</lastmod>
     
@@ -569,6 +578,13 @@
 
   
   <url>
+    <loc>https://blog.xxfer.cn/tags/Docker/</loc>
+    <lastmod>2024-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/tags/ECS/</loc>
     <lastmod>2024-03-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -759,13 +775,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/CDN/</loc>
-    <lastmod>2024-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Docker/</loc>
     <lastmod>2024-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
