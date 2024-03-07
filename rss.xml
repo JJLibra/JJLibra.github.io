@@ -6,7 +6,7 @@
   <link href="https://blog.xxfer.cn/rss.xml" rel="self"/>
   
   <link href="https://blog.xxfer.cn/"/>
-  <updated>2024-03-01T22:33:00.000Z</updated>
+  <updated>2024-03-06T22:00:00.000Z</updated>
   <id>https://blog.xxfer.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重温：使用Scrapy简单爬些POC漏洞</title>
+    <link href="https://blog.xxfer.cn/posts/e59dce9.html"/>
+    <id>https://blog.xxfer.cn/posts/e59dce9.html</id>
+    <published>2024-03-06T00:00:00.000Z</published>
+    <updated>2024-03-06T22:00:00.000Z</updated>
+    
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="scrapy" scheme="https://blog.xxfer.cn/tags/scrapy/"/>
+    
+  </entry>
   
   <entry>
     <title>免费WAF：长亭雷池社区版，给站点再加道防护！</title>
@@ -212,36 +231,6 @@
   </entry>
   
   <entry>
-    <title>我的CDN使用与防护方案：如何减少流量损失，应对恶意刷流量？</title>
-    <link href="https://blog.xxfer.cn/posts/7c372084.html"/>
-    <id>https://blog.xxfer.cn/posts/7c372084.html</id>
-    <published>2024-01-05T12:16:08.000Z</published>
-    <updated>2024-01-07T11:44:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>建议大家使用CDN之前，一定要认真研究学习一下CDN。<strong>千万不要轻易使用CDN，以免带来不必要的损失</strong></p></div><p>CDN在一般情况下能给网站加速，但如果使用不当，不仅不能实现访问加速，还有可能被黑客利用。因为CDN服务一般是按量计费的，相信大家都听过一些博主的网站被恶意刷流量，然后损失几百甚至上万的。尽管我的网站访问量不多，也应该做好应对恶意刷流量的措施，毕竟存在这个问题，那就需要解决。</p><h2 id="使用一般CDN后的效果"><a href="#使用一般CDN后的效果" class="headerlink" title="使用一般CDN后的效果"></a>使用一般CDN后的效果</h2><div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>为什么说是一般CDN？因为还有一类是高防CDN，顾名思义，它具有更好的防御服务提供，下文会有具体介绍。</p></div><ul><li>网站在配备CDN前后的访问速度（我使用的是<a href="https://www.upyun.com/">又拍云</a>CDN服务）</li></ul><p>我使用免费的测速网站进行测试，为了测试数据更具参考价值，我使用了多个平台进行测试。</p><h3 id="使用CDN前后对比"><a href="#使用CDN前后对比" class="headerlink" title="使用CDN前后对比"></a>使用CDN前后对比</h3><ul><li><a href="https://www.itdog.cn/">itdog</a></li></ul><ol><li>网站测速（HTTP）</li></ol><div class="gallery">  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="300" data-limit="2">    <span class="gallery-data">[{"url":"https://www.freeimg.cn/i/2024/01/07/659a6872b9e36.png","alt":""},{"url":"https://www.freeimg.cn/i/2024/01/07/659a68812f08b.png","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div><ol start="2"><li>异地Ping</li></ol><div class="gallery">  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="300" data-limit="2">    <span class="gallery-data">[{"url":"https://www.freeimg.cn/i/2024/01/07/659a6839e6941.png","alt":""},{"url":"https://www.freeimg.cn/i/2024/01/07/659a684b2f6e2.png","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div><ul><li><a href="https://zhale.me/">zhale</a></li></ul><ol><li>网站测速（HTTP）</li></ol><div class="gallery">  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="300" data-limit="2">    <span class="gallery-data">[{"url":"https://www.freeimg.cn/i/2024/01/07/659a6a0b4934e.png","alt":""},{"url":"https://www.freeimg.cn/i/2024/01/07/659a6a1d127ed.png","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div><ol start="2"><li>异地Ping</li></ol><div class="gallery">  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="300" data-limit="2">    <span class="gallery-data">[{"url":"https://www.freeimg.cn/i/2024/01/07/659a6a51799e8.png","alt":""},{"url":"https://www.freeimg.cn/i/2024/01/07/659a6a6780381.png","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div><ul><li><a href="https://ping.chinaz.com/">站长之家</a>异地Ping</li></ul><div class="gallery">  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="300" data-limit="2">    <span class="gallery-data">[{"url":"https://www.freeimg.cn/i/2024/01/07/659a6a82213b0.png","alt":""},{"url":"https://www.freeimg.cn/i/2024/01/07/659a6a93219c9.png","alt":""}]</span>  </div><button class="gallery-load-more" style="opacity:0">  <span>加载更多</span>  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>  </button></div><p><strong>上面的这些测试指标仅作为参考，不能直接代表网站访问速度</strong></p><p>从这些数据可以看出CDN能够实现网站的加速访问，CDN另一个作用：隐藏源站IP</p><ul><li>源站IP隐藏</li></ul><p>上面的数据里还包含了响应IP：</p><ul><li>使用CDN前，源站IP直接暴露：185.199.111.153；</li><li>使用CDN后出现了四个不同IP：<br>61.139.65.250、112.3.31.155、218.25.106.79、61.240.153.194（不包含185.199.111.153）</li></ul><p>185.199.111.153即为源站IP，也就是仓库所在IP地址，说明CDN确实能够一定程度地隐藏源站IP。</p><div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>以下内容皆是个人学习相关资料后自己的理解，如有不妥之处，欢迎评论区指正，我会及时核实并纠正🙏</p></div><p>下面介绍的这些攻击，实现逻辑是比较简单的，可能一个小白（比如我）就能实现攻击。但是这种逻辑简单的攻击却非常有效，还很难处理。即使通过一些安全策略防住了这些攻击，攻击还很容易进化，通过事先信息搜集，分析…以后，一种比较针对性的“变种”就出现了。因此，这篇文章只是记录基于我的使用情况设置的一些安全策略，并不能应用于所有的场景中，大家需要结合自己的使用状况进行调整。</p><h2 id="绕过CDN获取源站IP"><a href="#绕过CDN获取源站IP" class="headerlink" title="绕过CDN获取源站IP"></a>绕过CDN获取源站IP</h2><p>常用手段：</p><ul><li>查询DNS历史解析</li><li>查询子域名</li><li>利用SSL证书</li><li>利用网络空间安全引擎</li><li>利用网站邮件头信息</li><li>异地ping，尤其是用国外主机解析<br>…</li></ul><h3 id="异地ping"><a href="#异地ping" class="headerlink" title="异地ping"></a>异地ping</h3><p>有些CDN厂商有可能只做了国内的线路，而针对国外的线路可能没有，此时可以使用国外的DNS查询，很可能获取到真实ip。可以使用上面提供的这些在线网站进行测试。<br><strong>但我用自己的网站进行测试，并没有得到源站ip。</strong></p><p>另外，一些在线工具往往有ping和tcping，关于这两者的区别，大家可以参考这篇博客<a href="https://blog.csdn.net/sxdgy_/article/details/126632661">ping&amp;tcping的区别</a>。简而言之，就是两者使用的协议不同，所要达到的目的也不太相同。</p><p>细心的同学会发现一些博客，使用ping不能ping通，但是使用tcping可以。这些博客大概率是部署在自己的服务器上（本站部署在github），并且设置了<strong>禁ping</strong>，有两种简单的设置方式，可以参考我的<a href="https://blog.xxfer.cn/posts/8127414b.html">刚买到服务器应该干什么？</a>。这是因为使用宝塔或手动修改文件实现禁ping，利用的是防火墙规则，而这只能阻止ICMP协议的ping请求，tcping又是一种使用TCP协议的ping工具，所以可以绕过防火墙的限制。</p><div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>但并不是说tcping无法禁止，而是配置过程比较繁琐。</p></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><h2 id="典型的连接攻击"><a href="#典型的连接攻击" class="headerlink" title="典型的连接攻击"></a>典型的连接攻击</h2><div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>这边建议大家先熟悉一下<a href="https://blog.xxfer.cn/posts/3980e700.html">TCP的三握四挥</a>和<a href="https://blog.xxfer.cn/posts/d98373ae.html">网站的静态资源和动态资源</a>，已经熟悉的同学跳过即可。</p></div><h3 id="DDos攻击"><a href="#DDos攻击" class="headerlink" title="DDos攻击"></a>DDos攻击</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><h3 id="CC攻击"><a href="#CC攻击" class="headerlink" title="CC攻击"></a>CC攻击</h3><p>CC属于DDos的一种，所以原理与DDos类似，都是发送大量的请求数据来导致服务器拒绝服务，</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div><div class="note orange anzhiyufont anzhiyu-icon-dengpao simple"><p>CC和DDos主要区别在于一个针对应用层，一个针对网络层。</p></div><h3 id="CDN能做的防御措施"><a href="#CDN能做的防御措施" class="headerlink" title="CDN能做的防御措施"></a>CDN能做的防御措施</h3><p>（防盗链、IP限频和访问控制…）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;div class=&quot;note orange anzhiyufont anzhiyu-icon-dengpao simple&quot;&gt;&lt;p&gt;建议大家使</summary>
-      
-    
-    
-    
-    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="Web" scheme="https://blog.xxfer.cn/tags/Web/"/>
-    
-    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
-    
-    <category term="博客" scheme="https://blog.xxfer.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="CDN" scheme="https://blog.xxfer.cn/tags/CDN/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Docker命令整理：本地开发环境的快捷配置方式</title>
     <link href="https://blog.xxfer.cn/posts/b2d12a7e.html"/>
     <id>https://blog.xxfer.cn/posts/b2d12a7e.html</id>
@@ -265,34 +254,6 @@
     <category term="自主开发" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
     
     <category term="Docker" scheme="https://blog.xxfer.cn/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>重温大一计算机操作系统实验：时间真快！</title>
-    <link href="https://blog.xxfer.cn/posts/8c84e76e.html"/>
-    <id>https://blog.xxfer.cn/posts/8c84e76e.html</id>
-    <published>2024-01-02T00:33:08.000Z</published>
-    <updated>2024-03-06T12:47:04.323Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是大一学的一门实验课程，那时候学起来感觉有点困难，并没有吃透这些实验。现在感觉自己又可以了，所以想着寒假再完完整整地重新做一遍这些题目，好好做一个总结。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这是大一学的一门实验课程，那时候学起来感觉有点困难，并没有吃透这些实验。现在感觉自己又可以了，所以想着寒假再完完整整地重新做一遍这些题目，好</summary>
-      
-    
-    
-    
-    <category term="大学生涯" scheme="https://blog.xxfer.cn/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/"/>
-    
-    
-    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
-    
-    <category term="CTF" scheme="https://blog.xxfer.cn/tags/CTF/"/>
-    
-    <category term="栈帧" scheme="https://blog.xxfer.cn/tags/%E6%A0%88%E5%B8%A7/"/>
     
   </entry>
   
@@ -572,6 +533,38 @@
     <category term="Token" scheme="https://blog.xxfer.cn/tags/Token/"/>
     
     <category term="API" scheme="https://blog.xxfer.cn/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cookie、Session、Token的区别？如何进行用户校验，保持用户登录状态？</title>
+    <link href="https://blog.xxfer.cn/posts/c98645fd.html"/>
+    <id>https://blog.xxfer.cn/posts/c98645fd.html</id>
+    <published>2023-12-10T12:10:08.000Z</published>
+    <updated>2023-12-21T17:44:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>现代社会离不开网络，购物等都会选择在 Web 中进行。而且我们会发现只要登录以后，很长一段时间就不需要重新登录了，今天有空将Web中部分校验机制的知识做一个梳理（本人彩笔，如果有总结的不对的，勿喷，并请大佬评论指正，我会及时修改）。</p><h2 id="Cookie"><a href="#Cookie" class="headerlink" title="Cookie"></a>Cookie</h2><p>在 Cookie 之前，先有HTTP。1991 年 HTTP 0.9 诞生了，当时只是为了满足大家浏览 web 文档的要求 ，所以只有 GET 请求，浏览完就走了，两个连接之间是没有任何联系的，所以说HTTP是一种无状态的协议，因为它诞生之初就没有这个需求。</p><h4 id="HTTP-协议"><a href="#HTTP-协议" class="headerlink" title="HTTP 协议"></a>HTTP 协议</h4><p>一种无状态的协议：对于事务处理没有记忆能力，每次客户端和服务端会话完成时，服务端不会保存任何会话信息。每个请求都是完全独立的，服务端无法确认当前访问者的身份信息，无法分辨上一次的请求发送者和这一次的发送者是不是同一个人。所以服务器与浏览器为了进行会话跟踪（知道是谁在访问我），就必须主动的去维护一个状态，这个状态用于告知服务端前后两个请求是否来自同一浏览器。而这个状态需要通过 cookie 或者 session 去实现。</p><p>比如我们现在日常的网上购物，需要记录用户的购物车记录，就需要有一个机制记录每个连接的关系，来方便我们了解加入购物车的商品到底属于谁。也就是我们所说的交互式 Web （不光可以浏览，还可以登录，发评论，购物等用户操作的行为）。</p><h4 id="Cookie-一般工作机制"><a href="#Cookie-一般工作机制" class="headerlink" title="Cookie 一般工作机制"></a>Cookie 一般工作机制</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583d87e6da31.png" alt="Cookie一般工作机制"></p><h4 id="以购物车为例"><a href="#以购物车为例" class="headerlink" title="以购物车为例"></a>以购物车为例</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583d8acc03e2.png" alt="Cookie购物车工作机制"></p><ol><li><p>cookie 存储在客户端： cookie 是服务器发送到用户浏览器并保存在本地的一小块数据，它会在浏览器下次向同一服务器再发起请求时被携带并发送到服务器上。</p></li><li><p>cookie 是不可跨域的： 每个 cookie 都会绑定单一的域名，无法在别的域名下获取使用，一级域名和二级域名之间是允许共享使用的（靠的是 domain）。</p></li></ol><h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><p>随着购物车内的商品越来越多，每次请求的 cookie 也越来越大，这对每个请求来说是一个很大的负担，我们只是想将一个商品加入购买车，为何要将历史的商品记录也一起返回给 server ？购物车信息其实已经记录在 server 了，浏览器这样的操作岂不是多此一举？如何改进呢？</p><h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2><p>由于用户的购物车信息都会保存在 Server 中，所以在 Cookie 里只要保存能识别用户身份的信息，知道是谁发起了加入购物车操作即可，这样每次请求后只要在 Cookie 里带上用户的身份信息，请求体里也只要带上本次加入购物车的商品 id，大大减少了 cookie 的体积大小，我们把这种能识别哪个请求由哪个用户发起的机制称为 Session（会话机制），生成的能识别用户身份信息的字符串称为 sessionId。</p><h4 id="工作机制"><a href="#工作机制" class="headerlink" title="工作机制"></a>工作机制</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583dbb7cc9b5.png" alt="session购物工作机制.png"></p><h4 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h4><p>看起来通过 cookie + session 的方式是解决了问题， 但是我们忽略了一个问题，上述情况能正常工作是因为我们假设 server 是单机工作的，但实际在生产上，为了保障高可用，一般服务器至少需要两台机器，通过负载均衡的方式来决定到底请求该打到哪台机器上。</p><p><img src="https://www.freeimg.cn/i/2023/12/21/6583dc882255a.png" alt="session负载均衡工作机制.png"></p><p>假设登录请求打到了 A 机器，A 机器生成了 session 并在 cookie 里添加 sessionId 返回给了浏览器，那么问题来了：下次添加购物车时如果请求打到了 B 或者 C，由于 session 是在 A 机器生成的，此时的 B,C 是找不到 session 的，那么就会发生无法添加购物车的错误，就得重新登录了，此时请问该怎么办。</p><h4 id="balance"><a href="#balance" class="headerlink" title="balance"></a>balance</h4><ol><li><p>session 复制</p><p>A 生成 session 后复制到 B, C，这样每台机器都有一份 session，无论添加购物车的请求打到哪台机器，由于 session 都能找到，故不会有问题</p></li><li><p>session 粘连</p><p>这种方式是让每个客户端请求只打到固定的一台机器上，比如浏览器登录请求打到 A 机器后，后续所有的添加购物车请求也都打到 A 机器上，Nginx 的 sticky 模块可以支持这种方式，支持按 ip 或 cookie 粘连等等，如按 ip 粘连方式如下</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">upstream tomcats &#123;</span><br><span class="line">　　ip_hash;</span><br><span class="line">　　server 10.1.1.107:88;</span><br><span class="line">　　server 10.1.1.132:80;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>session 共享</p><p>这种方式也是目前各大公司普遍采用的方案，将 session 保存在 redis，memcached 等中间件中，请求到来时，各个机器去这些中间件取一下 session 即可。</p></li></ol><p><img src="https://www.freeimg.cn/i/2023/12/21/6583df21665cc.png" alt="session 共享.png"></p><h2 id="Token"><a href="#Token" class="headerlink" title="Token"></a>Token</h2><p>通过上文分析我们知道通过在服务端共享 session 的方式可以完成用户的身份定位，但是不难发现也有一个小小的瑕疵：搞个校验机制我还得搭个 redis 集群？大厂确实 redis 用得比较普遍，但对于小厂来说可能它的业务量还未达到用 redis 的程度，所以有没有其他不用 server 存储 session 的用户身份校验机制呢，就是token。</p><p>首先请求方输入自己的用户名，密码，然后 server 据此生成 token，客户端拿到 token 后会保存到本地，之后向 server 请求时在请求头带上此 token 即可。</p><p><img src="https://www.freeimg.cn/i/2023/12/21/6583deac8777c.png" alt="token工作机制.png"></p><ol><li><p>token 只存储在浏览器中，服务端却没有存储，这样的话我随便搞个 token 传给 server 也行？</p><p>server 会有一套校验机制，校验这个 token 是否合法。</p></li><li><p>怎么不像 session 那样根据 sessionId 找到 userid 呢，这样的话怎么知道是哪个用户？</p><p>token 本身携带 uid 信息。</p></li></ol><h4 id="HTTPS-签名机制校验-JWT"><a href="#HTTPS-签名机制校验-JWT" class="headerlink" title="HTTPS 签名机制校验 (JWT)"></a>HTTPS 签名机制校验 (JWT)</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583dff0e5250.png" alt="JWT请求.png"></p><ol><li>header：指定了签名算法</li><li>payload：可以指定用户 id，过期时间等非敏感数据</li><li>Signature: 签名，server 根据 header 知道它该用哪种签名算法，再用密钥根据此签名算法对 head + payload 生成签名，这样一个 token 就生成了。</li></ol><p>当 server 收到浏览器传过来的 token 时，它会首先取出 token 中的 header + payload，根据密钥生成签名，然后再与 token 中的签名比对，如果成功则说明签名是合法的，即 token 是合法的。而且你会发现 payload 中存有我们的 userId，所以拿到 token 后直接在 payload 中就可获取 userid，避免了像 session 那样要从 redis 去取的开销。</p><div class="note warning simple"><p>header, payload 实际上是以 base64 的形式存在的，文中为了描述方便，省去了这一步。</p></div><p>只要 server 保证密钥不泄露，那么生成的 token 就是安全的，因为如果伪造 token 的话在签名验证环节是无法通过的，就此即可判定 token 非法。<br>可以看到通过这种方式有效地避免了 token 必须保存在 server 的弊端，实现了分布式存储，不过需要注意的是，token 一旦由 server 生成，它就是有效的，直到过期，无法让 token 失效，除非在 server 为 token 设立一个黑名单，在校验 token 前先过一遍此黑名单，如果在黑名单里则此 token 失效，但一旦这样做的话，那就意味着黑名单就必须保存在 server，这又回到了 session 的模式，那直接用 session 不香吗。所以一般的做法是当客户端登出要让 token 失效时，直接在本地移除 token 即可，下次登录重新生成 token 就好。<br>另外需要注意的是 token 一般是放在 header 的 Authorization 自定义头里，不是放在 Cookie 里的，这主要是为了解决跨域不能共享 Cookie 的问题。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>session 和 token 本质上是没有区别的，都是对用户身份的认证机制，只是他们实现的校验机制不一样而已（一个保存在 server，通过在 redis 等中间件获取来校验，一个保存在 client，通过签名校验的方式来校验），多数场景上使用 session 会更合理，但如果在单点登录，一次性命令认证上使用 token 会更合适，最好在不同的业务场景中合理选型，才能达到事半功倍的效果。<br>其实我们把 cookie 和 token 比较本身就不合理，一个是存储方式，一个是验证方式，正确的比较应该是 session vs token。其实cookie与session相比较也是不合理的，我们只要能够理解它们各自之间的联系和工作机制即可。<br>上面只是简单的介绍了一下三者，具体实现过程中还会涉及到认证、授权、凭证以及加密等知识。如何能够让校验机制花费较小的性能损耗，又能保证安全是我们的追求。</p><h2 id="参考学习资料"><a href="#参考学习资料" class="headerlink" title="参考学习资料"></a>参考学习资料</h2><p><a href="https://zhuanlan.zhihu.com/p/625995458">一文讲透Token与Cookie、Session的区别 - 知乎</a></p><p><a href="https://zhuanlan.zhihu.com/p/164696755">还分不清 Cookie、Session、Token、JWT？</a></p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1ob4y1Y7Ep/?spm_id_from=333.999.0.0&vd_source=91a233ea2e45cea087336c119461d12b">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/30/658fb2cbc152c.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Cookie、Session、Token究竟区别在哪？</div>            <div class="tag-link-sitename">技术蛋老师</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;现代社会离不开网络，购物等都会选择在 Web 中进行。而且我们会发现只要登录以后，很长一段时间就不需要重新登录了，今天有空将</summary>
+      
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Web" scheme="https://blog.xxfer.cn/tags/Web/"/>
+    
+    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="Token" scheme="https://blog.xxfer.cn/tags/Token/"/>
+    
+    <category term="Cookie" scheme="https://blog.xxfer.cn/tags/Cookie/"/>
+    
+    <category term="Session" scheme="https://blog.xxfer.cn/tags/Session/"/>
     
   </entry>
   
