@@ -517,43 +517,10 @@
     
     
     <entry>
-      <title>利用 Github_Token 玩转仓库 API</title>
-      <link href="/posts/9a2a157c.html"/>
-      <url>/posts/9a2a157c.html</url>
-      <cover>https://www.freeimg.cn/i/2023/12/23/6585b60e5ad7c.png</cover>
-      <date>Thu Dec 21 2023 12:16:08 GMT+0000</date>
-      
-        <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间在升级 Github 的首页 DIY，然后在配置相应插件 api 的 Token 的时候，差点把博客搞崩了，然后网上也只有 GitHub 给的官方文档比较靠谱，但是会发现文档很简洁。所以今天有空记录一下我对 GitHub Token 的理解，希望能够帮助到大家。</p><p>另外，如果有想要做 GitHub 首页 DIY 的同学，可以访问我的 GitHub 首页。然后如果对我的首页 DIY 感兴趣的话，可以参考这篇<a href="https://xxfer.cn/posts/86bbdefa.html">GitHub首页DIY</a>鸭~</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://github.com/LJJbyZJU">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/23/6586e75c86de7.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">xxfer的GitHub首页DIY</div>            <div class="tag-link-sitename">owen0o0</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>如果大家觉得看博客比较繁琐，可以直接转到<a href="https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">官方文档</a>进行学习。</p><h2 id="Web-中-Cookie、Session、Token"><a href="#Web-中-Cookie、Session、Token" class="headerlink" title="Web 中 Cookie、Session、Token"></a>Web 中 Cookie、Session、Token</h2><p>想要了解 Token，也许对比着学习会比较容易理解，下面我们先看看我们常听到的Cookie、Session与Token之间的联系。</p><p>由于篇幅原因，请看我之前写的<a href="https://xxfer.cn/posts/c98645fd.html">Web中的Cookie、Session、Token</a></p><h2 id="GitHub-中的-Token"><a href="#GitHub-中的-Token" class="headerlink" title="GitHub 中的 Token"></a>GitHub 中的 Token</h2><p>现在大家应该对Token有了一定的了解，在 GitHub 首页 DIY，想要保持信息的实时性时，我们往往会使用 GitHub Actions 的任务流来帮助我们更新首页中的一些内容，比如新发布的博客、B站的番剧等等。想要每天更新这些信息，离不开调用大佬提供 API 接口来获取数据。Token 就非常适用于 API 的调用。下面我们来看几个例子方便理解。</p><ul><li><p><a href="https://blog.xxfer.cn/posts/86bbdefa.html">我的GitHub Profile DIY</a></p><p>里面有很多地方用到了现成的API，大家可以自行观看。</p></li></ul><p><strong>说白了，Token就是一个令牌，有了这个令牌，你才可以对GitHub中的某些仓库进行操作，就这么简单。一般Token在GitHub Actions用到的比较多，可以参考<a href="https://blog.xxfer.cn/posts/3c96c005.html">如何使用Github Actions提高独立开发效率？</a></strong></p><h3 id="GitHub中现有的几种令牌"><a href="#GitHub中现有的几种令牌" class="headerlink" title="GitHub中现有的几种令牌"></a>GitHub中现有的几种令牌</h3><p>1. </p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/26/658a8a208cbe9.jpg" alt="等待更新......" style="width:360px;"/></div><span class="image-caption">等待更新......</span></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术分享 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> DIY </tag>
-            
-            <tag> GitHub </tag>
-            
-            <tag> Token </tag>
-            
-            <tag> API </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Cookie、Session、Token的区别？如何进行用户校验，保持用户登录状态？</title>
       <link href="/posts/c98645fd.html"/>
       <url>/posts/c98645fd.html</url>
-      <cover>https://www.freeimg.cn/i/2023/12/23/6585b4adf20fb.png</cover>
+      <cover>https://www.freeimg.cn/i/2024/03/07/65e93d3701383.png</cover>
       <date>Sun Dec 10 2023 12:10:08 GMT+0000</date>
       
         <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>现代社会离不开网络，购物等都会选择在 Web 中进行。而且我们会发现只要登录以后，很长一段时间就不需要重新登录了，今天有空将Web中部分校验机制的知识做一个梳理（本人彩笔，如果有总结的不对的，勿喷，并请大佬评论指正，我会及时修改）。</p><h2 id="Cookie"><a href="#Cookie" class="headerlink" title="Cookie"></a>Cookie</h2><p>在 Cookie 之前，先有HTTP。1991 年 HTTP 0.9 诞生了，当时只是为了满足大家浏览 web 文档的要求 ，所以只有 GET 请求，浏览完就走了，两个连接之间是没有任何联系的，所以说HTTP是一种无状态的协议，因为它诞生之初就没有这个需求。</p><h4 id="HTTP-协议"><a href="#HTTP-协议" class="headerlink" title="HTTP 协议"></a>HTTP 协议</h4><p>一种无状态的协议：对于事务处理没有记忆能力，每次客户端和服务端会话完成时，服务端不会保存任何会话信息。每个请求都是完全独立的，服务端无法确认当前访问者的身份信息，无法分辨上一次的请求发送者和这一次的发送者是不是同一个人。所以服务器与浏览器为了进行会话跟踪（知道是谁在访问我），就必须主动的去维护一个状态，这个状态用于告知服务端前后两个请求是否来自同一浏览器。而这个状态需要通过 cookie 或者 session 去实现。</p><p>比如我们现在日常的网上购物，需要记录用户的购物车记录，就需要有一个机制记录每个连接的关系，来方便我们了解加入购物车的商品到底属于谁。也就是我们所说的交互式 Web （不光可以浏览，还可以登录，发评论，购物等用户操作的行为）。</p><h4 id="Cookie-一般工作机制"><a href="#Cookie-一般工作机制" class="headerlink" title="Cookie 一般工作机制"></a>Cookie 一般工作机制</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583d87e6da31.png" alt="Cookie一般工作机制"></p><h4 id="以购物车为例"><a href="#以购物车为例" class="headerlink" title="以购物车为例"></a>以购物车为例</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583d8acc03e2.png" alt="Cookie购物车工作机制"></p><ol><li><p>cookie 存储在客户端： cookie 是服务器发送到用户浏览器并保存在本地的一小块数据，它会在浏览器下次向同一服务器再发起请求时被携带并发送到服务器上。</p></li><li><p>cookie 是不可跨域的： 每个 cookie 都会绑定单一的域名，无法在别的域名下获取使用，一级域名和二级域名之间是允许共享使用的（靠的是 domain）。</p></li></ol><h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><p>随着购物车内的商品越来越多，每次请求的 cookie 也越来越大，这对每个请求来说是一个很大的负担，我们只是想将一个商品加入购买车，为何要将历史的商品记录也一起返回给 server ？购物车信息其实已经记录在 server 了，浏览器这样的操作岂不是多此一举？如何改进呢？</p><h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2><p>由于用户的购物车信息都会保存在 Server 中，所以在 Cookie 里只要保存能识别用户身份的信息，知道是谁发起了加入购物车操作即可，这样每次请求后只要在 Cookie 里带上用户的身份信息，请求体里也只要带上本次加入购物车的商品 id，大大减少了 cookie 的体积大小，我们把这种能识别哪个请求由哪个用户发起的机制称为 Session（会话机制），生成的能识别用户身份信息的字符串称为 sessionId。</p><h4 id="工作机制"><a href="#工作机制" class="headerlink" title="工作机制"></a>工作机制</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583dbb7cc9b5.png" alt="session购物工作机制.png"></p><h4 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h4><p>看起来通过 cookie + session 的方式是解决了问题， 但是我们忽略了一个问题，上述情况能正常工作是因为我们假设 server 是单机工作的，但实际在生产上，为了保障高可用，一般服务器至少需要两台机器，通过负载均衡的方式来决定到底请求该打到哪台机器上。</p><p><img src="https://www.freeimg.cn/i/2023/12/21/6583dc882255a.png" alt="session负载均衡工作机制.png"></p><p>假设登录请求打到了 A 机器，A 机器生成了 session 并在 cookie 里添加 sessionId 返回给了浏览器，那么问题来了：下次添加购物车时如果请求打到了 B 或者 C，由于 session 是在 A 机器生成的，此时的 B,C 是找不到 session 的，那么就会发生无法添加购物车的错误，就得重新登录了，此时请问该怎么办。</p><h4 id="balance"><a href="#balance" class="headerlink" title="balance"></a>balance</h4><ol><li><p>session 复制</p><p>A 生成 session 后复制到 B, C，这样每台机器都有一份 session，无论添加购物车的请求打到哪台机器，由于 session 都能找到，故不会有问题</p></li><li><p>session 粘连</p><p>这种方式是让每个客户端请求只打到固定的一台机器上，比如浏览器登录请求打到 A 机器后，后续所有的添加购物车请求也都打到 A 机器上，Nginx 的 sticky 模块可以支持这种方式，支持按 ip 或 cookie 粘连等等，如按 ip 粘连方式如下</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">upstream tomcats &#123;</span><br><span class="line">　　ip_hash;</span><br><span class="line">　　server 10.1.1.107:88;</span><br><span class="line">　　server 10.1.1.132:80;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>session 共享</p><p>这种方式也是目前各大公司普遍采用的方案，将 session 保存在 redis，memcached 等中间件中，请求到来时，各个机器去这些中间件取一下 session 即可。</p></li></ol><p><img src="https://www.freeimg.cn/i/2023/12/21/6583df21665cc.png" alt="session 共享.png"></p><h2 id="Token"><a href="#Token" class="headerlink" title="Token"></a>Token</h2><p>通过上文分析我们知道通过在服务端共享 session 的方式可以完成用户的身份定位，但是不难发现也有一个小小的瑕疵：搞个校验机制我还得搭个 redis 集群？大厂确实 redis 用得比较普遍，但对于小厂来说可能它的业务量还未达到用 redis 的程度，所以有没有其他不用 server 存储 session 的用户身份校验机制呢，就是token。</p><p>首先请求方输入自己的用户名，密码，然后 server 据此生成 token，客户端拿到 token 后会保存到本地，之后向 server 请求时在请求头带上此 token 即可。</p><p><img src="https://www.freeimg.cn/i/2023/12/21/6583deac8777c.png" alt="token工作机制.png"></p><ol><li><p>token 只存储在浏览器中，服务端却没有存储，这样的话我随便搞个 token 传给 server 也行？</p><p>server 会有一套校验机制，校验这个 token 是否合法。</p></li><li><p>怎么不像 session 那样根据 sessionId 找到 userid 呢，这样的话怎么知道是哪个用户？</p><p>token 本身携带 uid 信息。</p></li></ol><h4 id="HTTPS-签名机制校验-JWT"><a href="#HTTPS-签名机制校验-JWT" class="headerlink" title="HTTPS 签名机制校验 (JWT)"></a>HTTPS 签名机制校验 (JWT)</h4><p><img src="https://www.freeimg.cn/i/2023/12/21/6583dff0e5250.png" alt="JWT请求.png"></p><ol><li>header：指定了签名算法</li><li>payload：可以指定用户 id，过期时间等非敏感数据</li><li>Signature: 签名，server 根据 header 知道它该用哪种签名算法，再用密钥根据此签名算法对 head + payload 生成签名，这样一个 token 就生成了。</li></ol><p>当 server 收到浏览器传过来的 token 时，它会首先取出 token 中的 header + payload，根据密钥生成签名，然后再与 token 中的签名比对，如果成功则说明签名是合法的，即 token 是合法的。而且你会发现 payload 中存有我们的 userId，所以拿到 token 后直接在 payload 中就可获取 userid，避免了像 session 那样要从 redis 去取的开销。</p><div class="note warning simple"><p>header, payload 实际上是以 base64 的形式存在的，文中为了描述方便，省去了这一步。</p></div><p>只要 server 保证密钥不泄露，那么生成的 token 就是安全的，因为如果伪造 token 的话在签名验证环节是无法通过的，就此即可判定 token 非法。<br>可以看到通过这种方式有效地避免了 token 必须保存在 server 的弊端，实现了分布式存储，不过需要注意的是，token 一旦由 server 生成，它就是有效的，直到过期，无法让 token 失效，除非在 server 为 token 设立一个黑名单，在校验 token 前先过一遍此黑名单，如果在黑名单里则此 token 失效，但一旦这样做的话，那就意味着黑名单就必须保存在 server，这又回到了 session 的模式，那直接用 session 不香吗。所以一般的做法是当客户端登出要让 token 失效时，直接在本地移除 token 即可，下次登录重新生成 token 就好。<br>另外需要注意的是 token 一般是放在 header 的 Authorization 自定义头里，不是放在 Cookie 里的，这主要是为了解决跨域不能共享 Cookie 的问题。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>session 和 token 本质上是没有区别的，都是对用户身份的认证机制，只是他们实现的校验机制不一样而已（一个保存在 server，通过在 redis 等中间件获取来校验，一个保存在 client，通过签名校验的方式来校验），多数场景上使用 session 会更合理，但如果在单点登录，一次性命令认证上使用 token 会更合适，最好在不同的业务场景中合理选型，才能达到事半功倍的效果。<br>其实我们把 cookie 和 token 比较本身就不合理，一个是存储方式，一个是验证方式，正确的比较应该是 session vs token。其实cookie与session相比较也是不合理的，我们只要能够理解它们各自之间的联系和工作机制即可。<br>上面只是简单的介绍了一下三者，具体实现过程中还会涉及到认证、授权、凭证以及加密等知识。如何能够让校验机制花费较小的性能损耗，又能保证安全是我们的追求。</p><h2 id="参考学习资料"><a href="#参考学习资料" class="headerlink" title="参考学习资料"></a>参考学习资料</h2><p><a href="https://zhuanlan.zhihu.com/p/625995458">一文讲透Token与Cookie、Session的区别 - 知乎</a></p><p><a href="https://zhuanlan.zhihu.com/p/164696755">还分不清 Cookie、Session、Token、JWT？</a></p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1ob4y1Y7Ep/?spm_id_from=333.999.0.0&vd_source=91a233ea2e45cea087336c119461d12b">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/30/658fb2cbc152c.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">Cookie、Session、Token究竟区别在哪？</div>            <div class="tag-link-sitename">技术蛋老师</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div>]]></content>
@@ -572,11 +539,11 @@
             
             <tag> 网络安全 </tag>
             
-            <tag> Token </tag>
-            
             <tag> Cookie </tag>
             
             <tag> Session </tag>
+            
+            <tag> Token </tag>
             
         </tags>
       

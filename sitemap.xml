@@ -479,15 +479,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/posts/9a2a157c.html</loc>
-    
-    <lastmod>2023-12-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/posts/3bfd1783.html</loc>
     
     <lastmod>2023-11-23</lastmod>
@@ -809,20 +800,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/Token/</loc>
-    <lastmod>2024-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/API/</loc>
-    <lastmod>2024-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/tags/Cookie/</loc>
     <lastmod>2024-03-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -831,6 +808,13 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/Session/</loc>
+    <lastmod>2024-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Token/</loc>
     <lastmod>2024-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -51,7 +51,6 @@ https://blog.xxfer.cn/posts/9a5ae3b8.html
 https://blog.xxfer.cn/posts/f73e6dd5.html
 https://blog.xxfer.cn/posts/c98645fd.html
 https://blog.xxfer.cn/posts/992dd5ba.html
-https://blog.xxfer.cn/posts/9a2a157c.html
 https://blog.xxfer.cn/posts/3bfd1783.html
 https://blog.xxfer.cn/posts/41e39f2b.html
 https://blog.xxfer.cn/posts/19c408c.html
@@ -95,10 +94,9 @@ https://blog.xxfer.cn/tags/CI-CD/
 https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
 https://blog.xxfer.cn/tags/GitHub/
 https://blog.xxfer.cn/tags/Git/
-https://blog.xxfer.cn/tags/Token/
-https://blog.xxfer.cn/tags/API/
 https://blog.xxfer.cn/tags/Cookie/
 https://blog.xxfer.cn/tags/Session/
+https://blog.xxfer.cn/tags/Token/
 https://blog.xxfer.cn/tags/DNS/
 https://blog.xxfer.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/
 https://blog.xxfer.cn/tags/VPN/
