@@ -21834,7 +21834,7 @@ html.hide-aside .layout > div:first-child {
   /* 分类/标签较少时，可以选择不设置 width，居中显示 catalog-list-item */
   display: flex;
   white-space: nowrap;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 #catalog-list::-webkit-scrollbar {
@@ -25401,7 +25401,7 @@ div#swiper_container:hover {
     justify-content: flex-start !important;
     flex-wrap: nowrap;
     width: 100%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
   }
 
   .categoryItem {
