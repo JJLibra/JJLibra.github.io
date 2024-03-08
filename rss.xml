@@ -6,7 +6,7 @@
   <link href="https://blog.xxfer.cn/rss.xml" rel="self"/>
   
   <link href="https://blog.xxfer.cn/"/>
-  <updated>2024-03-07T18:00:00.000Z</updated>
+  <updated>2024-03-08T22:00:00.000Z</updated>
   <id>https://blog.xxfer.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自用：Scrapy简单爬些漏洞POC</title>
+    <link href="https://blog.xxfer.cn/posts/e59dce9.html"/>
+    <id>https://blog.xxfer.cn/posts/e59dce9.html</id>
+    <published>2024-03-08T00:00:00.000Z</published>
+    <updated>2024-03-08T22:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="项目说明"><a href="#项目说明" class="headerlink" title="项目说明"></a>项目说明</h2><p>目标网站是静态的，爬取过程比较简单，用于相关报告的撰写。</p><h2 id="漏洞POC"><a href="#漏洞POC" class="headerlink" title="漏洞POC"></a>漏洞POC</h2><p>漏洞证明，漏洞报告中，通过一段描述或一个样例来证明漏洞确实存在。</p><h2 id="Scrapy爬取"><a href="#Scrapy爬取" class="headerlink" title="Scrapy爬取"></a>Scrapy爬取</h2><ul><li>目标网站：<a href="https://packetstormsecurity.com/files/tags/exploit/">packet storm</a></li><li>语言：python</li><li>工具：Xpath</li></ul><h2 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://github.com/LJJbyZJU/pksSpider">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/17/657ee6859efc1.jpg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">pksSpider</div>            <div class="tag-link-sitename">小李同学</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;项目说明&quot;&gt;&lt;a href=&quot;#项目说明&quot; class=&quot;headerlink&quot; title=&quot;项目说明&quot;&gt;&lt;/a&gt;项目说明&lt;/h2&gt;&lt;p&gt;目标网站是静态的，爬取过程比较简单，用于相关报告的撰写。&lt;/p&gt;
+&lt;h2 id=&quot;漏洞POC&quot;&gt;&lt;a href=&quot;#漏洞PO</summary>
+      
+    
+    
+    
+    <category term="大学生涯" scheme="https://blog.xxfer.cn/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/"/>
+    
+    
+    <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="Scrapy" scheme="https://blog.xxfer.cn/tags/Scrapy/"/>
+    
+  </entry>
   
   <entry>
     <title>排查Docker容器内存占用问题记录</title>
@@ -542,35 +569,6 @@
     <category term="Session" scheme="https://blog.xxfer.cn/tags/Session/"/>
     
     <category term="Token" scheme="https://blog.xxfer.cn/tags/Token/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CI/CD：企业提高开发效率的重要方式</title>
-    <link href="https://blog.xxfer.cn/posts/35e49d5e.html"/>
-    <id>https://blog.xxfer.cn/posts/35e49d5e.html</id>
-    <published>2023-11-23T20:27:33.000Z</published>
-    <updated>2023-12-29T18:01:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>不仅仅是企业中，我们平时开发时，也可以使用工作流提高开发效率。其实计算机的各种技术的逻辑都来自于生活，所以也比较好理解。</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>CICD 是 持续集成（Continuous Integration）和持续部署（Continuous Deployment）简称。指在开发过程中自动执行一系列脚本来减低开发引入 bug 的概率，在新代码从开发到部署的过程中，尽量减少人工的介入。</p><h2 id="持续集成-Continuous-Integration"><a href="#持续集成-Continuous-Integration" class="headerlink" title="持续集成(Continuous Integration)"></a>持续集成(Continuous Integration)</h2><p>现代应用开发的目标是让多位开发人员同时处理同一应用的不同功能。但是，如果企业安排在一天内将所有分支源代码合并在一起（称为“合并日”），最终可能造成工作繁琐、耗时，而且需要手动完成。这是因为当一位独立工作的开发人员对应用进行更改时，有可能会与其他开发人员同时进行的更改发生冲突。如果每个开发人员都自定义自己的本地集成开发环境（IDE），而不是让团队就一个基于云的 IDE 达成一致，那么就会让问题更加雪上加霜。</p><p>持续集成（CI）可以帮助开发人员更加频繁地（有时甚至每天）将代码更改合并到共享分支或“主干”中。一旦开发人员对应用所做的更改被合并，系统就会通过自动构建应用并运行不同级别的自动化测试（通常是单元测试和集成测试）来验证这些更改，确保这些更改没有对应用造成破坏。这意味着测试内容涵盖了从类和函数到构成整个应用的不同模块。如果自动化测试发现新代码和现有代码之间存在冲突，CI 可以更加轻松地快速修复这些错误。</p><h2 id="持续交付-Continuous-Delivery"><a href="#持续交付-Continuous-Delivery" class="headerlink" title="持续交付(Continuous Delivery)"></a>持续交付(Continuous Delivery)</h2><p>完成 CI 中构建及单元测试和集成测试的自动化流程后，持续交付可自动将已验证的代码发布到存储库。为了实现高效的持续交付流程，务必要确保 CI 已内置于开发管道。持续交付的目标是拥有一个可随时部署到生产环境的代码库。</p><p>在持续交付中，每个阶段（从代码更改的合并，到生产就绪型构建版本的交付）都涉及测试自动化和代码发布自动化。在流程结束时，运维团队可以快速、轻松地将应用部署到生产环境中。</p><h2 id="持续部署-Continuous-Deployment"><a href="#持续部署-Continuous-Deployment" class="headerlink" title="持续部署(Continuous Deployment)"></a>持续部署(Continuous Deployment)</h2><p>对于一个成熟的 CI&#x2F;CD 管道来说，最后的阶段是持续部署。作为持续交付——自动将生产就绪型构建版本发布到代码存储库——的延伸，持续部署可以自动将应用发布到生产环境。由于在生产之前的管道阶段没有手动门控，因此持续部署在很大程度上都得依赖精心设计的测试自动化。</p><p>实际上，持续部署意味着开发人员对应用的更改在编写后的几分钟内就能生效（假设它通过了自动化测试）。这更加便于持续接收和整合用户反馈。总而言之，所有这些 CI&#x2F;CD 的关联步骤都有助于降低应用的部署风险，因此更便于以小件的方式（而非一次性）发布对应用的更改。不过，由于还需要编写自动化测试以适应 CI&#x2F;CD 管道中的各种测试和发布阶段，因此前期投资还是会很大。</p><h2 id="具体应用"><a href="#具体应用" class="headerlink" title="具体应用"></a>具体应用</h2><ul><li><p>博客提交工作流</p><p>我的博客其实就是一个小例子，我一般在VScode修改代码或者写文章，然后使用Git扩展一键提交到GitHub的博客源码库里，再通过GitHub Action使用GitHub服务器的资源创建public文件，最终自动上传到源站库中。这也能算得上是利用了CICD的思想。</p><p>相信大家看了上面CICD的介绍以后，能够把博客一键式开发时的环节和CI、CD对应起来了。</p></li><li><p>其他的具体实现</p><p>有很多集成开发软件&#x2F;工具也都希望提高程序员的开发效率，那肯定少不了CI&#x2F;CD的应用。比如下面这些：</p><ol><li><a href="https://gitlab.com/gitlab-org/gitlab-foss">GitLab CI</a></li><li><a href="https://github.com/gocd/gocd">GoCD</a></li><li><a href="https://github.com/travis-ci/travis-ci">Travis CI</a></li><li><a href="https://github.com/jenkinsci/jenkins">Jenkins</a></li><li><a href="https://github.com/concourse/concourse">Concourse CI</a></li><li><a href="https://github.com/spinnaker/spinnaker">Spinnaker</a></li><li><a href="https://github.com/screwdriver-cd/screwdriver">Screwdriver</a><br>…</li></ol></li></ul><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>我们主要学习这种开发思想，这些工具肯定不止这些，而且不同用户的使用习惯也有所不同，选择合适的使用即可。</p><p>另外，上面只是简单介绍了一下CI&#x2F;CD，实现过程中还有很多细节，大家有兴趣请自行了解，不过我觉得有些东西不需要一头扎进去，容易出不来。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;不仅仅是企业中，我们平时开发时，也可以使用工作流提高开发效率。其实计算机的各种技术的逻辑都来自于生活，所以也比较好理解。&lt;/p&gt;
-&lt;h2 i</summary>
-      
-    
-    
-    
-    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="自主开发" scheme="https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="CI/CD" scheme="https://blog.xxfer.cn/tags/CI-CD/"/>
-    
-    <category term="工作流" scheme="https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/"/>
     
   </entry>
   
