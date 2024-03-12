@@ -1132,6 +1132,22 @@ const anzhiyu = {
     }, "5000");
   },
 
+  // 跳转萌国
+  tosproutblog: function () {
+    anzhiyu.snackbarShow(
+      "即将跳转到「萌国」的星球成员博客，不保证跳转网站的安全性和可用性",
+      element => {
+        element.style.opacity = 0;
+        travellingsTimer && clearTimeout(travellingsTimer);
+      },
+      5000,
+      "取消"
+    );
+    travellingsTimer = setTimeout(function () {
+      window.open("https://travel.moe/go.html", "_blank");
+    }, "5000");
+  },
+
   // 工具函数替换字符串
   replaceAll: function (e, n, t) {
     return e.split(n).join(t);
