@@ -1,3 +1,4 @@
+https://blog.xxfer.cn/posts/1d3d26fe.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
@@ -8,6 +9,12 @@ https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/updatebrowser/index.html
 https://blog.xxfer.cn/updatebrowser/updatebrowser.html
 https://blog.xxfer.cn/wordScenery/index.html
+https://blog.xxfer.cn/dailyPhoto/index.html
+https://blog.xxfer.cn/electronfish/index.html
+https://blog.xxfer.cn/envelope/index.html
+https://blog.xxfer.cn/equipment/index.html
+https://blog.xxfer.cn/essay/index.html
+https://blog.xxfer.cn/fcircle/index.html
 https://blog.xxfer.cn/baidu_verify_codeva-RzL329nU12.html
 https://blog.xxfer.cn/about/index.html
 https://blog.xxfer.cn/air-conditioner/index.html
@@ -18,12 +25,6 @@ https://blog.xxfer.cn/charts/index.html
 https://blog.xxfer.cn/collections/index.html
 https://blog.xxfer.cn/cookies/index.html
 https://blog.xxfer.cn/copyright/index.html
-https://blog.xxfer.cn/dailyPhoto/index.html
-https://blog.xxfer.cn/electronfish/index.html
-https://blog.xxfer.cn/envelope/index.html
-https://blog.xxfer.cn/equipment/index.html
-https://blog.xxfer.cn/essay/index.html
-https://blog.xxfer.cn/fcircle/index.html
 https://blog.xxfer.cn/NWPUscenery/index.html
 https://blog.xxfer.cn/SchooLife/index.html
 https://blog.xxfer.cn/posts/a008ab16.html
@@ -105,6 +106,7 @@ https://blog.xxfer.cn/tags/VPN/
 https://blog.xxfer.cn/tags/VPS/
 https://blog.xxfer.cn/tags/%E4%BB%A3%E7%90%86/
 https://blog.xxfer.cn/tags/Scrapy/
+https://blog.xxfer.cn/tags/%E7%88%AC%E8%99%AB/
 https://blog.xxfer.cn/tags/waf/
 https://blog.xxfer.cn/tags/CTF/
 https://blog.xxfer.cn/tags/SQL/
