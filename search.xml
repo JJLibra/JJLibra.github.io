@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>How do you normalize your Git commit?</title>
+      <link href="/posts/916babf0.html"/>
+      <url>/posts/916babf0.html</url>
+      <cover>https://www.freeimg.cn/i/2024/03/18/65f7d92542713.png</cover>
+      <date>Wed Mar 20 2024 11:00:00 GMT+0000</date>
+      
+        <content type="html"><![CDATA[<blockquote><p>日常摸鱼，看到了有关规范<strong>git commit message</strong>的文章。还有在平时看到有不少hub里面的提交信息都特别整齐，感觉规范commit提交信息确实很有必要，也很实用美观。然后顺便水一篇博客。</p></blockquote><h2 id="意义"><a href="#意义" class="headerlink" title="意义"></a>意义</h2><p>Git Commit规范是代码管理中至关重要的一环，它确保了代码库的一致性和可读性。通过遵循这些规范，开发人员可以更有效地协作、跟踪和管理代码更改。虽然现在都是独立开发，不像公司里，但作为程序员，从现在开始培养好的习惯肯定是有必要的。</p><h2 id="浅尝"><a href="#浅尝" class="headerlink" title="浅尝"></a>浅尝</h2><p>比较适合想要尝试体验的同学：<a href="https://github.com/RedJue/git-commit-plugin">git-commit-plugin</a></p><p>这是vscode中的一个插件，扩展里面直接搜索就能找到，使用起来非常方便，并且可以依据实际需要定制提交模板。</p><p><strong>使用效果：</strong></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/03/19/65f9479351fdc.gif"/></div></div><p>这是我使用这个插件提交到GitHub上的commit信息：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/03/19/65f9496df06bb.png"/></div></div><h2 id="稍进阶"><a href="#稍进阶" class="headerlink" title="稍进阶"></a>稍进阶</h2><p>推荐使用<a href="https://github.com/Zhengqbbb/cz-git">cz-git</a>，可以根据<a href="https://cz-git.qbb.sh/zh/">官方文档</a>进行配置。配置步骤我就不搬运了，官方文档写得挺清楚了。</p><p><strong>使用效果：</strong></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/03/19/65f94a0a7ac54.gif"/></div></div><p>我现在使用的模板是在官方给的中英文模板基础上修改的，这是我的提交效果：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/03/19/65f94b57cd1c0.png"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/03/19/65f94be3ce43e.png"/></div></div><p><strong>模板根据实际需求和个人爱好配置即可</strong></p><h2 id="可选但建议"><a href="#可选但建议" class="headerlink" title="可选但建议"></a>可选但建议</h2><p>上面只是利用一些工具生成较为统一的提交信息，并没有限制提交，如果使用不规范的提交信息还是可以提交上去。所以下面可以结合<strong>commitlint</strong>和<strong>husky</strong>进一步规范提交，参考<a href="https://blog.csdn.net/huangfengnt/article/details/135781676">配置教程</a>。</p><p><strong>使用效果：</strong></p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/03/19/65f956dfc04d9.png"/></div></div><p>可以发现上面的commit信息不规范，提交失败。如果使用cz提交可以正常提交。新版的<strong>husky</strong>好像会失效，建议大家使用低版本。</p><h2 id="另外"><a href="#另外" class="headerlink" title="另外"></a>另外</h2><p>最早的应该就是 Angular 的那套规范，上面的两种模板基本也参照这套规范，相关可以参考这篇<a href="https://juejin.cn/post/6844904033635794958">博客</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> vscode-plugin </tag>
+            
+            <tag> commitizen </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>路径规划：基于QT的Astar算法演示器</title>
       <link href="/posts/7dca2e02.html"/>
       <url>/posts/7dca2e02.html</url>

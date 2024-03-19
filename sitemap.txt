@@ -1,4 +1,4 @@
-https://blog.xxfer.cn/posts/86bbdefa.html
+https://blog.xxfer.cn/posts/916babf0.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
@@ -9,6 +9,8 @@ https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/updatebrowser/index.html
 https://blog.xxfer.cn/updatebrowser/updatebrowser.html
 https://blog.xxfer.cn/wordScenery/index.html
+https://blog.xxfer.cn/copyright/index.html
+https://blog.xxfer.cn/dailyPhoto/index.html
 https://blog.xxfer.cn/electronfish/index.html
 https://blog.xxfer.cn/envelope/index.html
 https://blog.xxfer.cn/equipment/index.html
@@ -23,10 +25,9 @@ https://blog.xxfer.cn/census/index.html
 https://blog.xxfer.cn/charts/index.html
 https://blog.xxfer.cn/collections/index.html
 https://blog.xxfer.cn/cookies/index.html
-https://blog.xxfer.cn/copyright/index.html
-https://blog.xxfer.cn/dailyPhoto/index.html
 https://blog.xxfer.cn/NWPUscenery/index.html
 https://blog.xxfer.cn/SchooLife/index.html
+https://blog.xxfer.cn/posts/86bbdefa.html
 https://blog.xxfer.cn/posts/7dca2e02.html
 https://blog.xxfer.cn/posts/1d3d26fe.html
 https://blog.xxfer.cn/posts/a008ab16.html
@@ -97,6 +98,9 @@ https://blog.xxfer.cn/tags/CI-CD/
 https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
 https://blog.xxfer.cn/tags/GitHub/
 https://blog.xxfer.cn/tags/Git/
+https://blog.xxfer.cn/tags/git/
+https://blog.xxfer.cn/tags/vscode-plugin/
+https://blog.xxfer.cn/tags/commitizen/
 https://blog.xxfer.cn/tags/Cookie/
 https://blog.xxfer.cn/tags/Session/
 https://blog.xxfer.cn/tags/Token/
