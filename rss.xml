@@ -6,7 +6,7 @@
   <link href="https://blog.xxfer.cn/rss.xml" rel="self"/>
   
   <link href="https://blog.xxfer.cn/"/>
-  <updated>2024-03-20T22:00:00.000Z</updated>
+  <updated>2024-03-21T22:00:00.000Z</updated>
   <id>https://blog.xxfer.cn/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最近</title>
+    <link href="https://blog.xxfer.cn/posts/cbd4b5ab.html"/>
+    <id>https://blog.xxfer.cn/posts/cbd4b5ab.html</id>
+    <published>2024-03-21T00:00:00.000Z</published>
+    <updated>2024-03-21T22:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>前段时间相对空闲，所以更新比较频繁，这本就没什么质量的文章看上去更水了。后面要去忙一个项目，所以放缓博客的更新，顺便沉淀沉淀，尽可能提高博客文章的质量。</p></blockquote><h2 id="最近的一些事"><a href="#最近的一些事" class="headerlink" title="最近的一些事"></a>最近的一些事</h2><h3 id="关于-GitHub-学生认证"><a href="#关于-GitHub-学生认证" class="headerlink" title="关于 GitHub 学生认证"></a>关于 GitHub 学生认证</h3><p>最近有个学弟来问我是怎么通过GitHub学生认证的，我是一年前申请的，根据网上的教程挺顺利的，所以当时纳闷他会遇到什么问题。</p><p>看了以后发现现在的认证提交和之前的不太一样了。前面申请填写的一些东西大差不差，他主要卡在了<strong>提交证明材料</strong>的那个面板。我那时候有一个材料类型的选择框，选择other类以后，跟网上一样提交学信网的材料就行。但到他这里这个选择栏没了，使用学信网材料提交就显示：需要选择“other”类…</p><p>他说网上的方法试了个遍，都不行。那我觉得只能现场拍照提交了，于是用录取通知书，不行，提示检测到“录取通知书”的字样，总之不能用通知书。那就用学生证，离谱的是我们学校的学校名称和个人信息在正反面，拍不到一张照片里…最后拿我的学生证放在一起拍，提交成功了，哭笑不得。</p><p>总之，提交不成功按照它给的提示改进就行，个人感觉现在<strong>拍学生证</strong>的方式应该是最快的，照片里需要出现学校名称、个人信息以及时间节点，这样应该没什么问题了。</p><h3 id="star的项目从爆火到删库只在一夜之间"><a href="#star的项目从爆火到删库只在一夜之间" class="headerlink" title="star的项目从爆火到删库只在一夜之间"></a>star的项目从爆火到删库只在一夜之间</h3><p>yysy项目作者太难了，他写的是一个爬虫，然后前段时间我刚好在复习研究爬虫，然后我就star了。那时候才900+的star，没过几天就爆炸式增长了，上了GitHub的热度榜第一，作者也在b站表示受宠若惊，我也挺为作者高兴的，毕竟是自己写的项目受到了别人的认可。</p><p>结果，就在我fork了项目的第二天凌晨，仓库内容被删了，变成了现在<a href="https://github.com/NanmiCoder/MediaCrawler">这样</a>，b站的部分视频也没了。只能说爬虫这类项目确实会对这些平台造成负担吧，也能够理解作者的做法，开源精神值得学习。幸亏我fork了项目，真的巧。我只是想要学习一下，如果可以，技术允许的话，还想贡献一点代码的，谁知道fork后的几个小时库就没了，哎…</p><p>幸运的是不妨碍我继续学习💪</p><h3 id="另外就是感概自己所剩不多的学生时光"><a href="#另外就是感概自己所剩不多的学生时光" class="headerlink" title="另外就是感概自己所剩不多的学生时光"></a>另外就是感概自己所剩不多的学生时光</h3><p><strong>学生</strong>的身份，真的有很多的好处，不管在学习还是生活中。像很多平台进行学生认证以后会有不少不错的福利权限，社会对学生也同样会多一份包容。所以说做学生真的很幸福，但那终将成为难忘的回忆。至于研究生的读与不读，取决于大四能不能拿到“心仪”的工作offer，其实过得去就行，我还是觉得工作能带给我的会更多一些。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;前段时间相对空闲，所以更新比较频繁，这本就没什么质量的文章看上去更水了。后面要去忙一个项目，所以放缓博客的更新，顺便沉淀沉淀，尽可能提高博客文章的质量。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;最近的一些事&quot;&gt;&lt;a href=&quot;#最近的</summary>
+      
+    
+    
+    
+    <category term="大学生涯" scheme="https://blog.xxfer.cn/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/"/>
+    
+    
+    <category term="github" scheme="https://blog.xxfer.cn/tags/github/"/>
+    
+    <category term="日常总结" scheme="https://blog.xxfer.cn/tags/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>How do you normalize your Git commit?</title>
@@ -537,34 +566,6 @@
     <category term="图床" scheme="https://blog.xxfer.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
     
     <category term="建站" scheme="https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>没有属于自己的主页？我的个人主页搭建日记</title>
-    <link href="https://blog.xxfer.cn/posts/3d879cfb.html"/>
-    <id>https://blog.xxfer.cn/posts/3d879cfb.html</id>
-    <published>2023-12-25T20:27:33.000Z</published>
-    <updated>2024-01-06T21:48:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结束。</p><p>话不多说，上链接：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://xxfer.cn">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">小李同学|WebSite</div>            <div class="tag-link-sitename">xxfer.cn</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><h2 id="主页描述"><a href="#主页描述" class="headerlink" title="主页描述"></a>主页描述</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>本来想用这张背景的，最后还是换了，两个都挺好看的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659952e76898f.png" style="width:800px;"/></div></div><h3 id="时间胶囊和工具"><a href="#时间胶囊和工具" class="headerlink" title="时间胶囊和工具"></a>时间胶囊和工具</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953858934b.png" style="width:800px;"/></div></div><p>可以看时间这种，还有一些自己平时觉得还用的工具页，其实这个完全能作为浏览器的标签页了。</p><h3 id="音乐界面"><a href="#音乐界面" class="headerlink" title="音乐界面"></a>音乐界面</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659953aa87400.png" style="width:800px;"/></div></div><p><strong>整体就是这样，主页本来就是做个导航页，所以不想搞得很复杂。</strong></p><h3 id="最终版本（换了一张背景）"><a href="#最终版本（换了一张背景）" class="headerlink" title="最终版本（换了一张背景）"></a>最终版本（换了一张背景）</h3><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/01/06/659954c49e2a8.png" style="width:800px;"/></div></div><h2 id="部署考量"><a href="#部署考量" class="headerlink" title="部署考量"></a>部署考量</h2><p>刚开始，想着用自己的服务器，用宝塔去搭，主要这个完全是个静态网页（动态资源很少）。<br>可最后想想还是用GitHub，主要有以下几点考虑：</p><ul><li>个人主页和博客，包括之后要建的“秘密空间”（记录自己的CTF学习总结），都是相对公开的，所以访问量会比较高。虽然服务器设置了一些安全措施，但是我自知才疏学浅，很多的潜在隐患可能还是会被别有用心的人利用。为了避免这些不必要的麻烦，最终选择部署在GitHub上。</li><li>另外GitHub也方便更新管理，部署方便，也不用担心GitHub被攻击，即使攻击了对我也没有太大损失。</li><li>服务器主要用于搭建自己的开发环境，放一些实用的小应用，不打算过于公开。</li></ul><p>所以，我最后还是选择了部署在GitHub上，可能唯一的缺陷就是访问慢，不过这个套一层CDN基本就能解决，而且现在访问量也不大，完全承受的了。虽然用自己的服务器还是得套CDN，肯定是不能让源IP直接裸露在外的，对于一些师傅的话有没有都一样(doge)。绕过CDN获取源服务器IP的方法也有很多，大家其实在搭建网站的时候需要注意像评论呀、邮箱等第三方验证的防护，总之这些不是一两句就能解释清的，我也不想在各位师傅面前班门弄斧。</p><p>既然决定搭建在GitHub上，其实也就不需要多说了，和博客搭建的方式一样。最后做好域名解析，CDN流量控制，一些必要的安全措施就行。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;前段时间一直在填坑，再加上域名备案没下来，解析不了，所以一直没搞个人主页的事情。昨天域名备案终于下来了，今天把个人主页的事结</summary>
-      
-    
-    
-    
-    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="建站" scheme="https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/"/>
-    
-    <category term="个人主页" scheme="https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
-    
-    <category term="DIY" scheme="https://blog.xxfer.cn/tags/DIY/"/>
     
   </entry>
   
