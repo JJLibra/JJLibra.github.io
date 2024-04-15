@@ -6,7 +6,7 @@
   <link href="https://blog.xxfer.cn/rss.xml" rel="self"/>
   
   <link href="https://blog.xxfer.cn/"/>
-  <updated>2024-04-02T12:00:00.000Z</updated>
+  <updated>2024-04-15T22:00:00.000Z</updated>
   <id>https://blog.xxfer.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浮生若梦，为欢几何？</title>
+    <link href="https://blog.xxfer.cn/posts/98264b23.html"/>
+    <id>https://blog.xxfer.cn/posts/98264b23.html</id>
+    <published>2024-04-15T02:00:00.000Z</published>
+    <updated>2024-04-15T22:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="浮生若梦，为欢几何？"><a href="#浮生若梦，为欢几何？" class="headerlink" title="浮生若梦，为欢几何？"></a>浮生若梦，为欢几何？</h2><p>这是唐代诗人李白的诗句，出自《春夜宴从弟桃花园序》。<br>这句诗表达了李白对人生的感慨，认为人生就像一场梦，短暂而虚幻，能够欢乐的时间更是少之又少。因此，李白赞同古人秉烛夜游的做法，认为应该及时行乐，珍惜年华，不辜负美好的时光。</p><p>忙里偷闲，苦中作乐吧😇</p><h2 id="VScode插件：Freeimg-uploader"><a href="#VScode插件：Freeimg-uploader" class="headerlink" title="VScode插件：Freeimg-uploader"></a>VScode插件：Freeimg-uploader</h2><p>我是在VScode里写博客的，每次要插入图片就需要先去图床仪表盘手动上传图片，然后把URL复制到md文件中，非常麻烦，效率也很低。</p><p>虽然我用的图床<a href="https://www.freeimg.cn/">Freeimg</a>是兰空项目，但是兰空官方的插件好像用不了。实在没办法，我就写了这个对接图床的插件，这样就不需要在仪表盘和VScode之间反复横跳了，只需要在md文件中右键选择图片，就能上传图片到图床并自动插入URL。</p><p>如果有同样使用Freeimg图床的同学，欢迎一起使用这个插件：<a href="https://marketplace.visualstudio.com/items?itemName=JJLibra.Freeimg-uploader">Freeimg-uploader</a></p><p>我已经发布在VScode扩展商店了，只需要在扩展商店搜插件名称就行。代码开源在<a href="https://github.com/JJLibra/vscode-FreeimgUploader">vscode-Freeimg-uploader</a></p><h2 id="GitHub-Contributions"><a href="#GitHub-Contributions" class="headerlink" title="GitHub Contributions"></a>GitHub Contributions</h2><p>好久之前就发现明明commit了代码，但是在Profile里面看不到提交记录，但一直没去查为什么，懒癌是这样的…</p><p>我的问题：本地Git配置的邮箱与GitHub没有关联。</p><p>解决方法：<br>使用以下命令即可解决</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;youremail@example.com&quot;</span> <span class="comment"># 配置全局邮箱，我的建议</span></span><br><span class="line">git config user.email <span class="string">&quot;youremail@example.com&quot;</span> <span class="comment"># 只配置本仓库邮箱</span></span><br></pre></td></tr></table></figure><h2 id="你想活出怎样的人生？"><a href="#你想活出怎样的人生？" class="headerlink" title="你想活出怎样的人生？"></a>你想活出怎样的人生？</h2><div style="display: flex; justify-content: space-around; align-items: center;">  <img src="https://pan.freeimg.link/f/6xtq/1.png" style="width: 30%;height: 400px;">  <img src="https://pan.freeimg.link/f/wXT9/2.png" style="width: 30%;height: 400px;">  <img src="https://pan.freeimg.link/f/GLSp/3.png" style="width: 30%;height: 400px;"></div>这是宫崎骏的又一“封笔之作”。也许这回是真的要走了...这部电影也许是他留给新时代的我们最后的礼物了。《千与千寻》是我接触宫崎骏的第一部作品，也是我最喜欢的一部。每次想到宫崎骏，脑海里就会响起下面的旋律：<div class="audio"><audio controls preload><source src='https://d.kstore.space/download/7746/再度.mp4' type='audio/mp3'>Your browser does not support the audio tag.</audio></div>被誉为“千寻华尔兹”。第一次知道宫崎骏的时候还是小学两年级吧，就是因为《千与千寻》。虽然说宫崎骏大部分作品上映时间远早于我的童年，但他和他的作品还是对我的童年有不小的影响吧。<p>在观看《你想活出怎样的人生》之前，就有好些同学说看不太懂，和前几部作品的风格大不相同…</p><p>可是，它又是继《千与千寻》后第二部拿下奥斯卡最佳动画长片的电影。我想这并非偶然。</p><p>所以我在看这部电影的时候，就一直在想这里他想要说什么？<br>观影到一半时，我还是不太明白它到底在放些什么，想要表达什么。<br>看完以后，还是有好多内容不太理解，有好多疑问。<br>当然，过后我也看了好多篇关于《你想活出怎样的人生》的影评，下面是我的一些理解：</p><ul><li>你想要活出怎样的人生？<br>这不是答案，而是一种反问。<br>看完整部电影你可能也会思考想要活出怎样的人生这个抽象的概念，他没有告诉你到底是怎样的人生，他传达出的是一种向着美追求美而无后悔的人生。</li><li>苍鹭、鹈鹕、鹦鹉<div style="display: flex; justify-content: space-around; align-items: center;"><img src="https://picsur.xxfer.cn/i/e3f50d4e-8235-48db-a707-809976752e99.webp" style="width: 30%; height: 180px;"><img src="https://picsur.xxfer.cn/i/26a41ce0-7f05-4976-9173-467476936efd.webp" style="width: 30%; height: 180px;"><img src="https://picsur.xxfer.cn/i/67d8fce7-7787-47f4-ba47-10fe2cf86ebf.webp" style="width: 30%; height: 180px;"></div>苍鹭的存在象征着指引和启示，帮助牧真人解开内心的困惑。所以他像是一个引路人。鹈鹕生活在一片没有鱼的海域，它们不得不吃掉“哇啦哇啦”，这个应该是说战争年代，普通人为了生存，被迫做一些恶事。鹦鹉应该是最好理解的，它们代表法西斯。但回到现实世界又变回了人畜无害的小鸟。</li><li>真人的父亲：日本军官形象<br>在现实中，宫崎骏的父亲在二战期间经营着一家生产战斗机零部件的小工厂，生意十分兴旺，这让宫崎骏度过了一个相对富裕的童年。宫崎胜次在家族飞机制造厂中担任要职，负责生产战备所需配件，以及零式战斗机。<br>宫崎骏小时候原本住在东京文京区，后来为了躲避二战战祸，全家由东京搬迁到东北部的栃木县乡下。因战事疏散，举家迁往宇都官市和鹿沼市。伯父在鹿沼市经营了一家名为“官崎飞机”的军火公司，主要制造著名的尾式战斗机尾舵和驾驶舱防风罩等军需附属产品，战争期间曾有1000名员工在此工作。官崎狻的父亲在那间工厂担任主管，因此家庭生活条件非常好。</li><li>7个特别滑稽的婆婆<div style="display: flex; justify-content: space-around; align-items: center;"><img src="https://picsur.xxfer.cn/i/45330694-2367-415a-bf46-5020da84a937.webp" style="width: 30%; height: 180px;"><img src="https://pan.freeimg.link/f/KAhY/%E5%A9%86%E5%A9%861.png" style="width: 30%; height: 180px;"><img src="https://pan.freeimg.link/f/pZuO/%E5%A9%86%E5%A9%862.png" style="width: 30%; height: 180px;"></div>其中雾子也去了异世界，负责保护真人吧。其他六位婆婆只是以木偶出现在了异世界，我觉得应该是在现实世界中，那几个婆婆对真人的牵挂化作了这几个木偶，前去异世界保护真人。因为雾子把自己的木偶送给了真人，被称作“护身符”。</li></ul><p>类似具有隐喻意义的点数不胜数，需要我们思考理解，包括一些台词也非常耐人寻味，所以建议反复观看。</p><p>另外，吉卜力的画风总是那么治愈，影片中的哇啦哇啦：</p><div style="display: flex; justify-content: space-around; align-items: center;">  <img src="https://pan.freeimg.link/f/EofN/%E5%93%87%E5%95%A6%E5%93%87%E5%95%A6.png" style="width: 30%; height: 180px;">  <img src="https://pan.freeimg.link/f/jjsN/%E5%93%87%E5%95%A6%E5%93%87%E5%95%A62.png" style="width: 30%; height: 180px;">  <img src="https://pan.freeimg.link/f/aMUz/%E5%93%87%E5%95%A6%E5%93%87%E5%95%A63.png" style="width: 30%; height: 180px;"></div>其实我认为这部影片还是非常符合宫崎骏的创作风格的，又是一场主人公的冒险之旅。最后的片段，久子的一句话：“有你是我一生最幸福的事，别忘了我不怕火。”真人在那一刻也释怀，母亲用行动告诉自己，如何活出自己想要的人生。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://pan.freeimg.link/f/kZCx/%E5%AE%AB%E5%B4%8E%E9%AA%8F.webp" alt="宫崎骏留给我们的童年"/></div></div><p>关于我自己想要活出怎样的人生，很难讲，不知道从何说起。如果你们被问到想要怎样的人生，会怎么回答……</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;浮生若梦，为欢几何？&quot;&gt;&lt;a href=&quot;#浮生若梦，为欢几何？&quot; class=&quot;headerlink&quot; title=&quot;浮生若梦，为欢几何？&quot;&gt;&lt;/a&gt;浮生若梦，为欢几何？&lt;/h2&gt;&lt;p&gt;这是唐代诗人李白的诗句，出自《春夜宴从弟桃花园序》。&lt;br&gt;这句诗表达了李白</summary>
+      
+    
+    
+    
+    <category term="大学生涯" scheme="https://blog.xxfer.cn/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/"/>
+    
+    
+    <category term="github" scheme="https://blog.xxfer.cn/tags/github/"/>
+    
+    <category term="日常总结" scheme="https://blog.xxfer.cn/tags/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>Kerberos身份认证小结</title>
@@ -536,36 +562,6 @@
     
     
     <category term="玩梗" scheme="https://blog.xxfer.cn/tags/%E7%8E%A9%E6%A2%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一台云服务器——阿里云服务器 ECS</title>
-    <link href="https://blog.xxfer.cn/posts/9a5ae3b8.html"/>
-    <id>https://blog.xxfer.cn/posts/9a5ae3b8.html</id>
-    <published>2023-12-28T20:44:33.000Z</published>
-    <updated>2023-12-29T10:42:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="纪念我的第一台云服务器"><a href="#纪念我的第一台云服务器" class="headerlink" title="纪念我的第一台云服务器"></a>纪念我的第一台云服务器</h2><p>不知不觉得，建站也有段时间了。学到了不少前端后端的知识，同时也算是巩固和实践了不少之前所学。还想要继续深入学习下去，但是，相信不少同学在建站过程中和我一样，总会觉得缺了点什么。我想服务器应该就是其中之一，因为缺少服务器，很多东西都是寸步难行。</p><p>因此，趁着阿里云推出的双十一优惠，买了一台属于自己的云服务器ECS。之后我会在本站分享零基础学习云服务器的使用心得与体会，记录我的云服务器学习使用之路。当然，在探索到好用的小技巧，肯定会分享给大家。下面我们来看看服务器的魅力所在吧~</p><h2 id="什么是服务器？"><a href="#什么是服务器？" class="headerlink" title="什么是服务器？"></a>什么是服务器？</h2><p>说到服务器，相信大家都不陌生，大家会说服务器是一台特殊的主机或者说是网络中能对其它机器提供某些服务的计算机系统。没错，它就是一台为电脑提供服务的电脑。只是它在软件和硬件层面做了某些专门化设计。如果把电脑比作人类，那么服务器就是一个某一专业能力非常突出的人。</p><p>一般最常见的应该是Web服务器，顾名思义，它是专门用来响应大家的访问请求的。除此之外，还有文件服务器、数据库服务器也是两种比较常见的服务器类型。</p><p>因为服务器具有的特定功能，所以一般服务器的外观也和我们平时使用的电脑有所不同。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2023/12/28/658d8defaf19b.jpg" alt="一台服务器示例" style="width:360px;"/></div></div><p>上文也提到了，它们在软件和硬件层面也都与普通电脑不同。</p><p>软件层面，比如服务器的操作系统一般不会用家用或者商用的这些windows旗舰版啥的，它们可能是windows服务器版，可能是Unix，Linux操作系统，这些操作系统也会针对服务器的工作情况，在安全性，稳定性，性能等方面有所侧重。</p><p>硬件层面，因为可能要被用来给很多人同时访问，因为要全年无休，而且要提供稳定的服务，所以在硬件设计上可能会更加的追求稳定性，可靠性，配置上也会有侧重性，比如前面说的文件服务器，那肯定会要求非常非常大的硬盘空间，硬盘的可靠性比普通家用硬盘的可靠性也高很多，然后这些服务器要面对大并发的数据处理，可能CPU也会很强劲，当然，他们都用不着独立显卡的，因为他们都不需要显示输出的，只有维护的时候才拖一台显示器去接上临时用一下。</p><h2 id="什么是云服务器？"><a href="#什么是云服务器？" class="headerlink" title="什么是云服务器？"></a>什么是云服务器？</h2><p>想要了解云服务器，可能需要知道虚拟主机、VPS、云服务器三者的区别：</p><h4 id="虚拟主机"><a href="#虚拟主机" class="headerlink" title="虚拟主机"></a>虚拟主机</h4><p>虚拟主机相对于其他两种云主机的主要区别就是，虚拟主机无需用户部署网站环境，通常默认支持多种建站环境，用户直接上传建站程序安装就可以使用。由于虚拟机空间不支持连接到桌面进行其他操作，所以一般服务器租用商都会提供一个控制面板，可以进行域名绑定、文件解压缩等简单操作。</p><p>从技术角度来讲，虚拟主机是使用特殊的软硬件技术，把一台真实的物理电脑主机分割成多个的逻辑存储单元，每个单元都没有物理实体，但是每一个逻辑存储单元都能像真实的物理主机一样在网络上工作，具有单独的域名、IP地址(或共享的IP地址)以及完整的Internet服务器功能。</p><h4 id="VPS"><a href="#VPS" class="headerlink" title="VPS"></a>VPS</h4><p>VPS主机是通过使用VPS(Virtual Private Server 虚拟专用服务器)技术，将一部服务器分割成多个虚拟专享服务器的优质服务，也就是由一台真实主机虚拟成多个小主机。每个VPS都可分配独立公网IP地址、独立操作系统、独立空间、独立内存、独立CPU资源等，可以远程连接到桌面，相当于一台功能完整的电脑;用户除了可以自行分配多个虚拟主机及无限企业邮箱外，还可以根据需求自行更换操作系统、安装程序、部署环境以及重启服务器，也就是说VPS主机相对虚拟主机来说更高一级，自由度更高。</p><h4 id="云服务器"><a href="#云服务器" class="headerlink" title="云服务器"></a>云服务器</h4><p>上面所说的VPS主机是由一台真实主机虚拟成多个小主机，性能往往得不到保障，那么云服务器又怎样的呢?但话又说回来，VPS发展了这么多年，拥有非常成熟的方案，一般中小型的企业也会有VPS的业务，但是云产品就不一样了。因为云服务器往往需要企业根据自身需求条件自研一套资源分配的方案，不像VPS那样抄作业就行，所以一般只有大厂会有云服务器的业务。</p><p>云服务器利用的是更先进的集群技术，在一组集群服务器上虚拟出多个类似独立服务器的部分，集群中每个服务器上都有云服务器的一个镜像，从而大大提高了虚拟服务器的安全稳定性，除非所有的集群内服务器全部出现问题，云服务器才会无法访问。所以，云服务器相对于VPS主机来说又更高一个级别，稳定性、安全性更高。</p><p><strong>虚拟主机 &lt; VPS &lt; 云服务器</strong></p><h2 id="有什么用？"><a href="#有什么用？" class="headerlink" title="有什么用？"></a>有什么用？</h2><p>一台服务器有很多用处，值得我们持续探索。一般的建站呀，文件存储这些都不一一列举了，下面来说说我买云服务器的原因吧。目前我还是一名大三学生，对于平时的开发，一些项目如果需要服务器之类的资源，其实有更廉价便捷的方案，比如使用docker。那为什么还是决定买一台服务器呢？</p><ol><li>使用docker只能做到本地运行或者说只能做到内网使用，想要在外网访问本地项目，就必须有一个公网ip。也许大家会说使用内网穿透，但是从费用上来看，差不了多少，所以为什么不干脆直接买一台服务器，上面的问题都能迎刃而解了。</li><li>我的博客是使用GitHub Pages来搭建的，所以说源站资源在国外的服务器上，国内访问非常慢。想要加速到比较好的效果，使用CDN应该是首选。而CDN服务器如果选在国内，那么域名需要备案，接入商备案就需要提供你的公网ip。发现了吗？又是公网ip。</li><li>就我目前的情况，大概率是回去读研的，但只能说读研可能会是一种选择，如果大四能够拿到好的offer，我不介意直接工作。那如果将来读研，一些学习资料代码和论文之类的肯定会放在实验室的主机上。这样不管是在宿舍还是回家，都会需要远程实验室的主机。在宿舍还好，毕竟在同一局域网，直接用内网ip，但如果出了学校，就比较麻烦了。我知道解决方案不止服务器，很多远程软件也可以解决，但是一般这种都需要付费（什么德行大家应该都懂），这时候服务器就能派上用场了。</li><li>最后就是上文提到的，docker结合服务器可以玩出新高度，很多好用的软件结合服务器会有意想不到的体验感。通过服务器慢慢搭建属于自己的生态环境，是一件很酷的事情。</li></ol><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>如果小伙伴们目前还是本科，其实还犯不着买云服务器（富哥除外），真的想用服务器，可以去试试和老师套套近户，白嫖他们实验室的服务器也是不错的~当然也可以去国外买VPS服务器，也是相对便宜的，我只要是考虑这是我的第一台服务器，所以希望有些保障，所以选择了阿里云，其实国内除阿里云外，还有腾讯云、华为云等，国外的亚马逊云也是值得信赖的。</p><p>后面会分享一些基于服务器的有意思的项目给大家，都是些在收藏夹里“吃灰”的项目。现在有了自己的服务器，当然要都玩一遍😋我会在这篇<a href="https://blog.xxfer.cn/posts/9a5ae3b8.html">博客</a>里记录我的使用日志。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;纪念我的第一台云服务器&quot;&gt;&lt;a href=&quot;#纪念我的第一台云服务器&quot; class=&quot;headerlink&quot; title=&quot;纪念我的第一台云服务器&quot;&gt;&lt;/a&gt;纪念我的第一台云服务器&lt;/h2&gt;&lt;p&gt;不知不觉得，建站也有段时间了。学到了不少前端后端的知识，同时也算是巩</summary>
-      
-    
-    
-    
-    <category term="技术分享" scheme="https://blog.xxfer.cn/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="ECS" scheme="https://blog.xxfer.cn/tags/ECS/"/>
-    
-    <category term="Web" scheme="https://blog.xxfer.cn/tags/Web/"/>
-    
-    <category term="阿里云" scheme="https://blog.xxfer.cn/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
-    
-    <category term="后端" scheme="https://blog.xxfer.cn/tags/%E5%90%8E%E7%AB%AF/"/>
     
   </entry>
   
