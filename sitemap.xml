@@ -92,24 +92,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/charts/index.html</loc>
-    
-    <lastmod>2024-04-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/collections/index.html</loc>
-    
-    <lastmod>2024-04-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/cookies/index.html</loc>
     
     <lastmod>2024-04-15</lastmod>
@@ -228,6 +210,24 @@
   
   <url>
     <loc>https://blog.xxfer.cn/census/index.html</loc>
+    
+    <lastmod>2024-04-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/charts/index.html</loc>
+    
+    <lastmod>2024-04-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/collections/index.html</loc>
     
     <lastmod>2024-04-15</lastmod>
     
