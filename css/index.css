@@ -21397,22 +21397,24 @@ body[data-type="album"] #page .page-title {
   }
 }
 
-/* 基础和全局样式设置 */
 h1#site-title {
-  font-size: 3em; /* Removed !important for better maintenance and specificity handling */
+  font-size: 3em !important;
 }
 
 .iconfont {
-  font-family: "iconfont";
+  font-family: "iconfont" !important;
   font-size: 3em;
+  /* 可以定义图标大小 */
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 时间轴生肖icon */
 svg.icon {
   width: 1em;
   height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
@@ -21422,32 +21424,81 @@ svg.icon {
   color: #f7c768;
 }
 
+/* 解决artitalk的图标问题 */
 #uploadSource > svg {
   width: 1.19em;
   height: 1.5em;
 }
 
-/* 背景设置 for various sections */
-div#post, div#page, div#archive, div#tag, div#category {
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+/* #page-header:not(.not-top-img):before {
+  background-color: transparent !important;
+} */
+
+/* 文章页面正文背景 */
+div#post {
+  background: rgba(255, 255, 255, 0.9);
+}
+#recent-posts > .recent-post-item:not(:first-child):active {
+  transform: scale(0.97);
+}
+/* 分页页面 */
+div#page {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* 夜间模式特定样式 */
-[data-theme="dark"] div#post,
-[data-theme="dark"] div#tag,
-[data-theme="dark"] div#archive,
-[data-theme="dark"] div#page,
+/* 归档页面 */
+div#archive {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 标签页面 */
+div#tag {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 分类页面 */
+div#category {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"] #recent-posts > .recent-post-item {
+  background: #121212;
+}
+
+[data-theme="dark"] .card-widget {
+  background: var(--anzhiyu-card-bg);
+  /* background: white; */
+}
+
+[data-theme="dark"] div#post {
+  background: var(--anzhiyu-card-bg);
+}
+
+[data-theme="dark"] div#tag {
+  background: var(--anzhiyu-card-bg);
+}
+
+[data-theme="dark"] div#archive {
+  background: var(--anzhiyu-card-bg);
+}
+
+[data-theme="dark"] div#page {
+  background: var(--anzhiyu-card-bg);
+}
+
 [data-theme="dark"] div#category {
   background: var(--anzhiyu-card-bg);
 }
 
 [data-theme="dark"] div#category {
-  background: transparent;
+  background: transparent !important;
 }
 
-/* Link styles */
+/* md网站下划线 */
 #article-container a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #article-container #hpp_talk p img {
@@ -21464,7 +21515,10 @@ div#post, div#page, div#archive, div#tag, div#category {
   font-size: 14px;
 }
 
-#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not(.no-text-decoration) {
+#article-container
+  a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not(
+    .no-text-decoration
+  ) {
   font-weight: 500;
   border-bottom: solid 2px var(--anzhiyu-lighttext);
   color: var(--anzhiyu-fontcolor);
@@ -21472,77 +21526,34 @@ div#post, div#page, div#archive, div#tag, div#category {
   text-decoration: none;
   font-family: auto;
 }
-
-#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not(.no-text-decoration):hover {
+#article-container
+  a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not(
+    .no-text-decoration
+  ):hover {
   color: var(--anzhiyu-white);
   background: var(--anzhiyu-main);
   box-shadow: var(--anzhiyu-shadow-lightblack);
   border-radius: 0.25em;
+  text-decoration: none;
 }
 
-/* 响应式布局调整 */
 html.hide-aside .layout > div:first-child {
   width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
-  .layout > div:first-child {
-    width: 100%;
-  }
-  #body-wrap .layout #page {
-    padding: 20px 15px;
-  }
+/* 动画wowjs兼容调整 */
+.animate__animated {
+  -webkit-animation-fill-mode: backwards !important;
+  animation-fill-mode: backwards !important;
 }
 
-@media screen and (max-width: 768px) {
-  .layout > div:first-child {
-    width: 100%;
-  }
-  #body-wrap .layout #page {
-    padding: 20px 15px;
-  }
-  .layout > div:first-child:not(.recent-posts) {
-    border-radius: 12px 12px 0 0;
-  }
-}
-
-/* 动画效果统一定义 */
-.banners-title,
-#algolia-search .search-dialog,
-#page > div:not(.author-content-item),
-.author-content-item,
-[data-theme="light"] .avatar-img,
-[data-theme="dark"] .avatar-img {
-  animation: slide-in 0.6s ease 0.3s backwards;
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes breath-light {
-  0%, 100% {
-    box-shadow: 0 0 1px 1px #e9f5fa;
-  }
-  50% {
-    box-shadow: 0 0 5px 5px #e9f5fa;
-  }
-}
-
-/* 文章hover边框效果 */
+/* 文章hover边框 */
 #recent-posts .recent-post-item:hover {
   border: var(--style-border-hover);
 }
-
 #recent-posts .recent-post-item:hover .recent-post-info .article-title {
   color: var(--anzhiyu-theme);
 }
-
 #recent-posts .recent-post-item {
   height: fit-content;
   background: var(--anzhiyu-card-bg);
@@ -21552,18 +21563,93 @@ html.hide-aside .layout > div:first-child {
   box-shadow: var(--anzhiyu-shadow-border);
   user-select: none;
 }
+/* 移动端容器padding */
+@media screen and (max-width: 768px) {
+  #body-wrap .layout #page {
+    padding: 20px 15px !important;
+  }
+}
+/* 首页文章宽度 */
+@media screen and (max-width: 1200px) {
+  .layout > div:first-child {
+    width: 100% !important;
+  }
+}
 
-/* 其他动画 */
+[data-theme="dark"] #footer:before {
+  content: none;
+}
+
+@media screen and (max-width: 768px) {
+  .layout > div:first-child:not(.recent-posts) {
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+.banners-title {
+  animation: slide-in 0.6s 0.3s backwards;
+}
+#algolia-search .search-dialog {
+  animation: slide-in 0.6s ease 0s 1 normal none running;
+}
+
+@media screen and (min-width: 1200px) {
+  #page > div:not(.author-content-item) {
+    animation: slide-in 0.6s 0.2s backwards;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .author-content-item {
+    animation: slide-in 0.6s 0s backwards;
+  }
+}
+
+/* 元素透明度改变 */
+@keyframes slide-in-op {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 额外添加 */
 .author-content-item .card-content .banner-button-group .banner-button {
   height: 40px;
   width: 120px;
 }
 
-[data-theme="light"] .avatar-img,
-[data-theme="dark"] .avatar-img {
-  animation: breath-light 4s ease-in-out infinite;
+/* 头像呼吸灯 */
+[data-theme="light"] .avatar-img {
+  animation: huxi_light 4s ease-in-out infinite;
 }
-
+[data-theme="dark"] .avatar-img {
+  animation: huxi_dark 4s ease-in-out infinite;
+}
+@keyframes huxi_light {
+  0% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #e9f5fa;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+}
+@keyframes huxi_dark {
+  0% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+  50% {
+    box-shadow: 0px 0px 5px 5px #e9f5fa;
+  }
+  100% {
+    box-shadow: 0px 0px 1px 1px #e9f5fa;
+  }
+}
 #aside-content .card-widget#card-wechat {
   background: #57bd6a;
   display: flex;
