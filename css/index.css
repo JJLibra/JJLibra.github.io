@@ -4,31 +4,24 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/* 滚动条轨道样式 */
+/* 滚动条样式 */
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
-/* 滚动条滑块样式 */
 ::-webkit-scrollbar-thumb {
   background-color: #888;
   opacity: 1;
   transition: opacity 0.5s;
 }
 
-/* 滚动条消失动画 */
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/* 在滚动容器上应用动画 */
 html:hover::-webkit-scrollbar-thumb {
   animation: fadeOut 1s 1s forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 
 body {
@@ -38,8 +31,12 @@ body {
   overscroll-behavior: none;
 }
 
-main {
+main, details, template {
   display: block;
+}
+
+summary {
+  display: list-item;
 }
 
 h1 {
@@ -47,15 +44,21 @@ h1 {
   margin: 0.67em 0;
 }
 
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
+hr, img, abbr[title], b, strong, code, kbd, samp, small, sub, sup, button, input, optgroup, select, textarea, progress, textarea, [type="checkbox"], [type="radio"], [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button, [type="search"], [type="search"]::-webkit-search-decoration, ::-webkit-file-upload-button, fieldset, legend, [hidden] {
+  box-sizing: border-box; /* Unified box model */
 }
 
-pre {
+pre, code, kbd, samp {
   font-family: monospace, monospace;
   font-size: 1em;
+}
+
+img {
+  border-style: none;
+  border-radius: 8px;
+  max-width: 100%;
+  transition: all 0.2s;
+  -webkit-user-drag: none; /* Consistent drag behavior */
 }
 
 a {
@@ -63,98 +66,45 @@ a {
 }
 
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
   text-decoration: underline dotted;
 }
 
-b,
-strong {
+b, strong {
   font-weight: bolder;
-}
-
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
 }
 
 small {
   font-size: 80%;
 }
 
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-sub {
-  bottom: -0.25em;
-}
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
 
-sup {
-  top: -0.5em;
-}
-
-img {
-  border-style: none;
-  border-radius: 8px;
-  max-width: 100%;
-  transition: all 0.2s ease 0s;
-  -webkit-user-drag: none; /* WebKit */
-  -khtml-user-drag: none; /* KHTML */
-  -moz-user-drag: none; /* Gecko */
-  -ms-user-drag: none; /* Trident/Edge */
-  user-drag: none;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea, [type="button"], [type="reset"], [type="submit"] {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
-}
-
-button,
-input {
   overflow: visible;
 }
 
-button,
-select {
-  text-transform: none;
-}
-
-[type="button"],
-[type="reset"],
-[type="submit"],
-button {
+[type="button"], [type="reset"], [type="submit"], button {
   -webkit-appearance: button;
 }
 
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner,
-button::-moz-focus-inner {
+[type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
-img.fancybox__image {
-  border-radius: 0;
-}
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring,
-button:-moz-focusring {
+[type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring, button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -163,31 +113,14 @@ fieldset {
 }
 
 legend {
-  box-sizing: border-box;
   color: inherit;
-  display: table;
   max-width: 100%;
   padding: 0;
   white-space: normal;
 }
 
-progress {
-  vertical-align: baseline;
-}
-
 textarea {
   overflow: auto;
-}
-
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
 }
 
 [type="search"] {
@@ -202,22 +135,6 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
-}
-
-details {
-  display: block;
-}
-
-summary {
-  display: list-item;
-}
-
-template {
-  display: none;
-}
-
-[hidden] {
-  display: none;
 }
 
 .limit-one-line,
@@ -21480,24 +21397,22 @@ body[data-type="album"] #page .page-title {
   }
 }
 
+/* 基础和全局样式设置 */
 h1#site-title {
-  font-size: 3em !important;
+  font-size: 3em; /* Removed !important for better maintenance and specificity handling */
 }
 
 .iconfont {
-  font-family: "iconfont" !important;
+  font-family: "iconfont";
   font-size: 3em;
-  /* 可以定义图标大小 */
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 时间轴生肖icon */
 svg.icon {
   width: 1em;
   height: 1em;
-  /* width和height定义图标的默认宽度和高度*/
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
@@ -21507,81 +21422,32 @@ svg.icon {
   color: #f7c768;
 }
 
-/* 解决artitalk的图标问题 */
 #uploadSource > svg {
   width: 1.19em;
   height: 1.5em;
 }
 
-/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
-/* #page-header:not(.not-top-img):before {
-  background-color: transparent !important;
-} */
-
-/* 文章页面正文背景 */
-div#post {
-  background: rgba(255, 255, 255, 0.9);
-}
-#recent-posts > .recent-post-item:not(:first-child):active {
-  transform: scale(0.97);
-}
-/* 分页页面 */
-div#page {
+/* 背景设置 for various sections */
+div#post, div#page, div#archive, div#tag, div#category {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* 归档页面 */
-div#archive {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 标签页面 */
-div#tag {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* 分类页面 */
-div#category {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/*夜间模式伪类遮罩层透明*/
-[data-theme="dark"] #recent-posts > .recent-post-item {
-  background: #121212;
-}
-
-[data-theme="dark"] .card-widget {
-  background: var(--anzhiyu-card-bg);
-  /* background: white; */
-}
-
-[data-theme="dark"] div#post {
-  background: var(--anzhiyu-card-bg);
-}
-
-[data-theme="dark"] div#tag {
-  background: var(--anzhiyu-card-bg);
-}
-
-[data-theme="dark"] div#archive {
-  background: var(--anzhiyu-card-bg);
-}
-
-[data-theme="dark"] div#page {
-  background: var(--anzhiyu-card-bg);
-}
-
+/* 夜间模式特定样式 */
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#tag,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page,
 [data-theme="dark"] div#category {
   background: var(--anzhiyu-card-bg);
 }
 
 [data-theme="dark"] div#category {
-  background: transparent !important;
+  background: transparent;
 }
 
-/* md网站下划线 */
+/* Link styles */
 #article-container a:hover {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 #article-container #hpp_talk p img {
@@ -21598,10 +21464,7 @@ div#category {
   font-size: 14px;
 }
 
-#article-container
-  a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not(
-    .no-text-decoration
-  ) {
+#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.tag-Link):not(.btn-anzhiyu):not(.no-text-decoration) {
   font-weight: 500;
   border-bottom: solid 2px var(--anzhiyu-lighttext);
   color: var(--anzhiyu-fontcolor);
@@ -21609,34 +21472,77 @@ div#category {
   text-decoration: none;
   font-family: auto;
 }
-#article-container
-  a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not(
-    .no-text-decoration
-  ):hover {
+
+#article-container a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not(.no-text-decoration):hover {
   color: var(--anzhiyu-white);
   background: var(--anzhiyu-main);
   box-shadow: var(--anzhiyu-shadow-lightblack);
   border-radius: 0.25em;
-  text-decoration: none;
 }
 
+/* 响应式布局调整 */
 html.hide-aside .layout > div:first-child {
   width: 100%;
 }
 
-/* 动画wowjs兼容调整 */
-.animate__animated {
-  -webkit-animation-fill-mode: backwards !important;
-  animation-fill-mode: backwards !important;
+@media screen and (max-width: 1200px) {
+  .layout > div:first-child {
+    width: 100%;
+  }
+  #body-wrap .layout #page {
+    padding: 20px 15px;
+  }
 }
 
-/* 文章hover边框 */
+@media screen and (max-width: 768px) {
+  .layout > div:first-child {
+    width: 100%;
+  }
+  #body-wrap .layout #page {
+    padding: 20px 15px;
+  }
+  .layout > div:first-child:not(.recent-posts) {
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+/* 动画效果统一定义 */
+.banners-title,
+#algolia-search .search-dialog,
+#page > div:not(.author-content-item),
+.author-content-item,
+[data-theme="light"] .avatar-img,
+[data-theme="dark"] .avatar-img {
+  animation: slide-in 0.6s ease 0.3s backwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes breath-light {
+  0%, 100% {
+    box-shadow: 0 0 1px 1px #e9f5fa;
+  }
+  50% {
+    box-shadow: 0 0 5px 5px #e9f5fa;
+  }
+}
+
+/* 文章hover边框效果 */
 #recent-posts .recent-post-item:hover {
   border: var(--style-border-hover);
 }
+
 #recent-posts .recent-post-item:hover .recent-post-info .article-title {
   color: var(--anzhiyu-theme);
 }
+
 #recent-posts .recent-post-item {
   height: fit-content;
   background: var(--anzhiyu-card-bg);
@@ -21646,118 +21552,18 @@ html.hide-aside .layout > div:first-child {
   box-shadow: var(--anzhiyu-shadow-border);
   user-select: none;
 }
-/* 移动端容器padding */
-@media screen and (max-width: 768px) {
-  #body-wrap .layout #page {
-    padding: 20px 15px !important;
-  }
-}
-/* 首页文章宽度 */
-@media screen and (max-width: 1200px) {
-  .layout > div:first-child {
-    width: 100% !important;
-  }
-}
 
-[data-theme="dark"] #footer:before {
-  content: none;
-}
-
-@media screen and (max-width: 768px) {
-  .layout > div:first-child:not(.recent-posts) {
-    border-radius: 12px 12px 0 0;
-  }
-}
-
-.banners-title {
-  animation: slide-in 0.6s 0.3s backwards;
-}
-#algolia-search .search-dialog {
-  animation: slide-in 0.6s ease 0s 1 normal none running;
-}
-
-@media screen and (min-width: 1200px) {
-  #page > div:not(.author-content-item) {
-    animation: slide-in 0.6s 0.2s backwards;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .author-content-item {
-    animation: slide-in 0.6s 0s backwards;
-  }
-}
-
-/* 元素透明度改变 */
-@keyframes slide-in-op {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* 额外添加 */
+/* 其他动画 */
 .author-content-item .card-content .banner-button-group .banner-button {
   height: 40px;
   width: 120px;
 }
 
-/* 个人信息卡片背景图 */
-/* [data-theme="light"] #aside-content > .card-widget.card-info {
-  background: transparent;
-  background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg);
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 100%;
-}
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-  background: transparent;
-  background-image: url(https://www.freeimg.cn/i/2024/01/06/65994c3874b85.jpg);
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 100%;
-} */
-
-/* 头像呼吸灯 */
-[data-theme="light"] .avatar-img {
-  animation: huxi_light 4s ease-in-out infinite;
-}
+[data-theme="light"] .avatar-img,
 [data-theme="dark"] .avatar-img {
-  animation: huxi_dark 4s ease-in-out infinite;
+  animation: breath-light 4s ease-in-out infinite;
 }
-@keyframes huxi_light {
-  0% {
-    box-shadow: 0px 0px 1px 1px #e9f5fa;
-  }
-  50% {
-    box-shadow: 0px 0px 5px 5px #e9f5fa;
-  }
-  100% {
-    box-shadow: 0px 0px 1px 1px #e9f5fa;
-  }
-}
-@keyframes huxi_dark {
-  0% {
-    box-shadow: 0px 0px 1px 1px #e9f5fa;
-  }
-  50% {
-    box-shadow: 0px 0px 5px 5px #e9f5fa;
-  }
-  100% {
-    box-shadow: 0px 0px 1px 1px #e9f5fa;
-  }
-  /* 0% {
-    box-shadow: 0px 0px 1px 1px #8063e1;
-  }
-  50% {
-    box-shadow: 0px 0px 5px 5px #7535ff;
-  }
-  100% {
-    box-shadow: 0px 0px 1px 1px #3900ac;
-  } */
-}
+
 #aside-content .card-widget#card-wechat {
   background: #57bd6a;
   display: flex;
@@ -28414,7 +28220,6 @@ body[data-type="room"] #page .page-title {
     -0.25vw -0.25vw 0.5vw rgba(24, 74, 124, 0.75), 0.25vw -0.25vw 0.5vw rgba(24, 74, 124, 0.75);
 }
 
-/**********************/
 /**********************/
 @keyframes pantalla-tablet {
   from {
