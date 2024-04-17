@@ -808,8 +808,6 @@
             
             <tag> 计操 </tag>
             
-            <tag> 死锁 </tag>
-            
         </tags>
       
     </entry>
@@ -837,8 +835,6 @@
             
             <tag> 计操 </tag>
             
-            <tag> 内存管理 </tag>
-            
         </tags>
       
     </entry>
@@ -865,8 +861,6 @@
         <tags>
             
             <tag> 计操 </tag>
-            
-            <tag> 进程调度 </tag>
             
         </tags>
       
