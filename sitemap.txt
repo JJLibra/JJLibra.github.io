@@ -78,7 +78,7 @@ https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/
 https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/
 https://blog.xxfer.cn/tags/DIY/
 https://blog.xxfer.cn/tags/%E5%8D%9A%E5%AE%A2/
-https://blog.xxfer.cn/tags/Github/
+https://blog.xxfer.cn/tags/GitHub/
 https://blog.xxfer.cn/tags/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93/
 https://blog.xxfer.cn/tags/2024/
 https://blog.xxfer.cn/tags/%E5%8C%97%E4%BA%AC%E6%AC%A2%E8%BF%8E%E4%BD%A0/
@@ -96,7 +96,6 @@ https://blog.xxfer.cn/tags/CDN/
 https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/
 https://blog.xxfer.cn/tags/CI-CD/
 https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
-https://blog.xxfer.cn/tags/GitHub/
 https://blog.xxfer.cn/tags/Git/
 https://blog.xxfer.cn/tags/git/
 https://blog.xxfer.cn/tags/VScode/
