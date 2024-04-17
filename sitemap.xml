@@ -92,6 +92,24 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
+    
+    <lastmod>2024-04-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/electronfish/index.html</loc>
+    
+    <lastmod>2024-04-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/envelope/index.html</loc>
     
     <lastmod>2024-04-17</lastmod>
@@ -210,24 +228,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/copyright/index.html</loc>
-    
-    <lastmod>2024-04-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
-    
-    <lastmod>2024-04-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/electronfish/index.html</loc>
     
     <lastmod>2024-04-17</lastmod>
     
@@ -849,35 +849,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/vscode-plugin/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/commitizen/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Cookie/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Session/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/Token/</loc>
+    <loc>https://blog.xxfer.cn/tags/VScode/</loc>
     <lastmod>2024-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -891,7 +863,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/tags/%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</loc>
+    <loc>https://blog.xxfer.cn/tags/web/</loc>
     <lastmod>2024-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -927,13 +899,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/waf/</loc>
     <lastmod>2024-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

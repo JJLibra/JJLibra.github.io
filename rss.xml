@@ -64,7 +64,7 @@
     
     <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
-    <category term="身份认证" scheme="https://blog.xxfer.cn/tags/%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/"/>
+    <category term="web" scheme="https://blog.xxfer.cn/tags/web/"/>
     
   </entry>
   
@@ -121,9 +121,7 @@
     
     <category term="git" scheme="https://blog.xxfer.cn/tags/git/"/>
     
-    <category term="vscode-plugin" scheme="https://blog.xxfer.cn/tags/vscode-plugin/"/>
-    
-    <category term="commitizen" scheme="https://blog.xxfer.cn/tags/commitizen/"/>
+    <category term="VScode" scheme="https://blog.xxfer.cn/tags/VScode/"/>
     
   </entry>
   
@@ -260,8 +258,6 @@
     <category term="Docker" scheme="https://blog.xxfer.cn/tags/Docker/"/>
     
     <category term="网络安全" scheme="https://blog.xxfer.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
-    
-    <category term="waf" scheme="https://blog.xxfer.cn/tags/waf/"/>
     
   </entry>
   

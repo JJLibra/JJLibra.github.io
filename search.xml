@@ -53,7 +53,7 @@
             
             <tag> 网络安全 </tag>
             
-            <tag> 身份认证 </tag>
+            <tag> web </tag>
             
         </tags>
       
@@ -111,9 +111,7 @@
             
             <tag> git </tag>
             
-            <tag> vscode-plugin </tag>
-            
-            <tag> commitizen </tag>
+            <tag> VScode </tag>
             
         </tags>
       
@@ -261,8 +259,6 @@
             <tag> Docker </tag>
             
             <tag> 网络安全 </tag>
-            
-            <tag> waf </tag>
             
         </tags>
       
@@ -741,12 +737,6 @@
             <tag> Web </tag>
             
             <tag> 网络安全 </tag>
-            
-            <tag> Cookie </tag>
-            
-            <tag> Session </tag>
-            
-            <tag> Token </tag>
             
         </tags>
       
