@@ -97,7 +97,6 @@ https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/
 https://blog.xxfer.cn/tags/CI-CD/
 https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
 https://blog.xxfer.cn/tags/Git/
-https://blog.xxfer.cn/tags/git/
 https://blog.xxfer.cn/tags/VScode/
 https://blog.xxfer.cn/tags/DNS/
 https://blog.xxfer.cn/tags/VPN/
