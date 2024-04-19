@@ -28768,6 +28768,20 @@ div#runtime {
   transform: translateY(-100%);
 }
 
+/* 处理单页背景 */
+body[data-type="blogupdate"] #web_bg {
+    background: var(--anzhiyu-background);
+  }
+  body[data-type="blogupdate"] #page {
+    border: 0;
+    box-shadow: none !important;
+    padding: 0 !important;
+    background: 0 0 !important;
+  }
+  body[data-type="blogupdate"] #page .page-title {
+    display: none;
+  }
+  
 :root {
   --card-author-avatar-groove-border: rgba(244,252,252,0.3);
   --card-author-avatar-dashed-border: rgba(70,162,223,0.3);
