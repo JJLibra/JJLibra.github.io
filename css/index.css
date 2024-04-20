@@ -21547,7 +21547,7 @@ div#category {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/*夜间模式伪类遮罩层透明*/
+/* 夜间模式伪类遮罩层透明 */
 [data-theme="dark"] #recent-posts > .recent-post-item {
   background: #121212;
 }
@@ -21634,7 +21634,7 @@ html.hide-aside .layout > div:first-child {
 
 /* 文章hover边框 */
 #recent-posts .recent-post-item:hover {
-  border: var(--style-border-hover);
+  box-shadow: var(--anzhiyu-shadow-theme);
 }
 #recent-posts .recent-post-item:hover .recent-post-info .article-title {
   color: var(--anzhiyu-theme);
@@ -21644,9 +21644,11 @@ html.hide-aside .layout > div:first-child {
   background: var(--anzhiyu-card-bg);
   border-radius: 12px;
   cursor: pointer;
-  border: var(--style-border);
+  /* border: var(--style-border);
   box-shadow: var(--anzhiyu-shadow-border);
-  user-select: none;
+  user-select: none; */
+  margin-bottom: 1rem;
+  animation: 0.6s ease 0.4s 1 normal backwards running slide-in;
 }
 /* 移动端容器padding */
 @media screen and (max-width: 768px) {
