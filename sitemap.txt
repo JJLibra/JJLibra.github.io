@@ -13,9 +13,9 @@ https://blog.xxfer.cn/about/index.html
 https://blog.xxfer.cn/air-conditioner/index.html
 https://blog.xxfer.cn/album/index.html
 https://blog.xxfer.cn/categories/index.html
-https://blog.xxfer.cn/census/index.html
 https://blog.xxfer.cn/charts/index.html
 https://blog.xxfer.cn/collections/index.html
+https://blog.xxfer.cn/census/index.html
 https://blog.xxfer.cn/cookies/index.html
 https://blog.xxfer.cn/copyright/index.html
 https://blog.xxfer.cn/dailyPhoto/index.html
