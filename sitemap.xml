@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/2e230587.html</loc>
+    
+    <lastmod>2024-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-09-10</lastmod>
@@ -84,60 +93,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
-    
-    <lastmod>2024-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/electronfish/index.html</loc>
-    
-    <lastmod>2024-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/envelope/index.html</loc>
-    
-    <lastmod>2024-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/equipment/index.html</loc>
-    
-    <lastmod>2024-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/essay/index.html</loc>
-    
-    <lastmod>2024-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
     
     <lastmod>2024-09-10</lastmod>
     
@@ -236,7 +191,52 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/NWPUscenery/index.html</loc>
+    <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/electronfish/index.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/envelope/index.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/equipment/index.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/essay/index.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
     
     <lastmod>2024-09-10</lastmod>
     
@@ -246,6 +246,15 @@
   
   <url>
     <loc>https://blog.xxfer.cn/SchooLife/index.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/NWPUscenery/index.html</loc>
     
     <lastmod>2024-09-10</lastmod>
     
