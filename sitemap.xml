@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/1815c0b3.html</loc>
+    
+    <lastmod>2024-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-10-19</lastmod>
@@ -742,6 +751,13 @@
   
   <url>
     <loc>https://blog.xxfer.cn/tags/%E5%8C%97%E4%BA%AC%E6%AC%A2%E8%BF%8E%E4%BD%A0/</loc>
+    <lastmod>2024-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/tags/Pokemon/</loc>
     <lastmod>2024-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

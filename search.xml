@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>我们00后应该还是有人看Pokémon的吧</title>
+      <link href="/posts/1815c0b3.html"/>
+      <url>/posts/1815c0b3.html</url>
+      <cover>https://www.freeimg.cn/i/2024/10/19/67131a2cf1622.webp</cover>
+      <date>Sat Oct 19 2024 12:00:00 GMT+0000</date>
+      
+        <content type="html"><![CDATA[<p>又过了一个月，闲来无事，到博客灌灌水。。。最近工位摸鱼的时候，在GitHub上看到一个挺有意思的项目。<br>这个项目是用于在终端显示Pokémon Sprite的，就像下面这样：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="/img/mewtwo.png" alt="知道上面这只的应该都不小了吧，哈哈" style="width:240px;"/></div></div><p>其实这个项目也挺好实现的，就是一个命令行工具，输出的内容都在安装时存放在本地了。输出内容是神奇宝贝图片通过python脚本转换成的ANSI转义码。<br>说白了，就是实现一个命令行工具和脚本工具。GitHub上有很多类似的项目，可以看出，那时候，宝可梦确实很受欢迎。当时我就来兴致了，主要是挺怀念小时候刷xy的暑假。<br>当时写完了这个东西，我还晒了个pyq，结果发现00后看这个的也不多😅<br>你们看过Pokémon吗？今年多大了？欢迎评论区留言，哈哈。<br>转了一圈发现有用Rust、shell实现的，好像没有用C的，所以就有了下面这个项目：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://github.com/JJLibra/Pokemonc">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/23/6586e75c86de7.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">PokemonC</div>            <div class="tag-link-sitename">JJLibra</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>暂时只支持Linux的部分发行版，生成资源的脚本也一并放在下面：</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://github.com/JJLibra/PokemonC_generator">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://www.freeimg.cn/i/2023/12/23/6586e75c86de7.png)">          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">PokemonC</div>            <div class="tag-link-sitename">JJLibra</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><p>图片等资源来自<a href="https://github.com/PokeAPI/pokeapi">PokéAPI</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pokémon </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>通知：说好的回归！</title>
       <link href="/posts/2e230587.html"/>
       <url>/posts/2e230587.html</url>
