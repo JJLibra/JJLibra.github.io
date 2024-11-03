@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.xxfer.cn/posts/8127414b.html</loc>
-    
-    <lastmod>2024-11-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-11-03</lastmod>
@@ -245,6 +236,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/NWPUscenery/index.html</loc>
     
     <lastmod>2024-11-03</lastmod>
@@ -255,6 +255,15 @@
   
   <url>
     <loc>https://blog.xxfer.cn/SchooLife/index.html</loc>
+    
+    <lastmod>2024-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/posts/8127414b.html</loc>
     
     <lastmod>2024-11-03</lastmod>
     

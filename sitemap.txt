@@ -1,4 +1,3 @@
-https://blog.xxfer.cn/posts/8127414b.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
@@ -25,8 +24,10 @@ https://blog.xxfer.cn/envelope/index.html
 https://blog.xxfer.cn/equipment/index.html
 https://blog.xxfer.cn/essay/index.html
 https://blog.xxfer.cn/fcircle/index.html
+https://blog.xxfer.cn/posts/308a1d42.html
 https://blog.xxfer.cn/NWPUscenery/index.html
 https://blog.xxfer.cn/SchooLife/index.html
+https://blog.xxfer.cn/posts/8127414b.html
 https://blog.xxfer.cn/posts/1815c0b3.html
 https://blog.xxfer.cn/posts/2e230587.html
 https://blog.xxfer.cn/posts/c36b97b1.html
