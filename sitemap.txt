@@ -8,6 +8,12 @@ https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/updatebrowser/index.html
 https://blog.xxfer.cn/updatebrowser/updatebrowser.html
 https://blog.xxfer.cn/wordScenery/index.html
+https://blog.xxfer.cn/dailyPhoto/index.html
+https://blog.xxfer.cn/electronfish/index.html
+https://blog.xxfer.cn/envelope/index.html
+https://blog.xxfer.cn/equipment/index.html
+https://blog.xxfer.cn/essay/index.html
+https://blog.xxfer.cn/fcircle/index.html
 https://blog.xxfer.cn/baidu_verify_codeva-RzL329nU12.html
 https://blog.xxfer.cn/about/index.html
 https://blog.xxfer.cn/air-conditioner/index.html
@@ -18,15 +24,10 @@ https://blog.xxfer.cn/charts/index.html
 https://blog.xxfer.cn/collections/index.html
 https://blog.xxfer.cn/cookies/index.html
 https://blog.xxfer.cn/copyright/index.html
-https://blog.xxfer.cn/dailyPhoto/index.html
-https://blog.xxfer.cn/electronfish/index.html
-https://blog.xxfer.cn/envelope/index.html
-https://blog.xxfer.cn/equipment/index.html
-https://blog.xxfer.cn/essay/index.html
-https://blog.xxfer.cn/fcircle/index.html
+https://blog.xxfer.cn/posts/5a9ae0a2.html
 https://blog.xxfer.cn/posts/308a1d42.html
-https://blog.xxfer.cn/NWPUscenery/index.html
 https://blog.xxfer.cn/SchooLife/index.html
+https://blog.xxfer.cn/NWPUscenery/index.html
 https://blog.xxfer.cn/posts/8127414b.html
 https://blog.xxfer.cn/posts/1815c0b3.html
 https://blog.xxfer.cn/posts/2e230587.html
@@ -82,6 +83,7 @@ https://blog.xxfer.cn/tags/%E5%BB%BA%E7%AB%99/
 https://blog.xxfer.cn/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/
 https://blog.xxfer.cn/tags/DIY/
 https://blog.xxfer.cn/tags/%E5%8D%9A%E5%AE%A2/
+https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/
 https://blog.xxfer.cn/tags/GitHub/
 https://blog.xxfer.cn/tags/%E6%97%A5%E5%B8%B8%E6%80%BB%E7%BB%93/
 https://blog.xxfer.cn/tags/2024/
@@ -98,7 +100,6 @@ https://blog.xxfer.cn/tags/%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8%E9%A1%B9%E7%9B%A
 https://blog.xxfer.cn/tags/jsDelivr/
 https://blog.xxfer.cn/tags/npm/
 https://blog.xxfer.cn/tags/CDN/
-https://blog.xxfer.cn/tags/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/
 https://blog.xxfer.cn/tags/CI-CD/
 https://blog.xxfer.cn/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/
 https://blog.xxfer.cn/tags/Git/
