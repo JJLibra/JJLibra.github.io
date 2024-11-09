@@ -360,7 +360,7 @@
 
   function introduce() {
     if (mode == "tianli") {
-      startAI("我是文章辅助AI: TianliGPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。");
+      startAI("我是文章辅助AI: 小李GPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。");
     } else {
       startAI(`我是文章辅助AI: ${gptName} GPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。`);
     }
@@ -375,7 +375,7 @@
       post_ai.querySelectorAll(".ai-btn-item").forEach(item => (item.style.display = "none"));
       document.getElementById("go-tianli-blog").style.display = "block";
       startAI(
-        "你好，我是Tianli开发的摘要生成助理TianliGPT，是一个基于GPT-4的生成式AI。我在这里只负责摘要的预生成和显示，你无法与我直接沟通，如果你也需要一个这样的AI摘要接口，可以在下方购买。"
+        "你好，我是小李开发的摘要生成助理小李GPT，是一个基于GPT-4的生成式AI。我在这里只负责摘要的预生成和显示，你无法与我直接沟通，如果你也需要一个这样的AI摘要接口，可以在下方购买。"
       );
     } else {
       post_ai.querySelectorAll(".ai-btn-item").forEach(item => (item.style.display = "block"));
@@ -412,7 +412,7 @@
   function changeShowMode() {
     mode = mode === "tianli" ? "local" : "tianli";
     if (mode === "tianli") {
-      document.getElementById("ai-tag").innerHTML = "TianliGPT";
+      document.getElementById("ai-tag").innerHTML = "小李GPT";
 
       aiReadAloudIcon.style.opacity = "1";
       aiReadAloudIcon.style.cursor = "pointer";
@@ -430,7 +430,7 @@
 
   function showAiBtn() {
     if (mode === "tianli") {
-      document.getElementById("ai-tag").innerHTML = "TianliGPT";
+      document.getElementById("ai-tag").innerHTML = "小李GPT";
     } else {
       document.getElementById("ai-tag").innerHTML = gptName + " GPT";
     }
