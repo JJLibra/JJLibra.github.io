@@ -138,8 +138,8 @@ textarea {
 }
 
 .limit-one-line,
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-name,
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-desc,
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info .flink-item-name,
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info .flink-item-desc,
 #aside-content .card-archives ul.card-archive-list > .card-archive-list-item a span,
 #aside-content .card-categories ul.card-category-list > .card-category-list-item a span,
 .site-data > a .headline,
@@ -6433,8 +6433,9 @@ body[data-type="link"] #page .page-title {
   -o-transform: translateZ(0px);
   -ms-transform: translateZ(0px);
   transform: translateZ(0px);
+/* 悬停状态下的样式 */
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link {
   position: relative;
   display: -webkit-box;
   display: -moz-box;
@@ -6457,7 +6458,7 @@ body[data-type="link"] #page .page-title {
   padding: 0 4px;
   border-radius: 4px 4px 0 0;
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link img {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link img {
   border-radius: 32px;
   margin: 15px 20px 15px 15px;
   -webkit-transition: 0.3s;
@@ -6474,25 +6475,25 @@ body[data-type="link"] #page .page-title {
   object-fit: cover;
 }
 @media screen and (max-width: 1200px) {
-  #article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link {
+  #article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link {
     width: calc(50% - 15px) !important;
   }
 }
 @media screen and (max-width: 600px) {
-  #article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link {
+  #article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link {
     width: calc(100% - 15px) !important;
   }
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link:hover:before,
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link:focus:before,
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link:active:before {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link:hover:before,
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link:focus:before,
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link:active:before {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -o-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -6513,8 +6514,9 @@ body[data-type="link"] #page .page-title {
   justify-content: center;
   width: calc(100% - 90px);
   height: fit-content;
+/* 状态图标样式 */
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-name {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info .flink-item-name {
   text-align: left;
   line-height: 20px;
   color: var(--anzhiyu-fontcolor);
@@ -6528,7 +6530,7 @@ body[data-type="link"] #page .page-title {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-desc {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info .flink-item-desc {
   white-space: normal;
   padding: 5px 10px 16px 0;
   color: var(--anzhiyu-fontcolor);
@@ -6545,34 +6547,68 @@ body[data-type="link"] #page .page-title {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-status {
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 2px 4px;
-  border-radius: 4px;
-  font-size: 12px;
-  z-index: 2;
-  -webkit-transition: opacity 0.3s ease 0s;
-  -moz-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  -ms-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+/* 移除背景和文字样式 */
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-status.accessible {
-  background-color: rgba(0,128,0,0.7);
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status::before {
+  font-family: 'Font Awesome 5 Free' /* 根据实际字体名称调整 */;
+  font-weight: 900 /* 根据 FontAwesome 版本调整 */;
+  font-size: 14px;
+  content: '';
 }
-#article-container .anzhiyu-flink-list .flink-list-item .cf-friends-link .flink-item-info .flink-item-status.inaccessible {
-  background-color: rgba(255,0,0,0.7);
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status.accessible-strong::before {
+  content: '\f0c1' /* FontAwesome wifi 图标代码 */;
+  color: #008000;
+}
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status.accessible-medium::before {
+  content: '\f0c2' /* FontAwesome wifi 图标代码 */;
+  color: #ffa500;
+}
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status.accessible-weak::before {
+  content: '\f0c0' /* FontAwesome signal 图标代码 */;
+  color: #f00;
+}
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status.inaccessible::before {
+  content: '\f071' /* FontAwesome ban 图标代码 */;
+  color: #808080;
+}
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status.accessible,
+#article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info span.flink-item-status.inaccessible {
+  background: none;
+  color: inherit;
+  text-indent: -9999px;
 }
 #article-container .anzhiyu-flink-list .flink-list-item:hover {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+/* 如果不希望上移，调整以下行 */
+/* transform: translateY(-3px) */
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
   background: var(--anzhiyu-theme);
   border: var(--style-border-hover);
   -webkit-box-shadow: var(--anzhiyu-shadow-main);
@@ -6600,35 +6636,42 @@ body[data-type="link"] #page .page-title {
   min-width: calc(100% - 20px);
 }
 #article-container .anzhiyu-flink-list .flink-list-item:hover a .flink-item-name {
-  color: var(--anzhiyu-white);
+  color: var(--anzhiyu-white) !important;
 }
 #article-container .anzhiyu-flink-list .flink-list-item:hover a .flink-item-desc {
   overflow: hidden;
   width: 100%;
-  color: var(--anzhiyu-white);
+  color: var(--anzhiyu-white) !important;
 }
 #article-container .anzhiyu-flink-list .flink-list-item:hover a .flink-item-status {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-#article-container .flexcard-flink-list {
+.flexcard-flink-list {
   overflow: hidden;
 }
-#article-container .flexcard-flink-list .flink-list-card .wrapper img {
+.flexcard-flink-list .flink-list-card .wrapper img {
   -webkit-transition: -webkit-transform 0.5s ease-out !important;
   -moz-transition: -moz-transform 0.5s ease-out !important;
   -o-transition: -o-transform 0.5s ease-out !important;
   -ms-transition: -ms-transform 0.5s ease-out !important;
   transition: transform 0.5s ease-out !important;
 }
-#article-container .flexcard-flink-list .flink-list-card:hover {
+.flexcard-flink-list .flink-list-card:hover {
   border-color: var(--anzhiyu-main) !important;
   background-color: var(--anzhiyu-main) !important;
   -webkit-box-shadow: var(--anzhiyu-shadow-theme) !important;
   box-shadow: var(--anzhiyu-shadow-theme) !important;
 }
-#article-container .flexcard-flink-list > a {
+.flexcard-flink-list .flink-list-card > a {
   width: calc(100% / 5 - 0.5rem);
   height: 150px;
   position: relative;
@@ -6647,21 +6690,21 @@ body[data-type="link"] #page .page-title {
   box-shadow: none;
   border: var(--style-border) !important;
 }
-#article-container .flexcard-flink-list > a:hover .info {
+.flexcard-flink-list .flink-list-card > a:hover .info {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   -o-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
 }
-#article-container .flexcard-flink-list > a:hover .wrapper img {
+.flexcard-flink-list .flink-list-card > a:hover .wrapper img {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-#article-container .flexcard-flink-list > a:hover::before {
+.flexcard-flink-list .flink-list-card > a:hover::before {
   position: fixed;
   width: inherit;
   margin: auto;
@@ -6677,7 +6720,7 @@ body[data-type="link"] #page .page-title {
   padding: 10px;
   background-color: rgba(66,90,239,0.8);
 }
-#article-container .flexcard-flink-list > a .cover {
+.flexcard-flink-list .flink-list-card > a .cover {
   width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-out;
   -moz-transition: -moz-transform 0.5s ease-out;
@@ -6685,21 +6728,21 @@ body[data-type="link"] #page .page-title {
   -ms-transition: -ms-transform 0.5s ease-out;
   transition: transform 0.5s ease-out;
 }
-#article-container .flexcard-flink-list > a .wrapper {
+.flexcard-flink-list .flink-list-card > a .wrapper {
   position: relative;
 }
-#article-container .flexcard-flink-list > a .wrapper .fadeIn {
+.flexcard-flink-list .flink-list-card > a .wrapper .fadeIn {
   -webkit-animation: coverIn 0.8s ease-out forwards;
   -moz-animation: coverIn 0.8s ease-out forwards;
   -o-animation: coverIn 0.8s ease-out forwards;
   -ms-animation: coverIn 0.8s ease-out forwards;
   animation: coverIn 0.8s ease-out forwards;
 }
-#article-container .flexcard-flink-list > a .wrapper img {
+.flexcard-flink-list .flink-list-card > a .wrapper img {
   height: 150px;
   pointer-events: none;
 }
-#article-container .flexcard-flink-list > a .info {
+.flexcard-flink-list .flink-list-card > a .info {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -6735,7 +6778,7 @@ body[data-type="link"] #page .page-title {
   -ms-transition: -ms-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
   transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 }
-#article-container .flexcard-flink-list > a .info img {
+.flexcard-flink-list .flink-list-card > a .info img {
   position: relative;
   top: 45px;
   width: 80px;
@@ -6747,37 +6790,59 @@ body[data-type="link"] #page .page-title {
   text-align: center;
   pointer-events: none;
 }
-#article-container .flexcard-flink-list > a .info span.flink-item-status {
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 2px 4px;
-  border-radius: 4px;
-  font-size: 12px;
-  z-index: 2;
-  -webkit-transition: opacity 0.3s ease 0s;
-  -moz-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  -ms-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
+  width: 16px;
+  height: 16px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+/* 移除背景和文字样式 */
 }
-#article-container .flexcard-flink-list > a .info span.flink-item-status.accessible {
-  background-color: rgba(0,128,0,0.7);
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status::before {
+  font-family: 'Font Awesome 5 Free' /* 根据实际字体名称调整 */;
+  font-weight: 900 /* 根据 FontAwesome 版本调整 */;
+  font-size: 14px;
+  content: '';
 }
-#article-container .flexcard-flink-list > a .info span.flink-item-status.inaccessible {
-  background-color: rgba(255,0,0,0.7);
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status.accessible-strong::before {
+  content: '\f0c1' /* FontAwesome wifi 图标代码 */;
+  color: #008000;
 }
-.flexcard-flink-list > a:hover .info .flink-item-status {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.3s ease 0s;
-  -moz-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  -ms-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status.accessible-medium::before {
+  content: '\f0c2' /* FontAwesome wifi 图标代码 */;
+  color: #ffa500;
+}
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status.accessible-weak::before {
+  content: '\f0c0' /* FontAwesome signal 图标代码 */;
+  color: #f00;
+}
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status.inaccessible::before {
+  content: '\f071' /* FontAwesome ban 图标代码 */;
+  color: #808080;
+}
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status.accessible,
+.flexcard-flink-list .flink-list-card > a .info span.flink-item-status.inaccessible {
+  background: none;
+  color: inherit;
+  text-indent: -9999px;
 }
 @media screen and (max-width: 1024px) {
   .flexcard-flink-list > a {
@@ -6805,52 +6870,6 @@ body[data-type="link"] #page .page-title {
   margin-bottom: 0.5rem;
   object-fit: cover;
   max-height: 900px;
-}
-.anzhiyu-flink-list .flink-item-status {
-  font-size: 0.8em;
-  display: block;
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 2px 4px;
-  border-radius: 4px;
-  z-index: 2;
-  -webkit-transition: opacity 0.3s ease 0s;
-  -moz-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  -ms-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
-}
-.anzhiyu-flink-list .flink-item-status.accessible {
-  background-color: rgba(0,128,0,0.7);
-}
-.anzhiyu-flink-list .flink-item-status.inaccessible {
-  background-color: rgba(255,0,0,0.7);
-}
-.flexcard-flink-list .flink-item-status {
-  font-size: 0.8em;
-  display: block;
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  background-color: rgba(0,0,0,0.6);
-  color: #fff;
-  padding: 2px 4px;
-  border-radius: 4px;
-  z-index: 2;
-  -webkit-transition: opacity 0.3s ease 0s;
-  -moz-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  -ms-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
-}
-.flexcard-flink-list .flink-item-status.accessible {
-  background-color: rgba(0,128,0,0.7);
-}
-.flexcard-flink-list .flink-item-status.inaccessible {
-  background-color: rgba(255,0,0,0.7);
 }
 .site-card-tag {
   position: absolute;
@@ -7037,6 +7056,18 @@ body[data-type="link"] #page .page-title {
   display: -ms-flexbox;
   display: box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   border: none;
   padding: 0.7rem;
   width: 100%;
@@ -7148,6 +7179,32 @@ body[data-type="link"] #page .page-title {
   margin: 0;
   max-width: 100%;
 }
+.flink-item-status.accessible-strong::after,
+.flink-item-status.accessible-medium::after,
+.flink-item-status.accessible-weak::after,
+.flink-item-status.inaccessible::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 12px;
+  z-index: -1;
+  filter: blur(4px);
+}
+.flink-item-status.accessible-strong::after {
+  background: rgba(0,255,0,0.2);
+}
+.flink-item-status.accessible-medium::after {
+  background: rgba(255,165,0,0.2) /* 橙色 */;
+}
+.flink-item-status.accessible-weak::after {
+  background: rgba(255,0,0,0.2);
+}
+.flink-item-status.inaccessible::after {
+  background: rgba(255,50,50,0.2) /* 修改为更深的红色 */;
+}
 @-moz-keyframes light_tag {
   0% {
     -webkit-transform: skewx(0) translateX(-150px);
@@ -7210,6 +7267,54 @@ body[data-type="link"] #page .page-title {
     -o-transform: skewx(-25deg) translateX(50px);
     -ms-transform: skewx(-25deg) translateX(50px);
     transform: skewx(-25deg) translateX(50px);
+  }
+}
+@-moz-keyframes coverIn {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-webkit-keyframes coverIn {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@-o-keyframes coverIn {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+  }
+}
+@keyframes coverIn {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
   }
 }
 #recent-posts > .recent-post-item:not(:first-child) {
