@@ -6433,7 +6433,6 @@ body[data-type="link"] #page .page-title {
   -o-transform: translateZ(0px);
   -ms-transform: translateZ(0px);
   transform: translateZ(0px);
-/* 悬停状态下的样式 */
 }
 #article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link {
   position: relative;
@@ -6514,7 +6513,6 @@ body[data-type="link"] #page .page-title {
   justify-content: center;
   width: calc(100% - 90px);
   height: fit-content;
-/* 状态图标样式 */
 }
 #article-container .anzhiyu-flink-list .flink-list-item a.cf-friends-link .flink-item-info .flink-item-name {
   text-align: left;
@@ -6602,8 +6600,6 @@ body[data-type="link"] #page .page-title {
   text-indent: -9999px;
 }
 #article-container .anzhiyu-flink-list .flink-list-item:hover {
-/* 如果不希望上移，调整以下行 */
-/* transform: translateY(-3px) */
   -webkit-transform: translateY(-1px);
   -moz-transform: translateY(-1px);
   -o-transform: translateY(-1px);
@@ -6843,6 +6839,16 @@ body[data-type="link"] #page .page-title {
   background: none;
   color: inherit;
   text-indent: -9999px;
+}
+.flexcard-flink-list > a:hover .info .flink-item-status {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.3s ease 0s;
+  -moz-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  -ms-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
 }
 @media screen and (max-width: 1024px) {
   .flexcard-flink-list > a {
