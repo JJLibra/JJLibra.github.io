@@ -2743,7 +2743,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: PingFang SC, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: MiSans VF, LXGWWenKai, MiSans, PingFang SC, system-ui, sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -8874,7 +8874,7 @@ body:has(#console.show) #nav-music {
   color: var(--anzhiyu-lighttext);
 }
 #tag #tag-page-tags a {
-  font-family: PingFang SC, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: MiSans VF, LXGWWenKai, MiSans, PingFang SC, system-ui, sans-serif;
   font-size: 0.9em;
 }
 #tag #tag-page-tags a:hover {
@@ -8893,7 +8893,7 @@ span.categoryes-punctuation .icon-biaoqian {
   font-size: 13px;
 }
 .tagsPageCount {
-  font-family: PingFang SC, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: MiSans VF, LXGWWenKai, MiSans, PingFang SC, system-ui, sans-serif;
 }
 [data-theme="light"] #post .tag_share .post-meta__box__tags span.tagsPageCount {
   background-color: transparent;
@@ -9186,7 +9186,7 @@ h1.page-title + .tag-cloud-list {
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
-  font-family: PingFang SC, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: MiSans VF, LXGWWenKai, MiSans, PingFang SC, system-ui, sans-serif;
 }
 @media screen and (max-width: 768px) {
   #error-wrap .error-content .error-info {
