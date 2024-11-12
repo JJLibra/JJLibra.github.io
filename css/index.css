@@ -11126,6 +11126,17 @@ h1.page-title + .tag-cloud-list {
   background-attachment: fixed;
   border-radius: 0;
 }
+@media screen and (max-width: 768px) {
+  #page-header #center-console + label i {
+    background: var(--font-color);
+  }
+}
+#page-header #site-info {
+  position: absolute;
+  top: 43%;
+  padding: 0 10px;
+  width: 100%;
+}
 #page-header #site-title,
 #page-header #site-subtitle,
 #page-header #scroll-down .scroll-down-effects {
@@ -11135,7 +11146,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #site-title {
   margin: 0;
-  color: var(--white);
+  color: var(--black);
   font-size: 1.85em;
 }
 @media screen and (min-width: 768px) {
@@ -11144,7 +11155,7 @@ h1.page-title + .tag-cloud-list {
   }
 }
 #page-header #site-subtitle {
-  color: var(--light-grey);
+  color: var(--font-color);
   font-size: 1.15em;
 }
 @media screen and (min-width: 768px) {
@@ -11165,7 +11176,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #site_social_icons .social-icon {
   margin: 0 10px;
-  color: var(--light-grey);
+  color: var(--font-color);
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
   font-size: 1.43em;
 }
@@ -11197,7 +11208,7 @@ h1.page-title + .tag-cloud-list {
 #page-header #scroll-down .scroll-down-effects {
   position: relative;
   width: 100%;
-  color: var(--light-grey);
+  color: var(--font-color);
   font-size: 30px;
 }
 #page-header.not-home-page {
@@ -11657,7 +11668,7 @@ h1.page-title + .tag-cloud-list {
   margin-bottom: 30px;
 }
 #post > #post-info .post-title {
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--font-color);
   color: var(--text-highlight-color);
 }
 #post > #post-info .post-title .post-edit-link {
@@ -11701,7 +11712,7 @@ h1.page-title + .tag-cloud-list {
   padding-left: 10px;
 }
 #post-info #post-meta {
-  color: var(--light-grey);
+  color: var(--font-color);
   font-size: 95%;
   display: -webkit-box;
   display: -moz-box;
@@ -11795,7 +11806,7 @@ h1.page-title + .tag-cloud-list {
   border-radius: 4px;
 }
 #post-info #post-meta a {
-  color: var(--light-grey);
+  color: var(--font-color);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -11864,7 +11875,7 @@ h1.page-title + .tag-cloud-list {
 #nav #menus a,
 #nav #nav-right .nav-button a,
 #nav #nav-right #toggle-menu a {
-  color: var(--light-grey);
+  color: var(--font-color);
 }
 #nav #blog_name a:hover,
 #nav .mask-name-container a:hover,
@@ -12722,7 +12733,7 @@ h1.page-title + .tag-cloud-list {
   transform: none;
 }
 #center-console + label i {
-  background: var(--light-grey);
+  background: var(--font-color);
   position: absolute;
   border-radius: calc(var(--icon-size) * 0.15);
   -webkit-transition: 0.5s var(--animation-on);
@@ -13617,7 +13628,7 @@ h1.page-title + .tag-cloud-list {
   position: relative;
 }
 #page-header:not(.not-top-img) #nav .back-home-button {
-  color: var(--light-grey);
+  color: var(--font-color);
 }
 #page-header.nav-fixed:not(.not-top-img) #nav .back-home-button {
   color: var(--font-color);
@@ -14026,6 +14037,32 @@ h1.page-title + .tag-cloud-list {
     transition: 0.3s;
     -webkit-box-shadow: var(--anzhiyu-shadow-main);
     box-shadow: var(--anzhiyu-shadow-main);
+  }
+}
+@media screen and (max-width: 768px) {
+  #nav {
+    background: var(--anzhiyu-card-bg) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page-header #nav #site-name,
+  #page-header #nav #toggle-menu,
+  #page-header:not(.not-top-img) #nav .back-home-button {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog_name a,
+  .mask-name-container a,
+  #menus a,
+  #nav-right .nav-button a,
+  #nav-right #toggle-menu a {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  div#bbTimeList {
+    margin: 20px 15px !important;
   }
 }
 #pagination .toPageGroup {
@@ -21705,9 +21742,9 @@ svg.icon {
 }
 
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
-/* #page-header:not(.not-top-img):before {
+#page-header:not(.not-top-img):before {
   background-color: transparent !important;
-} */
+}
 
 /* 文章页面正文背景 */
 div#post {
@@ -24400,7 +24437,7 @@ body[data-type="envelope"] #page #post-comment .tk-comments-container > .tk-comm
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 1;
+  z-index: -999;
 }
 canvas#universe {
   display: none;
@@ -28973,6 +29010,381 @@ body[data-type="blogupdate"] #web_bg {
     display: none;
   }
   
+#web_bg {
+  display: none;
+}
+@-moz-keyframes bg_rocket-movement {
+  100% {
+    -webkit-transform: translate(1200px, -600px);
+    -moz-transform: translate(1200px, -600px);
+    -o-transform: translate(1200px, -600px);
+    -ms-transform: translate(1200px, -600px);
+    transform: translate(1200px, -600px);
+  }
+}
+@-webkit-keyframes bg_rocket-movement {
+  100% {
+    -webkit-transform: translate(1200px, -600px);
+    -moz-transform: translate(1200px, -600px);
+    -o-transform: translate(1200px, -600px);
+    -ms-transform: translate(1200px, -600px);
+    transform: translate(1200px, -600px);
+  }
+}
+@-o-keyframes bg_rocket-movement {
+  100% {
+    -webkit-transform: translate(1200px, -600px);
+    -moz-transform: translate(1200px, -600px);
+    -o-transform: translate(1200px, -600px);
+    -ms-transform: translate(1200px, -600px);
+    transform: translate(1200px, -600px);
+  }
+}
+@keyframes bg_rocket-movement {
+  100% {
+    -webkit-transform: translate(1200px, -600px);
+    -moz-transform: translate(1200px, -600px);
+    -o-transform: translate(1200px, -600px);
+    -ms-transform: translate(1200px, -600px);
+    transform: translate(1200px, -600px);
+  }
+}
+@-moz-keyframes bg_spin-earth {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -webkit-transition: -webkit-transform 20s;
+    -moz-transition: -moz-transform 20s;
+    -o-transition: -o-transform 20s;
+    -ms-transition: -ms-transform 20s;
+    transition: transform 20s;
+  }
+}
+@-webkit-keyframes bg_spin-earth {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -webkit-transition: -webkit-transform 20s;
+    -moz-transition: -moz-transform 20s;
+    -o-transition: -o-transform 20s;
+    -ms-transition: -ms-transform 20s;
+    transition: transform 20s;
+  }
+}
+@-o-keyframes bg_spin-earth {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -webkit-transition: -webkit-transform 20s;
+    -moz-transition: -moz-transform 20s;
+    -o-transition: -o-transform 20s;
+    -ms-transition: -ms-transform 20s;
+    transition: transform 20s;
+  }
+}
+@keyframes bg_spin-earth {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -webkit-transition: -webkit-transform 20s;
+    -moz-transition: -moz-transform 20s;
+    -o-transition: -o-transform 20s;
+    -ms-transition: -ms-transform 20s;
+    transition: transform 20s;
+  }
+}
+@-moz-keyframes bg_move-astronaut {
+  100% {
+    -webkit-transform: translate(-160px, -160px);
+    -moz-transform: translate(-160px, -160px);
+    -o-transform: translate(-160px, -160px);
+    -ms-transform: translate(-160px, -160px);
+    transform: translate(-160px, -160px);
+  }
+}
+@-webkit-keyframes bg_move-astronaut {
+  100% {
+    -webkit-transform: translate(-160px, -160px);
+    -moz-transform: translate(-160px, -160px);
+    -o-transform: translate(-160px, -160px);
+    -ms-transform: translate(-160px, -160px);
+    transform: translate(-160px, -160px);
+  }
+}
+@-o-keyframes bg_move-astronaut {
+  100% {
+    -webkit-transform: translate(-160px, -160px);
+    -moz-transform: translate(-160px, -160px);
+    -o-transform: translate(-160px, -160px);
+    -ms-transform: translate(-160px, -160px);
+    transform: translate(-160px, -160px);
+  }
+}
+@keyframes bg_move-astronaut {
+  100% {
+    -webkit-transform: translate(-160px, -160px);
+    -moz-transform: translate(-160px, -160px);
+    -o-transform: translate(-160px, -160px);
+    -ms-transform: translate(-160px, -160px);
+    transform: translate(-160px, -160px);
+  }
+}
+@-moz-keyframes bg_rotate-astronaut {
+  100% {
+    -webkit-transform: rotate(-720deg);
+    -moz-transform: rotate(-720deg);
+    -o-transform: rotate(-720deg);
+    -ms-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+}
+@-webkit-keyframes bg_rotate-astronaut {
+  100% {
+    -webkit-transform: rotate(-720deg);
+    -moz-transform: rotate(-720deg);
+    -o-transform: rotate(-720deg);
+    -ms-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+}
+@-o-keyframes bg_rotate-astronaut {
+  100% {
+    -webkit-transform: rotate(-720deg);
+    -moz-transform: rotate(-720deg);
+    -o-transform: rotate(-720deg);
+    -ms-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+}
+@keyframes bg_rotate-astronaut {
+  100% {
+    -webkit-transform: rotate(-720deg);
+    -moz-transform: rotate(-720deg);
+    -o-transform: rotate(-720deg);
+    -ms-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+}
+@-moz-keyframes bg_glow-star {
+  40% {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+  }
+  90%, 100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border-radius: 999999px;
+  }
+}
+@-webkit-keyframes bg_glow-star {
+  40% {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+  }
+  90%, 100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border-radius: 999999px;
+  }
+}
+@-o-keyframes bg_glow-star {
+  40% {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+  }
+  90%, 100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border-radius: 999999px;
+  }
+}
+@keyframes bg_glow-star {
+  40% {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+  }
+  90%, 100% {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    border-radius: 999999px;
+  }
+}
+[data-theme="dark"] #web_bg {
+  display: block;
+  position: fixed;
+  z-index: -998;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  pointer-events: none;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  -ms-transition: 0.7s;
+  transition: 0.7s;
+}
+[data-theme="dark"] #web_bg .bg_objects img {
+  z-index: -997;
+  pointer-events: none;
+}
+[data-theme="dark"] #web_bg .bg_object_rocket {
+  z-index: -996;
+  position: absolute;
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -o-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  transform: translateX(-50px);
+  top: 75%;
+  pointer-events: none;
+  -webkit-animation: bg_rocket-movement 200s linear infinite both running;
+  -moz-animation: bg_rocket-movement 200s linear infinite both running;
+  -o-animation: bg_rocket-movement 200s linear infinite both running;
+  -ms-animation: bg_rocket-movement 200s linear infinite both running;
+  animation: bg_rocket-movement 200s linear infinite both running;
+}
+[data-theme="dark"] #web_bg .bg_object_earth {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  z-index: -995;
+}
+[data-theme="dark"] #web_bg .bg_object_moon {
+  position: absolute;
+  top: 12%;
+  left: 25%;
+}
+[data-theme="dark"] #web_bg .bg_object_astronaut {
+  -webkit-animation: bg_rotate-astronaut 200s infinite linear both alternate;
+  -moz-animation: bg_rotate-astronaut 200s infinite linear both alternate;
+  -o-animation: bg_rotate-astronaut 200s infinite linear both alternate;
+  -ms-animation: bg_rotate-astronaut 200s infinite linear both alternate;
+  animation: bg_rotate-astronaut 200s infinite linear both alternate;
+}
+[data-theme="dark"] #web_bg .bg_box_astronaut {
+  z-index: -994;
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  will-change: transform;
+  -webkit-animation: bg_move-astronaut 50s infinite linear both alternate;
+  -moz-animation: bg_move-astronaut 50s infinite linear both alternate;
+  -o-animation: bg_move-astronaut 50s infinite linear both alternate;
+  -ms-animation: bg_move-astronaut 50s infinite linear both alternate;
+  animation: bg_move-astronaut 50s infinite linear both alternate;
+}
+[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star {
+  position: absolute;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 3px;
+  height: 3px;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  will-change: opacity;
+}
+[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(1) {
+  top: 80%;
+  left: 25%;
+  -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
+  -moz-animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
+  -o-animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
+  -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
+  animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
+}
+[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(2) {
+  top: 20%;
+  left: 40%;
+  -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
+  -moz-animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
+  -o-animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
+  -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
+  animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
+}
+[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(3) {
+  top: 25%;
+  left: 25%;
+  -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
+  -moz-animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
+  -o-animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
+  -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
+  animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
+}
+[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(4) {
+  top: 75%;
+  left: 80%;
+  -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
+  -moz-animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
+  -o-animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
+  -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
+  animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
+}
+[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(5) {
+  top: 90%;
+  left: 50%;
+  -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
+  -moz-animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
+  -o-animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
+  -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
+  animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
+}
+@media (max-width: 768px) {
+  [data-theme="dark"] #web_bg .bg_box_astronaut {
+    top: 70%;
+  }
+  [data-theme="dark"] #web_bg .bg_central-body {
+    padding-top: 25%;
+  }
+}
 :root {
   --card-author-avatar-groove-border: rgba(244,252,252,0.3);
   --card-author-avatar-dashed-border: rgba(70,162,223,0.3);
