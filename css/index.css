@@ -11163,54 +11163,10 @@ h1.page-title + .tag-cloud-list {
   -moz-animation: slide-in 0.6s 0.1s backwards;
   -o-animation: slide-in 0.6s 0.1s backwards;
   -ms-animation: slide-in 0.6s 0.1s backwards;
-  -webkit-animation: slide-in 0.6s 0.1s backwards;
-  -moz-animation: slide-in 0.6s 0.1s backwards;
-  -o-animation: slide-in 0.6s 0.1s backwards;
-  -ms-animation: slide-in 0.6s 0.1s backwards;
   animation: slide-in 0.6s 0.1s backwards;
   overflow: hidden;
 }
 #page-header #site-info #site-title {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
-  -webkit-box-pack: distribute;
-  -moz-box-pack: distribute;
-  -o-box-pack: distribute;
-  -ms-flex-pack: distribute;
-  -webkit-justify-content: space-around;
-  -webkit-box-pack: distribute;
-  -moz-box-pack: distribute;
-  -o-box-pack: distribute;
-  -ms-flex-pack: distribute;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -11224,6 +11180,10 @@ h1.page-title + .tag-cloud-list {
   -webkit-align-items: center;
   align-items: center;
   gap: 8rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 #page-header #site-info #site-title #site-title-text {
   text-align: left;
@@ -11295,6 +11255,79 @@ h1.page-title + .tag-cloud-list {
   -ms-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 50% !important;
+}
+@media screen and (max-width: 768px) {
+  #page-header #site-info {
+    top: 30%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+  #page-header #site-info #site-title {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  #page-header #site-info #site-title #site-title-img {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -o-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+  #page-header #site-info #site-title #site-title-text {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    text-align: left;
+    width: 100%;
+  }
+  #page-header #site-info #site-title #site-title-text h1 {
+    font-size: 1.8em;
+  }
+  #page-header #site-info #site-title #site-title-text #site_social_icons {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-top: 1rem;
+    text-align: center;
+  }
+  #page-header #site-title-img .site-title-img-box {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
 }
 #page-header #scroll-down {
   position: absolute;
