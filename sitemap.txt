@@ -2,8 +2,8 @@ https://blog.xxfer.cn/flink.json
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/link/index.html
-https://blog.xxfer.cn/music/index.html
 https://blog.xxfer.cn/messages/index.html
+https://blog.xxfer.cn/music/index.html
 https://blog.xxfer.cn/privacy/index.html
 https://blog.xxfer.cn/tags/index.html
 https://blog.xxfer.cn/update/index.html
