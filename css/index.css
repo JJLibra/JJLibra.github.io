@@ -11154,11 +11154,13 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
+/* 将缩放比例设为1.4，初始即为放大后的大小 */
   -webkit-transform: scale(1.4);
   -moz-transform: scale(1.4);
   -o-transform: scale(1.4);
   -ms-transform: scale(1.4);
   transform: scale(1.4);
+/* 修改动画，不再改变缩放 */
   -webkit-animation: slide-in 0.6s 0.1s backwards;
   -moz-animation: slide-in 0.6s 0.1s backwards;
   -o-animation: slide-in 0.6s 0.1s backwards;
@@ -11259,6 +11261,7 @@ h1.page-title + .tag-cloud-list {
 @media screen and (max-width: 768px) {
   #page-header #site-info {
     top: 30%;
+/* 移动端不需要放大，设置为1 */
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -12628,6 +12631,94 @@ h1.page-title + .tag-cloud-list {
     -o-transform: rotate(10deg) translateY(-10%) scale(var(--anzhiyu-header-cover-scale));
     -ms-transform: rotate(10deg) translateY(-10%) scale(var(--anzhiyu-header-cover-scale));
     transform: rotate(10deg) translateY(-10%) scale(var(--anzhiyu-header-cover-scale));
+  }
+}
+@-moz-keyframes slide-in {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px) scale(1.4);
+    -moz-transform: translateY(-20px) scale(1.4);
+    -o-transform: translateY(-20px) scale(1.4);
+    -ms-transform: translateY(-20px) scale(1.4);
+    transform: translateY(-20px) scale(1.4);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0) scale(1.4);
+    -moz-transform: translateY(0) scale(1.4);
+    -o-transform: translateY(0) scale(1.4);
+    -ms-transform: translateY(0) scale(1.4);
+    transform: translateY(0) scale(1.4);
+  }
+}
+@-webkit-keyframes slide-in {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px) scale(1.4);
+    -moz-transform: translateY(-20px) scale(1.4);
+    -o-transform: translateY(-20px) scale(1.4);
+    -ms-transform: translateY(-20px) scale(1.4);
+    transform: translateY(-20px) scale(1.4);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0) scale(1.4);
+    -moz-transform: translateY(0) scale(1.4);
+    -o-transform: translateY(0) scale(1.4);
+    -ms-transform: translateY(0) scale(1.4);
+    transform: translateY(0) scale(1.4);
+  }
+}
+@-o-keyframes slide-in {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px) scale(1.4);
+    -moz-transform: translateY(-20px) scale(1.4);
+    -o-transform: translateY(-20px) scale(1.4);
+    -ms-transform: translateY(-20px) scale(1.4);
+    transform: translateY(-20px) scale(1.4);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0) scale(1.4);
+    -moz-transform: translateY(0) scale(1.4);
+    -o-transform: translateY(0) scale(1.4);
+    -ms-transform: translateY(0) scale(1.4);
+    transform: translateY(0) scale(1.4);
+  }
+}
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-20px) scale(1.4);
+    -moz-transform: translateY(-20px) scale(1.4);
+    -o-transform: translateY(-20px) scale(1.4);
+    -ms-transform: translateY(-20px) scale(1.4);
+    transform: translateY(-20px) scale(1.4);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transform: translateY(0) scale(1.4);
+    -moz-transform: translateY(0) scale(1.4);
+    -o-transform: translateY(0) scale(1.4);
+    -ms-transform: translateY(0) scale(1.4);
+    transform: translateY(0) scale(1.4);
   }
 }
 #random-banner {
