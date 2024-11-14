@@ -24174,7 +24174,7 @@ i.bber-gotobb {
 #nav-music {
   display: flex;
   align-items: center;
-  z-index: 9;
+  z-index: 12;
   position: fixed;
   bottom: 20px;
   left: 20px;
