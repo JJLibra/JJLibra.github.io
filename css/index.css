@@ -11133,7 +11133,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #site-info {
   position: absolute;
-  top: 25%;
+  top: 40%;
   padding: 0 10px;
   width: 100%;
   display: -webkit-box;
@@ -11159,8 +11159,58 @@ h1.page-title + .tag-cloud-list {
   -o-transform: scale(1.4);
   -ms-transform: scale(1.4);
   transform: scale(1.4);
+  -webkit-animation: slide-in 0.6s 0.1s backwards;
+  -moz-animation: slide-in 0.6s 0.1s backwards;
+  -o-animation: slide-in 0.6s 0.1s backwards;
+  -ms-animation: slide-in 0.6s 0.1s backwards;
+  -webkit-animation: slide-in 0.6s 0.1s backwards;
+  -moz-animation: slide-in 0.6s 0.1s backwards;
+  -o-animation: slide-in 0.6s 0.1s backwards;
+  -ms-animation: slide-in 0.6s 0.1s backwards;
+  animation: slide-in 0.6s 0.1s backwards;
+  overflow: hidden;
 }
 #page-header #site-info #site-title {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -11190,22 +11240,27 @@ h1.page-title + .tag-cloud-list {
   }
 }
 #page-header #site-info #site-title #site-title-text h1 span {
-  display: block;
   line-height: 1.3;
 }
+#page-header #site-info #site-title #site-title-text h1 span:nth-child(1) {
+  display: block;
+}
 #page-header #site-info #site-title #site-title-text h1 span:nth-child(2) {
-  margin-top: 0.8rem;
+  display: block;
+}
+#page-header #site-info #site-title #site-title-text h1 span:nth-child(2) span {
+  display: inline;
 }
 #page-header #site-info #site-title #site-title-text h1 span:nth-child(3) {
-  margin-top: 0.8rem;
+  display: block;
   font-size: 0.6em;
 }
 #page-header #site-info #site-title #site-title-text #site_social_icons {
-  -webkit-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-  -o-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  transform: scale(1.4);
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  transform: scale(1.8);
   -webkit-transform-origin: left;
   -moz-transform-origin: left;
   -o-transform-origin: left;
@@ -11213,7 +11268,7 @@ h1.page-title + .tag-cloud-list {
   transform-origin: left;
 }
 #page-header #site-info #site-title #site-title-text #site_social_icons a.social-icon {
-  margin: 0 15px;
+  margin: 0 10px;
   color: var(--font-color);
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
   font-size: 1.8em;
