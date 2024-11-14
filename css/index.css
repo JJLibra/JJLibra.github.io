@@ -11133,58 +11133,121 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #site-info {
   position: absolute;
-  top: 43%;
+  top: 25%;
   padding: 0 10px;
   width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
 }
-#page-header #site-title,
-#page-header #site-subtitle,
-#page-header #scroll-down .scroll-down-effects {
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
-  line-height: 1.5;
+#page-header #site-info #site-title {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  gap: 8rem;
 }
-#page-header #site-title {
+#page-header #site-info #site-title #site-title-text {
+  text-align: left;
+  margin-right: 0;
+}
+#page-header #site-info #site-title #site-title-text h1 {
   margin: 0;
   color: var(--black);
-  font-size: 1.85em;
+  font-size: 3em;
 }
 @media screen and (min-width: 768px) {
-  #page-header #site-title {
-    font-size: 2.85em;
+  #page-header #site-info #site-title #site-title-text h1 {
+    font-size: 3.8em;
   }
 }
-#page-header #site-subtitle {
-  color: var(--font-color);
-  font-size: 1.15em;
+#page-header #site-info #site-title #site-title-text h1 span {
+  display: block;
+  line-height: 1.3;
 }
-@media screen and (min-width: 768px) {
-  #page-header #site-subtitle {
-    font-size: 1.72em;
-  }
+#page-header #site-info #site-title #site-title-text h1 span:nth-child(2) {
+  margin-top: 0.8rem;
 }
-#page-header #site_social_icons {
-  display: none;
-  margin: 0 auto;
-  width: 300px;
-  text-align: center;
+#page-header #site-info #site-title #site-title-text h1 span:nth-child(3) {
+  margin-top: 0.8rem;
+  font-size: 0.6em;
 }
-@media screen and (max-width: 768px) {
-  #page-header #site_social_icons {
-    display: block;
-  }
+#page-header #site-info #site-title #site-title-text #site_social_icons {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transform-origin: left;
+  -moz-transform-origin: left;
+  -o-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
 }
-#page-header #site_social_icons .social-icon {
-  margin: 0 10px;
+#page-header #site-info #site-title #site-title-text #site_social_icons a.social-icon {
+  margin: 0 15px;
   color: var(--font-color);
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
-  font-size: 1.43em;
+  font-size: 1.8em;
+}
+#page-header #site-info #site-title #site-title-text #site_social_icons a.social-icon:first-child {
+  margin-left: 0;
+}
+#page-header #site-info #site-title #site-title-img .site-title-img-box {
+  width: 220px;
+  height: 220px;
+  border-radius: 50% !important;
+  overflow: hidden;
+  border: 4px solid rgba(255,255,255,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#page-header #site-info #site-title #site-title-img .site-title-img-box img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50% !important;
 }
 #page-header #scroll-down {
   position: absolute;
   bottom: 0;
   width: 100%;
   cursor: pointer;
+  text-align: center;
+  height: 50px;
   z-index: 11;
   display: -webkit-box;
   display: -moz-box;
@@ -11207,9 +11270,10 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #scroll-down .scroll-down-effects {
   position: relative;
-  width: 100%;
+  width: auto;
   color: var(--font-color);
   font-size: 30px;
+  text-align: center;
 }
 #page-header.not-home-page {
   height: 400px;
