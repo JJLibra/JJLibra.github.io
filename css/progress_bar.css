@@ -4,7 +4,7 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  z-index: 12000;
+  z-index: 12001;
   position: fixed;
   margin: auto;
   top: 4px;
@@ -36,7 +36,7 @@
   transform: translate3d(0, 0, 0);
   max-width: 200px;
   position: fixed;
-  z-index: 12000;
+  z-index: 12001;
   display: block;
   position: absolute;
   top: 0;
