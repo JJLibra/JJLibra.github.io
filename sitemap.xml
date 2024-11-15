@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-11-15</lastmod>
@@ -110,6 +101,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
+    
+    <lastmod>2024-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
     
     <lastmod>2024-11-15</lastmod>
@@ -156,6 +156,15 @@
   
   <url>
     <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
+    
+    <lastmod>2024-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
     
     <lastmod>2024-11-15</lastmod>
     
@@ -246,15 +255,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/copyright/index.html</loc>
-    
-    <lastmod>2024-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
     
     <lastmod>2024-11-15</lastmod>
     
