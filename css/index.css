@@ -11269,7 +11269,7 @@ h1.page-title + .tag-cloud-list {
 }
 @media screen and (max-width: 768px) {
   #page-header.full_page #site-info {
-    top: 30%;
+    top: 15%;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -11324,19 +11324,37 @@ h1.page-title + .tag-cloud-list {
     -ms-flex-order: 2;
     -webkit-order: 2;
     order: 2;
-    text-align: center;
-    width: 100%;
+    display: inline-block;
+    width: auto;
   }
   #page-header.full_page #site-info #site-title #site-title-text h1 {
+    text-align: left;
     font-size: 1.8em;
   }
   #page-header.full_page #site-info #site-title #site-title-text #site_social_icons {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    margin-top: 1rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
     text-align: center;
   }
   #page-header.full_page #site-title-img .site-title-img-box {
@@ -11370,7 +11388,7 @@ h1.page-title + .tag-cloud-list {
   width: 100%;
   cursor: pointer;
   text-align: center;
-  height: 50px;
+  height: auto;
   z-index: 11;
   display: -webkit-box;
   display: -moz-box;
@@ -11394,6 +11412,7 @@ h1.page-title + .tag-cloud-list {
 #page-header #scroll-down .scroll-down-effects {
   position: relative;
   width: auto;
+  height: auto;
   color: var(--font-color);
   font-size: 30px;
   text-align: center;
@@ -20331,7 +20350,7 @@ p.p.gray {
   pointer-events: none;
 }
 [data-theme='dark'] #footer {
-  background-color: var(--anzhiyu-card-bg);
+  background-color: linear-gradient(180deg, var(--anzhiyu-card-bg-none) 0%, var(--anzhiyu-card-bg) 25%);
 }
 [data-theme='dark'] #article-container pre > code {
   background: #171717;
