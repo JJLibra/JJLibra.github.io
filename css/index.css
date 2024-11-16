@@ -10164,9 +10164,6 @@ h1.page-title + .tag-cloud-list {
   -ms-animation: more-btn-move 1s infinite;
   animation: more-btn-move 1s infinite;
 }
-#aside-content .card-announcement .item-headline i {
-  color: #f00;
-}
 .avatar-img {
   width: 118px;
   height: 118px;
