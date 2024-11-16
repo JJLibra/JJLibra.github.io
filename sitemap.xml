@@ -11,6 +11,33 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/tags/index.html</loc>
+    
+    <lastmod>2024-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/update/index.html</loc>
+    
+    <lastmod>2024-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
+    
+    <lastmod>2024-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
     
     <lastmod>2024-11-16</lastmod>
@@ -75,33 +102,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/privacy/index.html</loc>
-    
-    <lastmod>2024-11-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/tags/index.html</loc>
-    
-    <lastmod>2024-11-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/update/index.html</loc>
-    
-    <lastmod>2024-11-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
     
     <lastmod>2024-11-16</lastmod>
     
