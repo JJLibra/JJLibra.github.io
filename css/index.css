@@ -31343,6 +31343,38 @@ body[data-type="blogupdate"] #web_bg {
     transform: rotateZ(360deg);
   }
 }
+#meteorite_bg {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+.meteorite {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 120px;
+  height: 120px;
+}
+.meteorite-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+  .meteorite {
+    width: 30px;
+    height: 30px;
+  }
+}
+[data-theme="dark"] #meteorite_bg {
+  display: none;
+}
 .naokuo-song-wrap {
   padding-top: 63px;
 }
