@@ -31351,7 +31351,7 @@ body[data-type="blogupdate"] #web_bg {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 1;
+  z-index: -1000;
   overflow: hidden;
 }
 .meteorite {
