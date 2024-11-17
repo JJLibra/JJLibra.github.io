@@ -8094,7 +8094,7 @@ body[data-type="music"] .s-sticker div {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: alpha(opacity=60);
   position: fixed;
-  z-index: -999;
+  z-index: -970;
   background-attachment: local;
   background-position: center center;
   background-size: cover;
@@ -30065,7 +30065,7 @@ body[data-type="blogupdate"] #web_bg {
     display: none;
   }
   
-#web_bg {
+#astronaut_bg {
   -webkit-transform: none;
   -moz-transform: none;
   -o-transform: none;
@@ -30729,7 +30729,7 @@ body[data-type="blogupdate"] #web_bg {
     filter: none;
   }
 }
-[data-theme="dark"] #web_bg {
+[data-theme="dark"] #astronaut_bg {
   -webkit-transform: none;
   -moz-transform: none;
   -o-transform: none;
@@ -30756,7 +30756,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-transition: 0.7s;
   transition: 0.7s;
 }
-[data-theme="dark"] #web_bg::before {
+[data-theme="dark"] #astronaut_bg::before {
   content: '';
   position: absolute;
   width: 200%;
@@ -30775,11 +30775,11 @@ body[data-type="blogupdate"] #web_bg {
   animation: nebula-flow 20s ease infinite;
   pointer-events: none;
 }
-[data-theme="dark"] #web_bg .bg_objects img {
+[data-theme="dark"] #astronaut_bg .bg_objects img {
   z-index: -997;
   pointer-events: none;
 }
-[data-theme="dark"] #web_bg .bg_object_rocket {
+[data-theme="dark"] #astronaut_bg .bg_object_rocket {
   z-index: -996;
   position: absolute;
   -webkit-transform: translateX(-50px);
@@ -30795,7 +30795,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_rocket-movement 200s linear infinite both running;
   animation: bg_rocket-movement 200s linear infinite both running;
 }
-[data-theme="dark"] #web_bg .bg_object_earth {
+[data-theme="dark"] #astronaut_bg .bg_object_earth {
   position: absolute;
   top: 20%;
   left: 15%;
@@ -30807,7 +30807,7 @@ body[data-type="blogupdate"] #web_bg {
   animation: bg_spin-earth 100s infinite linear both, celestial-pulse 8s ease-in-out infinite;
   filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
 }
-[data-theme="dark"] #web_bg .bg_object_moon {
+[data-theme="dark"] #astronaut_bg .bg_object_moon {
   position: absolute;
   top: 12%;
   left: 25%;
@@ -30818,7 +30818,7 @@ body[data-type="blogupdate"] #web_bg {
   animation: float 15s ease-in-out infinite;
   filter: drop-shadow(0 0 8px rgba(255,255,255,0.15));
 }
-[data-theme="dark"] #web_bg .bg_object_astronaut {
+[data-theme="dark"] #astronaut_bg .bg_object_astronaut {
   -webkit-animation: bg_rotate-astronaut 200s infinite linear both alternate;
   -moz-animation: bg_rotate-astronaut 200s infinite linear both alternate;
   -o-animation: bg_rotate-astronaut 200s infinite linear both alternate;
@@ -30826,7 +30826,7 @@ body[data-type="blogupdate"] #web_bg {
   animation: bg_rotate-astronaut 200s infinite linear both alternate;
   filter: drop-shadow(0 0 12px rgba(255,255,255,0.25));
 }
-[data-theme="dark"] #web_bg .bg_box_astronaut {
+[data-theme="dark"] #astronaut_bg .bg_box_astronaut {
   z-index: -994;
   position: absolute;
   top: 60%;
@@ -30838,7 +30838,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_move-astronaut 50s infinite linear both alternate;
   animation: bg_move-astronaut 50s infinite linear both alternate;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star {
   position: absolute;
   border-radius: 100%;
   background-color: #fff;
@@ -30851,7 +30851,7 @@ body[data-type="blogupdate"] #web_bg {
   -webkit-box-shadow: 0 0 4px rgba(255,255,255,0.8);
   box-shadow: 0 0 4px rgba(255,255,255,0.8);
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star::after {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star::after {
   content: '';
   position: absolute;
   top: -1px;
@@ -30877,7 +30877,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-transform-origin: center;
   transform-origin: center;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(1) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(1) {
   top: 80%;
   left: 25%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
@@ -30886,7 +30886,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 1s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(2) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(2) {
   top: 20%;
   left: 40%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
@@ -30895,7 +30895,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 3s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(3) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(3) {
   top: 25%;
   left: 25%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
@@ -30904,7 +30904,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 5s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(4) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(4) {
   top: 75%;
   left: 80%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
@@ -30913,7 +30913,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 7s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(5) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(5) {
   top: 90%;
   left: 50%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
@@ -30922,7 +30922,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 9s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(6) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(6) {
   top: 45%;
   left: 30%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 11s;
@@ -30933,7 +30933,7 @@ body[data-type="blogupdate"] #web_bg {
   width: 4px;
   height: 4px;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(7) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(7) {
   top: 35%;
   left: 70%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 13s;
@@ -30942,7 +30942,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 13s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 13s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(8) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(8) {
   top: 55%;
   left: 20%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 15s;
@@ -30953,7 +30953,7 @@ body[data-type="blogupdate"] #web_bg {
   width: 2px;
   height: 2px;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(9) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(9) {
   top: 30%;
   left: 85%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 17s;
@@ -30962,7 +30962,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 17s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 17s;
 }
-[data-theme="dark"] #web_bg .bg_glowing_stars .bg_star:nth-child(10) {
+[data-theme="dark"] #astronaut_bg .bg_glowing_stars .bg_star:nth-child(10) {
   top: 65%;
   left: 40%;
   -webkit-animation: bg_glow-star 2s infinite ease-in-out alternate 19s;
@@ -30971,7 +30971,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: bg_glow-star 2s infinite ease-in-out alternate 19s;
   animation: bg_glow-star 2s infinite ease-in-out alternate 19s;
 }
-[data-theme="dark"] #web_bg .shooting-star {
+[data-theme="dark"] #astronaut_bg .shooting-star {
   position: absolute;
   height: 2px;
   background: -webkit-linear-gradient(45deg, #fff 0%, rgba(255,255,255,0.8) 20%, rgba(255,255,255,0) 100%);
@@ -30992,7 +30992,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation: shooting-star 8s linear infinite, shooting-star-delayed-appearance 16s ease-in infinite;
   animation: shooting-star 8s linear infinite, shooting-star-delayed-appearance 16s ease-in infinite;
 }
-[data-theme="dark"] #web_bg .shooting-star::after {
+[data-theme="dark"] #astronaut_bg .shooting-star::after {
   content: '';
   position: absolute;
   top: 0;
@@ -31002,7 +31002,7 @@ body[data-type="blogupdate"] #web_bg {
   background: inherit;
   filter: blur(4px);
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(1) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(1) {
   top: 10%;
   left: 90%;
   -webkit-animation-delay: 0s, 0s;
@@ -31011,7 +31011,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation-delay: 0s, 0s;
   animation-delay: 0s, 0s;
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(2) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(2) {
   top: 20%;
   left: 80%;
   -webkit-animation-delay: 2s, 2s;
@@ -31020,7 +31020,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation-delay: 2s, 2s;
   animation-delay: 2s, 2s;
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(3) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(3) {
   top: 30%;
   left: 70%;
   width: 150px;
@@ -31030,7 +31030,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation-delay: 4s, 4s;
   animation-delay: 4s, 4s;
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(4) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(4) {
   top: 15%;
   left: 60%;
   -webkit-animation-delay: 6s, 6s;
@@ -31039,7 +31039,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation-delay: 6s, 6s;
   animation-delay: 6s, 6s;
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(5) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(5) {
   top: 40%;
   left: 85%;
   width: 120px;
@@ -31049,7 +31049,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation-delay: 8s, 8s;
   animation-delay: 8s, 8s;
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(6) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(6) {
   top: 5%;
   left: 50%;
   -webkit-animation-delay: 10s, 10s;
@@ -31058,7 +31058,7 @@ body[data-type="blogupdate"] #web_bg {
   -ms-animation-delay: 10s, 10s;
   animation-delay: 10s, 10s;
 }
-[data-theme="dark"] #web_bg .shooting-star:nth-child(7) {
+[data-theme="dark"] #astronaut_bg .shooting-star:nth-child(7) {
   top: 25%;
   left: 75%;
   width: 80px;
@@ -31069,15 +31069,15 @@ body[data-type="blogupdate"] #web_bg {
   animation-delay: 12s, 12s;
 }
 @media (max-width: 768px) {
-  [data-theme="dark"] #web_bg .bg_box_astronaut {
+  [data-theme="dark"] #astronaut_bg .bg_box_astronaut {
     top: 70%;
   }
-  [data-theme="dark"] #web_bg .bg_central-body {
+  [data-theme="dark"] #astronaut_bg .bg_central-body {
     padding-top: 25%;
   }
 }
 @media (min-width: 768px) {
-  [data-theme="dark"] #web_bg .bg_objects img {
+  [data-theme="dark"] #astronaut_bg .bg_objects img {
     backdrop-filter: blur(1px);
     -webkit-transition: backdrop-filter 0.3s ease;
     -moz-transition: backdrop-filter 0.3s ease;
@@ -31085,7 +31085,7 @@ body[data-type="blogupdate"] #web_bg {
     -ms-transition: backdrop-filter 0.3s ease;
     transition: backdrop-filter 0.3s ease;
   }
-  [data-theme="dark"] #web_bg .bg_box_astronaut:hover .bg_object_astronaut {
+  [data-theme="dark"] #astronaut_bg .bg_box_astronaut:hover .bg_object_astronaut {
     filter: drop-shadow(0 0 20px rgba(255,255,255,0.4));
     -webkit-transition: filter 0.3s ease;
     -moz-transition: filter 0.3s ease;
