@@ -1,3 +1,4 @@
+https://blog.xxfer.cn/friends.json
 https://blog.xxfer.cn/flink.json
 https://blog.xxfer.cn/update/index.html
 https://blog.xxfer.cn/updatebrowser/index.html
