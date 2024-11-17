@@ -38,6 +38,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/json/twikoo-emoji.json</loc>
+    
+    <lastmod>2024-11-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/link/index.html</loc>
     
     <lastmod>2024-11-17</lastmod>
