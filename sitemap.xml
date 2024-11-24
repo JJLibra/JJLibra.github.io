@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-11-24</lastmod>
@@ -137,6 +128,15 @@
   </url>
   
   <url>
+    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
+    
+    <lastmod>2024-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xxfer.cn/dailyPhoto/index.html</loc>
     
     <lastmod>2024-11-24</lastmod>
@@ -192,6 +192,24 @@
   
   <url>
     <loc>https://blog.xxfer.cn/baidu_verify_codeva-RzL329nU12.html</loc>
+    
+    <lastmod>2024-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/about/index.html</loc>
+    
+    <lastmod>2024-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
     
     <lastmod>2024-11-24</lastmod>
     
@@ -264,24 +282,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
-    
-    <lastmod>2024-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/about/index.html</loc>
-    
-    <lastmod>2024-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
     
     <lastmod>2024-11-24</lastmod>
     
