@@ -1,243 +1,243 @@
 window.IP_CONFIG = {
-	API_KEY: 'ejfD4GZrD1X90W8JUXTHL2YS0T', // API密钥 申请地址：https://api.76.al/
+	API_KEY: 'bWoOoz3KgxUpsszRYSsLNlZXmF', // API密钥 申请地址：https://api.76.al/
 	BLOG_LOCATION: {
-		lng: 108.76, // 经度
-		lat: 34.03 // 纬度
+	  lng: 108.76, // 经度
+	  lat: 34.03 // 纬度
 	},
-	CACHE_DURATION: 1000 * 60 * 60, // 可配置缓存时间(默认1小时)
-	HOME_PAGE_ONLY: true, // 是否只在首页显示 开启后其它页面将不会显示这个容器
-};
-
-const insertAnnouncementComponent = () => {
+	CACHE_DURATION: 1000 * 60 * 60,
+	HOME_PAGE_ONLY: true,
+  };
+  
+  const insertAnnouncementComponent = () => {
 	// 获取所有公告卡片
 	const announcementCards = document.querySelectorAll('.card-widget.card-announcement');
 	if (!announcementCards.length) return;
-
+  
 	if (IP_CONFIG.HOME_PAGE_ONLY && !isHomePage()) {
-		announcementCards.forEach(card => card.remove());
-		return;
+	  announcementCards.forEach(card => card.remove());
+	  return;
 	}
-	
+  
 	if (!document.querySelector('#welcome-info')) return;
 	fetchIpInfo();
-};
-
-const getWelcomeInfoElement = () => document.querySelector('#welcome-info');
-
-const fetchIpData = async () => {
-	const response = await fetch(`https://api.76.al/api/ip/query?key=${encodeURIComponent(IP_CONFIG.API_KEY)}`);
+  };
+  
+  const getWelcomeInfoElement = () => document.querySelector('#welcome-info');
+  
+  const fetchIpData = async () => {
+	const response = await fetch('https://api.76.al/api/ip/query?key=${encodeURIComponent(IP_CONFIG.API_KEY)}');
 	if (!response.ok) throw new Error('网络响应不正常');
 	return await response.json();
-};
-
-const showWelcome = ({
-	data,
-	ip
-}) => {
+  };
+  
+  const showWelcome = (data) => {
 	if (!data) return showErrorMessage();
-
+  
 	const {
-		lng,
-		lat,
-		country,
-		prov,
-		city
+	  longitude: lng,
+	  latitude: lat,
+	  country,
+	  region: prov,
+	  city,
+	  ip
 	} = data;
 	const welcomeInfo = getWelcomeInfoElement();
 	if (!welcomeInfo) return;
-
+  
 	const dist = calculateDistance(lng, lat);
 	const ipDisplay = formatIpDisplay(ip);
 	const pos = formatLocation(country, prov, city);
-
+  
 	welcomeInfo.style.display = 'block';
 	welcomeInfo.style.height = 'auto';
 	welcomeInfo.innerHTML = generateWelcomeMessage(pos, dist, ipDisplay, country, prov, city);
-};
-
-const calculateDistance = (lng, lat) => {
+  };
+  
+  const calculateDistance = (lng, lat) => {
 	const R = 6371; // 地球半径(km)
 	const rad = Math.PI / 180;
 	const dLat = (lat - IP_CONFIG.BLOG_LOCATION.lat) * rad;
 	const dLon = (lng - IP_CONFIG.BLOG_LOCATION.lng) * rad;
 	const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-		Math.cos(IP_CONFIG.BLOG_LOCATION.lat * rad) * Math.cos(lat * rad) *
-		Math.sin(dLon / 2) * Math.sin(dLon / 2);
-
+	  Math.cos(IP_CONFIG.BLOG_LOCATION.lat * rad) * Math.cos(lat * rad) *
+	  Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  
 	return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
-};
-const formatIpDisplay = (ip) => ip.includes(":") ? "<br>好复杂，咱看不懂~(ipv6)" : ip;
-const formatLocation = (country, prov, city) => {
+  };
+  
+  const formatIpDisplay = (ip) => ip.includes(":") ? "<br>好复杂，咱看不懂~(ipv6)" : ip;
+  
+  const formatLocation = (country, prov, city) => {
 	return country ? (country === "中国" ? `${prov} ${city}` : country) : '神秘地区';
-};
-
-const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city) => `
-    欢迎来自 <b>${pos}</b> 的小友💖<br>
-    你当前距博主约 <b>${dist}</b> 公里！<br>
-    你的IP地址：<b class="ip-address">${ipDisplay}</b><br>
-    ${getTimeGreeting()}<br>
-    Tip：<b>${getGreeting(country, prov, city)}🍂</b>
-`;
-
-const addStyles = () => {
+  };
+  
+  const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city) => `
+	  欢迎来自 <b>${pos}</b> 的小友💖<br>
+	  你当前距博主约 <b>${dist}</b> 公里！<br>
+	  你的IP地址：<b class="ip-address">${ipDisplay}</b><br>
+	  ${getTimeGreeting()}<br>
+	  Tip：<b>${getGreeting(country, prov, city)}🍂</b>
+  `;
+  
+  const addStyles = () => {
 	const style = document.createElement('style');
 	style.textContent = `
-        #welcome-info {
-            user-select: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 212px;
-            padding: 10px;
-            margin-top: 5px;
-            border-radius: 12px;
-            background-color: var(--anzhiyu-background);
-            outline: 1px solid var(--anzhiyu-card-border);
-        }
-        .loading-spinner {
-            width: 50px;
-            height: 50px;
-            border: 3px solid rgba(0, 0, 0, 0.1);
-            border-radius: 50%;
-            border-top: 3px solid var(--anzhiyu-main);
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .ip-address {
-            filter: blur(5px);
-            transition: filter 0.3s ease;
-        }
-        .ip-address:hover {
-            filter: blur(0);
-        }
-        .error-message {
-            color: #ff6565;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .error-message p,
-        .permission-dialog p {
-            margin: 0;
-        }
-        .error-icon {
-            font-size: 3rem;
-        }
-        #retry-button {
-            margin: 0 5px;
-            color: var(--anzhiyu-main);
-            transition: transform 0.3s ease;
-        }
-        #retry-button:hover {
-            transform: rotate(180deg);
-        }
-        .permission-dialog {
-            text-align: center;
-        }
-        .permission-dialog button {
-            margin: 10px 5px;
-            padding: 5px 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: var(--anzhiyu-main);
-            color: white;
-            transition: opacity 0.3s ease;
-        }
-        .permission-dialog button:hover {
-            opacity: 0.8;
-        }
-    `;
+		  #welcome-info {
+			  user-select: none;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  height: 212px;
+			  padding: 10px;
+			  margin-top: 5px;
+			  border-radius: 12px;
+			  background-color: var(--anzhiyu-background);
+			  outline: 1px solid var(--anzhiyu-card-border);
+		  }
+		  .loading-spinner {
+			  width: 50px;
+			  height: 50px;
+			  border: 3px solid rgba(0, 0, 0, 0.1);
+			  border-radius: 50%;
+			  border-top: 3px solid var(--anzhiyu-main);
+			  animation: spin 1s linear infinite;
+		  }
+		  @keyframes spin {
+			  0% { transform: rotate(0deg); }
+			  100% { transform: rotate(360deg); }
+		  }
+		  .ip-address {
+			  filter: blur(5px);
+			  transition: filter 0.3s ease;
+		  }
+		  .ip-address:hover {
+			  filter: blur(0);
+		  }
+		  .error-message {
+			  color: #ff6565;
+			  display: flex;
+			  flex-direction: column;
+			  justify-content: center;
+			  align-items: center;
+		  }
+		  .error-message p,
+		  .permission-dialog p {
+			  margin: 0;
+		  }
+		  .error-icon {
+			  font-size: 3rem;
+		  }
+		  #retry-button {
+			  margin: 0 5px;
+			  color: var(--anzhiyu-main);
+			  transition: transform 0.3s ease;
+		  }
+		  #retry-button:hover {
+			  transform: rotate(180deg);
+		  }
+		  .permission-dialog {
+			  text-align: center;
+		  }
+		  .permission-dialog button {
+			  margin: 10px 5px;
+			  padding: 5px 10px;
+			  border: none;
+			  border-radius: 5px;
+			  background-color: var(--anzhiyu-main);
+			  color: white;
+			  transition: opacity 0.3s ease;
+		  }
+		  .permission-dialog button:hover {
+			  opacity: 0.8;
+		  }
+	  `;
 	document.head.appendChild(style);
-};
-
-// 位置权限相关函数
-const checkLocationPermission = () => localStorage.getItem('locationPermission') === 'granted';
-const saveLocationPermission = (permission) => {
+  };
+  
+  // 位置权限相关函数
+  const checkLocationPermission = () => localStorage.getItem('locationPermission') === 'granted';
+  const saveLocationPermission = (permission) => {
 	localStorage.setItem('locationPermission', permission);
-};
-const showLocationPermissionDialog = () => {
+  };
+  const showLocationPermissionDialog = () => {
 	const welcomeInfoElement = document.getElementById("welcome-info");
 	welcomeInfoElement.innerHTML = `
-        <div class="permission-dialog">
-            <div class="error-icon">❓</div>
-            <p>是否允许访问您的位置信息？</p>
-            <button data-action="allow">允许</button>
-            <button data-action="deny">拒绝</button>
-        </div>
-    `;
-
+		  <div class="permission-dialog">
+			  <div class="error-icon">❓</div>
+			  <p>是否允许访问您的位置信息？</p>
+			  <button data-action="allow">允许</button>
+			  <button data-action="deny">拒绝</button>
+		  </div>
+	  `;
+  
 	welcomeInfoElement.addEventListener('click', (e) => {
-		if (e.target.tagName === 'BUTTON') {
-			const action = e.target.dataset.action;
-			const permission = action === 'allow' ? 'granted' : 'denied';
-			handleLocationPermission(permission);
-		}
+	  if (e.target.tagName === 'BUTTON') {
+		const action = e.target.dataset.action;
+		const permission = action === 'allow' ? 'granted' : 'denied';
+		handleLocationPermission(permission);
+	  }
 	});
-};
-const handleLocationPermission = (permission) => {
+  };
+  const handleLocationPermission = (permission) => {
 	saveLocationPermission(permission);
 	if (permission === 'granted') {
-		showLoadingSpinner();
-		fetchIpInfo();
+	  showLoadingSpinner();
+	  fetchIpInfo();
 	} else {
-		showErrorMessage('您已拒绝访问位置信息');
+	  showErrorMessage('您已拒绝访问位置信息');
 	}
-};
-
-const showLoadingSpinner = () => {
+  };
+  
+  const showLoadingSpinner = () => {
 	const welcomeInfoElement = document.querySelector("#welcome-info");
 	if (!welcomeInfoElement) return;
 	welcomeInfoElement.innerHTML = '<div class="loading-spinner"></div>';
-};
-
-const IP_CACHE_KEY = 'ip_info_cache';
-const getIpInfoFromCache = () => {
+  };
+  
+  const IP_CACHE_KEY = 'ip_info_cache';
+  const getIpInfoFromCache = () => {
 	const cached = localStorage.getItem(IP_CACHE_KEY);
 	if (!cached) return null;
-
+  
 	const { data, timestamp } = JSON.parse(cached);
 	if (Date.now() - timestamp > IP_CONFIG.CACHE_DURATION) {
-		localStorage.removeItem(IP_CACHE_KEY);
-		return null;
+	  localStorage.removeItem(IP_CACHE_KEY);
+	  return null;
 	}
 	return data;
-};
-const setIpInfoCache = (data) => {
+  };
+  const setIpInfoCache = (data) => {
 	localStorage.setItem(IP_CACHE_KEY, JSON.stringify({
-		data,
-		timestamp: Date.now()
+	  data,
+	  timestamp: Date.now()
 	}));
-};
-
-const fetchIpInfo = async () => {
+  };
+  
+  const fetchIpInfo = async () => {
 	if (!checkLocationPermission()) {
-		showLocationPermissionDialog();
-		return;
+	  showLocationPermissionDialog();
+	  return;
 	}
-
+  
 	showLoadingSpinner();
-
+  
 	const cachedData = getIpInfoFromCache();
 	if (cachedData) {
-		showWelcome(cachedData);
-		return;
+	  showWelcome(cachedData);
+	  return;
 	}
-
+  
 	try {
-		const data = await fetchIpData();
-		setIpInfoCache(data);
-		showWelcome(data);
+	  const data = await fetchIpData();
+	  setIpInfoCache(data);
+	  showWelcome(data);
 	} catch (error) {
-		console.error('获取IP信息失败:', error);
-		showErrorMessage();
+	  console.error('获取IP信息失败:', error);
+	  showErrorMessage();
 	}
-};
-
-const greetings = {
+  };
+  
+  const greetings = {
 	"中国": {
 		"北京市": "北——京——欢迎你~~~",
 		"天津市": "讲段相声吧",
@@ -305,48 +305,48 @@ const greetings = {
 	"澳大利亚": "一起去大堡礁吧！",
 	"加拿大": "拾起一片枫叶赠予你",
 	"其他": "带我去你的国家逛逛吧"
-};
-
-const getGreeting = (country, province, city) => {
+  };
+  
+  const getGreeting = (country, province, city) => {
 	const countryGreeting = greetings[country] || greetings["其他"];
 	if (typeof countryGreeting === 'string') {
-		return countryGreeting;
+	  return countryGreeting;
 	}
 	const provinceGreeting = countryGreeting[province] || countryGreeting["其他"];
 	if (typeof provinceGreeting === 'string') {
-		return provinceGreeting;
+	  return provinceGreeting;
 	}
 	return provinceGreeting[city] || provinceGreeting["其他"] || countryGreeting["其他"];
-};
-const getTimeGreeting = () => {
+  };
+  const getTimeGreeting = () => {
 	const hour = new Date().getHours();
 	if (hour < 11) return "早上好🌤️ ，一日之计在于晨";
 	if (hour < 13) return "中午好☀️ ，记得午休喔~";
 	if (hour < 17) return "下午好🕞 ，饮茶先啦！";
 	if (hour < 19) return "即将下班🚶‍♂️，记得按时吃饭~";
 	return "晚上好🌙 ，夜生活嗨起来！";
-};
-
-const showErrorMessage = (message = '抱歉，无法获取信息') => {
+  };
+  
+  const showErrorMessage = (message = '抱歉，无法获取信息') => {
 	const welcomeInfoElement = document.getElementById("welcome-info");
 	welcomeInfoElement.innerHTML = `
-        <div class="error-message">
-            <div class="error-icon">😕</div>
-            <p>${message}</p>
-            <p>请<i id="retry-button" class="fa-solid fa-arrows-rotate"></i>重试或检查网络连接</p>
-        </div>
-    `;
-
+		  <div class="error-message">
+			  <div class="error-icon">😕</div>
+			  <p>${message}</p>
+			  <p>请<i id="retry-button" class="fa-solid fa-arrows-rotate"></i>重试或检查网络连接</p>
+		  </div>
+	  `;
+  
 	document.getElementById('retry-button').addEventListener('click', fetchIpInfo);
-};
-
-const isHomePage = () => {
+  };
+  
+  const isHomePage = () => {
 	return window.location.pathname === '/' || window.location.pathname === '/index.html';
-};
-
-// 初始化
-document.addEventListener('DOMContentLoaded', () => {
+  };
+  
+  // 初始化
+  document.addEventListener('DOMContentLoaded', () => {
 	addStyles();
 	insertAnnouncementComponent();
 	document.addEventListener('pjax:complete', insertAnnouncementComponent);
-});
+  });
