@@ -25,7 +25,7 @@ window.IP_CONFIG = {
   const getWelcomeInfoElement = () => document.querySelector('#welcome-info');
   
   const fetchIpData = async () => {
-	const response = await fetch('https://api.nsmao.net/api/ip/query?key=${encodeURIComponent(IP_CONFIG.API_KEY)}');
+	const response = await fetch('https://api.nsmao.net/api/ipip/query?key=${encodeURIComponent(IP_CONFIG.API_KEY)}'); //https://api.nsmao.net/api/ip/query?key=bWoOoz3KgxUpsszRYSsLNlZXmF
 	if (!response.ok) throw new Error('网络响应不正常');
 	return await response.json();
   };
