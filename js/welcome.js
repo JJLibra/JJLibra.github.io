@@ -4,8 +4,8 @@ window.IP_CONFIG = {
 	  lng: 108.76, // 经度
 	  lat: 34.03 // 纬度
 	},
-	CACHE_DURATION: 1000 * 60 * 60,
-	HOME_PAGE_ONLY: true,
+	CACHE_DURATION: 1000 * 60 * 60, // 可配置缓存时间(默认1小时)
+	HOME_PAGE_ONLY: true, // 是否只在首页显示
   };
   
   const insertAnnouncementComponent = () => {
@@ -25,22 +25,27 @@ window.IP_CONFIG = {
   const getWelcomeInfoElement = () => document.querySelector('#welcome-info');
   
   const fetchIpData = async () => {
-	const response = await fetch('https://api.nsmao.net/api/ipip/query?key=${encodeURIComponent(IP_CONFIG.API_KEY)}'); //https://api.nsmao.net/api/ip/query?key=bWoOoz3KgxUpsszRYSsLNlZXmF
+	const response = await fetch(`https://api.nsmao.net/api/ip/query?key=${encodeURIComponent(IP_CONFIG.API_KEY)}`);
 	if (!response.ok) throw new Error('网络响应不正常');
-	return await response.json();
+	const data = await response.json();
+	console.log('API 返回的数据：', data);
+	if (data.code !== 200) throw new Error('API 返回错误');
+	return data.data;
   };
   
   const showWelcome = (data) => {
 	if (!data) return showErrorMessage();
+	console.log('解析数据：', data);
   
 	const {
-	  longitude: lng,
-	  latitude: lat,
+	  lng,
+	  lat,
 	  country,
-	  region: prov,
+	  prov,
 	  city,
 	  ip
 	} = data;
+  
 	const welcomeInfo = getWelcomeInfoElement();
 	if (!welcomeInfo) return;
   
@@ -68,7 +73,16 @@ window.IP_CONFIG = {
   const formatIpDisplay = (ip) => ip.includes(":") ? "<br>好复杂，咱看不懂~(ipv6)" : ip;
   
   const formatLocation = (country, prov, city) => {
-	return country ? (country === "中国" ? `${prov} ${city}` : country) : '神秘地区';
+	if (!country) return '神秘地区';
+	if (country === "中国") {
+	  if (prov || city) {
+		return [prov, city].filter(Boolean).join(' ');
+	  } else {
+		return country;
+	  }
+	} else {
+	  return country;
+	}
   };
   
   const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city) => `
