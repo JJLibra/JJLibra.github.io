@@ -1,5 +1,9 @@
+https://blog.xxfer.cn/posts/c61e8224.html
 https://blog.xxfer.cn/friends.json
 https://blog.xxfer.cn/flink.json
+https://blog.xxfer.cn/updatebrowser/index.html
+https://blog.xxfer.cn/updatebrowser/updatebrowser.html
+https://blog.xxfer.cn/wordScenery/index.html
 https://blog.xxfer.cn/manifest.json
 https://blog.xxfer.cn/json/music.json
 https://blog.xxfer.cn/json/twikoo-emoji.json
@@ -9,9 +13,6 @@ https://blog.xxfer.cn/music/index.html
 https://blog.xxfer.cn/privacy/index.html
 https://blog.xxfer.cn/tags/index.html
 https://blog.xxfer.cn/update/index.html
-https://blog.xxfer.cn/updatebrowser/index.html
-https://blog.xxfer.cn/updatebrowser/updatebrowser.html
-https://blog.xxfer.cn/wordScenery/index.html
 https://blog.xxfer.cn/dailyPhoto/index.html
 https://blog.xxfer.cn/electronfish/index.html
 https://blog.xxfer.cn/envelope/index.html

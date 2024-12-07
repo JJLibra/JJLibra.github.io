@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>奇奇怪怪的</title>
+      <link href="/posts/c61e8224.html"/>
+      <url>/posts/c61e8224.html</url>
+      <cover>https://www.freeimg.cn/i/2024/11/25/674413af7b690.webp</cover>
+      <date>Sat Dec 07 2024 16:00:00 GMT+0000</date>
+      
+        <content type="html"><![CDATA[<blockquote><p>最近开始实验环节，基本就是窝在实验室，新鲜事儿不多，想着回家之前把数据都跑完。上周也就没有小结（文笔不行，但又不想灌水）😺</p></blockquote><h2 id="博客莫名被反诈"><a href="#博客莫名被反诈" class="headerlink" title="博客莫名被反诈"></a>博客莫名被反诈</h2><p>挺纳闷儿——博客莫名被<strong>江苏反诈中心反诈</strong>了😰</p><p>前几天照常测试一下博客速度（这访问速度一直是我想解决的问题…），结果发现部分移动线路无法访问了，跟踪了一下发现是<strong>江苏宿迁</strong>那边给ban了。好像是有些移动线路是江苏部的，也是头一回遇到。</p><p>于是就先去找了北京的国家反诈申诉，结果电话打不通。没办法，先是去找江苏南京反诈中心，提交了申诉情况，第二天下午电话核实情况，晚上正常访问。</p><p>所以我还是很想知道，我没干啥咋就给我封了（不好评价）😾</p><h2 id="吐糟一家公司-VPN-接入方案"><a href="#吐糟一家公司-VPN-接入方案" class="headerlink" title="吐糟一家公司 VPN 接入方案"></a>吐糟一家公司 VPN 接入方案</h2><p>一家深圳的公司，用的 VPN 还是 2022 年就停止维护的 SecoClient，是有啥特别的安全策略？</p><p>关键是 SecoClient 只能通过客户端连接到公司，如果掉线了还得手动重连。想要远程重启服务器的VPN，或者服务器自动检测重连，都会变得比较麻烦，因为必须要有GUI。就只能桌面系统开个终端，挂着自动检测重启脚本才行，不利于远程重启比较麻烦。</p><h2 id="会“变身”的网卡"><a href="#会“变身”的网卡" class="headerlink" title="会“变身”的网卡"></a>会“变身”的网卡</h2><p>起因是基地的学弟说新来的服务器用起来总是莫名卡顿，他的描述：</p><ul><li>ssh 能正常连接</li><li>连接后输入命令有明显延迟</li><li>IP 隔一段时间就会改变</li></ul><p>听完觉得挺新鲜的，如果没有装些奇怪的应用，初步能确定是网络问题，排查过程：</p><ol><li>排除校园网</li></ol><p>其他设备每天都在使用，换了账号连接也没解决问题。</p><ol start="2"><li><p>排查网络配置</p><ul><li><p>查看网卡</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>他说就用了<strong>pppoeconf</strong>连接，这没啥问题。从输出的信息来看，回环没问题（一般能上网了，问题不会在这种地方）。ppp网卡也很正常：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://www.freeimg.cn/i/2024/12/07/675324a8a759d.webp" alt="ppp0网卡" style="width:800px;"/></div></div><p>但神奇的是，过几分钟再查看，ppp0 网卡变成了 ppp1，ip 也变了，还会变 ppp2 和 ppp3。到这儿，其实很自然就会想到是<strong>ppp服务的网卡冲突</strong>了。多个ppp网卡不断切换导致的网络不稳定，IP当然也会跟着变（ppp服务）。</p></li><li><p>管理网卡</p><p>首先使用命令看一下当前有哪些活动的网卡：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmcli device status <span class="comment"># NetworkManager 是个好东西</span></span><br></pre></td></tr></table></figure><p>看到了好几个ppp相关的网卡，应该是他自己捣鼓的这么多网卡，然后导致<strong>pppoeconf和NetworkManager冲突了</strong>。</p></li></ul></li><li><p>解决方案</p><p> 只需要统一一下网卡管理方式，然后停止不必要的ppp服务就可以了。这里我采用 NetworkManager 来管理网卡，pppoeconf 是很方便，但是功能不如 NetworkManager 强大、齐全。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmcli connection add <span class="built_in">type</span> pppoe con-name school-pppoe ifname eno1np0 username &lt;校园网账号&gt; password &lt;校园网密码&gt; service-name <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure><p> <strong>注意：school-pppoe代表连接名称，可自定义。eno1np0为网线接口名称，也不固定，需要你自行确定服务器使用的网线接口</strong></p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nmcli connection up school-pppoe   <span class="comment"># 启动</span></span><br><span class="line">nmcli connection show              <span class="comment"># 查看</span></span><br><span class="line">nmcli connection down school-pppoe <span class="comment"># 停止</span></span><br><span class="line">nmcli connection modify school-pppoe pppoe.username &lt;new-username&gt; pppoe.password &lt;new-password&gt; <span class="comment"># 修改密码</span></span><br></pre></td></tr></table></figure></li></ol><p>问题解决💁</p><h2 id="友圈后端再优化"><a href="#友圈后端再优化" class="headerlink" title="友圈后端再优化"></a>友圈后端再优化</h2><p>我是十一月开始使用<strong>Liushen</strong>的<a href="https://blog.liushen.fun/posts/4dc716ec/">轻量友链朋友圈</a>项目的，因为原本友圈后端方案爬到的部分友链存在包含localhost的url，而且项目年久失修，不方便修改。</p><p>但是新方案也有这样的问题，于是我对新方案做了修改：</p><ol><li>检查文章链接的合理性，如果包含localhost或者ip，就自动替换为域名</li><li>强制文章链接使用https</li></ol><p>不过Liushen最近比较忙，后续原仓库会修复这个问题。</p><p>有使用了一段时间后，又发现了问题：部分博客（有两个）订阅明明能够通过外网访问，但就是爬不到。<br>一开始我以为是对方站点有反爬，于是在这上面修改，收效甚微。于是换了一种思路，将那部分友链设置为specific rss后，就能爬到，这是为什么？奇怪，到时候再去解决吧，反正现在也能用。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>“不就是”与“又怎样”</title>
       <link href="/posts/e8c4dc13.html"/>
       <url>/posts/e8c4dc13.html</url>
