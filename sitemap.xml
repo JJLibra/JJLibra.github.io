@@ -20,33 +20,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
-    
-    <lastmod>2024-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
-    
-    <lastmod>2024-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
-    
-    <lastmod>2024-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/manifest.json</loc>
     
     <lastmod>2024-12-08</lastmod>
@@ -128,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/collections/index.html</loc>
+    <loc>https://blog.xxfer.cn/updatebrowser/index.html</loc>
     
     <lastmod>2024-12-08</lastmod>
     
@@ -137,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/cookies/index.html</loc>
+    <loc>https://blog.xxfer.cn/updatebrowser/updatebrowser.html</loc>
     
     <lastmod>2024-12-08</lastmod>
     
@@ -146,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/copyright/index.html</loc>
+    <loc>https://blog.xxfer.cn/wordScenery/index.html</loc>
     
     <lastmod>2024-12-08</lastmod>
     
@@ -201,15 +174,6 @@
   
   <url>
     <loc>https://blog.xxfer.cn/fcircle/index.html</loc>
-    
-    <lastmod>2024-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
     
     <lastmod>2024-12-08</lastmod>
     
@@ -273,6 +237,42 @@
   
   <url>
     <loc>https://blog.xxfer.cn/charts/index.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/collections/index.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/cookies/index.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/copyright/index.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
     
     <lastmod>2024-12-08</lastmod>
     
