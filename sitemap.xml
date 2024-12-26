@@ -137,24 +137,6 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/about/index.html</loc>
-    
-    <lastmod>2024-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
-    
-    <lastmod>2024-12-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.xxfer.cn/album/index.html</loc>
     
     <lastmod>2024-12-26</lastmod>
@@ -191,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/collections/index.html</loc>
+    <loc>https://blog.xxfer.cn/cookies/index.html</loc>
     
     <lastmod>2024-12-26</lastmod>
     
@@ -200,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xxfer.cn/cookies/index.html</loc>
+    <loc>https://blog.xxfer.cn/collections/index.html</loc>
     
     <lastmod>2024-12-26</lastmod>
     
@@ -273,6 +255,24 @@
   
   <url>
     <loc>https://blog.xxfer.cn/posts/308a1d42.html</loc>
+    
+    <lastmod>2024-12-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/about/index.html</loc>
+    
+    <lastmod>2024-12-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.xxfer.cn/air-conditioner/index.html</loc>
     
     <lastmod>2024-12-26</lastmod>
     
